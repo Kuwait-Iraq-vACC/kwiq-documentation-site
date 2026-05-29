@@ -28,12 +28,14 @@ theme:
     - navigation.instant.prefetch
     - navigation.instant.progress
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.path
     - navigation.top
+    - navigation.section
     - search.suggest
     - search.highlight
     - search.share
-    - header.autohide
+    - toc.follow
 
 extra:
   social:
@@ -56,7 +58,16 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - attr_list
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - toc:
+      permalink: true
 
 plugins:
   - search
   - awesome-nav
+
+copyright: ""
