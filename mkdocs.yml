@@ -10,18 +10,17 @@ theme:
     text: Mulish
   palette:
     - scheme: default
-      primary: grey
-      accent: grey
+      primary: custom
+      accent: green
       toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-
+        icon: material/weather-sunny
+        name: Dark mode
     - scheme: slate
-      primary: grey
-      accent: grey
+      primary: custom
+      accent: green
       toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+        icon: material/weather-night
+        name: Light mode
 
   features:
     - navigation.instant
@@ -31,7 +30,6 @@ theme:
     - navigation.tabs.sticky
     - navigation.path
     - navigation.top
-    - navigation.section
     - search.suggest
     - search.highlight
     - search.share
@@ -68,6 +66,6 @@ markdown_extensions:
 
 plugins:
   - search
-  - awesome-nav
+  - awesome-pages
 
 copyright: ""
