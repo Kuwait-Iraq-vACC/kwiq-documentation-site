@@ -5,34 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c3df023-3a80-48c2-89c5-d5afa4deb3ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/Baghdad FIR/.pages" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Baghdad FIR/Aerodrome/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Baghdad FIR/Enroute/.pages" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Baghdad FIR/Enroute/BN.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Baghdad FIR/Enroute/BNU.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Baghdad FIR/Enroute/BS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Baghdad FIR/Enroute/BSU.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Baghdad FIR/Enroute/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Baghdad FIR/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Kuwait FIR/OKKK - Kuwait/.pages" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Kuwait FIR/OKKK - Kuwait/General Information.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Kuwait FIR/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.nav.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.pages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Kuwait FIR/Aerodrome/.nav.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Kuwait FIR/.pages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Kuwait FIR/Aerodrome/General Information.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Kuwait FIR/OKAS - Ali Al Salem AB/General Information.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Kuwait FIR/Aerodrome/Kuwait Approach.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Kuwait FIR/OKKK - Kuwait/Kuwait Approach.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Kuwait FIR/Aerodrome/Kuwait Delivery.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Kuwait FIR/OKKK - Kuwait/Kuwait Delivery.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Kuwait FIR/Aerodrome/Kuwait Ground.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Kuwait FIR/OKKK - Kuwait/Kuwait Ground.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Kuwait FIR/Aerodrome/Kuwait Tower.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Kuwait FIR/OKKK - Kuwait/Kuwait Tower.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Kuwait FIR/Aerodrome/img/AOR.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Kuwait FIR/OKKK - Kuwait/img/AOR.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Kuwait FIR/Aerodrome/img/FIN.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Kuwait FIR/OKKK - Kuwait/img/FIN.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Kuwait FIR/Aerodrome/img/KuwaitCTR.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Kuwait FIR/OKKK - Kuwait/img/KuwaitCTR.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Kuwait FIR/Aerodrome/img/REST.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Kuwait FIR/OKKK - Kuwait/img/REST.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Kuwait FIR/Aerodrome/img/SAIR.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Kuwait FIR/OKKK - Kuwait/img/SAIR.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Kuwait FIR/Aerodrome/img/TaxiRoutes.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Kuwait FIR/OKKK - Kuwait/img/TaxiRoutes.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Kuwait FIR/Aerodrome/img/TaxiRoutes16.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Kuwait FIR/OKKK - Kuwait/img/TaxiRoutes16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/stylesheets/extra.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/stylesheets/extra.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Kuwait FIR/Aerodrome/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Kuwait FIR/Enroute/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +68,7 @@
     "git-widget-placeholder": "main",
     "javascript.preferred.runtime.type.id": "node",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/GitHub/vacc-documentation-site/docs/Baghdad FIR/Enroute",
+    "last_opened_file_path": "C:/GitHub/vacc-documentation-site/docs/Baghdad FIR/Aerodrome/ORBI - Baghdad",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -106,11 +80,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GitHub\vacc-documentation-site\docs\Baghdad FIR\Aerodrome\ORBI - Baghdad" />
       <recent name="C:\GitHub\vacc-documentation-site\docs\Baghdad FIR\Enroute" />
       <recent name="C:\GitHub\vacc-documentation-site\docs\Baghdad FIR\Aerodrome" />
       <recent name="C:\GitHub\vacc-documentation-site\docs\Kuwait FIR\OKAS - Ali Al Salem AB" />
       <recent name="C:\GitHub\vacc-documentation-site\docs\Kuwait FIR\Kuwait (OKKK)" />
-      <recent name="C:\GitHub\vacc-documentation-site\docs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\GitHub\vacc-documentation-site\docs\Baghdad FIR\Aerodrome" />
@@ -135,7 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1780063528279</updated>
       <workItem from="1780063529369" duration="13841000" />
-      <workItem from="1780089791899" duration="8256000" />
+      <workItem from="1780089791899" duration="8583000" />
     </task>
     <servers />
   </component>

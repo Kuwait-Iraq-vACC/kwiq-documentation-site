@@ -1,4 +1,5 @@
 title: Kuwait FIR
 nav:
-  - index.md
-  - ...
+  - Overview: index.md
+  - Enroute
+  - Aerodrome
