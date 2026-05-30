@@ -1,13 +1,13 @@
 *[AFV]: Audio for VATSIM
+*[EMEA]: Europe, Middle East & Africa region
+*[GCAP]: Global Controller Administration Policy
+*[LoA]: Letter of Agreement
+*[LoAs]: Letter of Agreements
+*[MENA]: Middle East & North Africa
 *[PTT]: Push-To-Talk
 *[RX]: Receive
 *[TX]: Transmit
+*[vACC]: Virtual Area Control Center
+*[VATMENA]: VATSIM Middle East & North Africa Division
 *[XC]: Cross-couple
 *[XCA]: Cross-couple Across
-*[LoA]: Letter of Agreement
-*[LoAs]: Letter of Agreements
-*[VATMENA]: VATSIM Middle East & North Africa Division
-*[MENA]: Middle East & North Africa
-*[vACC]: Virtual Area Control Center
-*[GCAP]: Global Controller Administration Policy
-*[EMEA]: Europe, Middle East & Africa region
