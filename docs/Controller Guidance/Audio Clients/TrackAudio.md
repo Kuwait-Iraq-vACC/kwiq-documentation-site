@@ -87,4 +87,4 @@ To enable this, click on the ↑ button on the top of the client.
 
 ![AFVGuide-5.png](../img/AFVGuide-5.png)
 
-Still having issues with TrackAudio? Feel free to ask for help in one of our channels in the Gulf vACC Discord server which can be found in the [VATSIM Community Hub](https://community.vatsim.net/ "Opens in new tab"){target="_blank"}.
+Still having issues with TrackAudio? Feel free to ask for help in one of our channels in the Kuwait & Iraq vACC Discord server which can be found in the [VATSIM Community Hub](https://community.vatsim.net/ "Opens in new tab"){target="_blank"}.

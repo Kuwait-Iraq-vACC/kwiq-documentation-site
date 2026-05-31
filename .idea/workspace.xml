@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c3df023-3a80-48c2-89c5-d5afa4deb3ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/Controller Guidance/Audio Clients/.pages" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Controller Guidance/Audio Clients/TrackAudio.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Controller Guidance/Software/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Controller Guidance/Software/AFV.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Controller Guidance/Audio Clients/Audio for VATSIM.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Controller Guidance/img/AFV Settings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/CNAME" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Controller Guidance/Software/EuroScope Setup.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Controller Guidance/Software/EuroScope Setup.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overrides/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/overrides/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +113,7 @@
       <workItem from="1780063529369" duration="13841000" />
       <workItem from="1780089791899" duration="8895000" />
       <workItem from="1780238143848" duration="465000" />
+      <workItem from="1780249377064" duration="317000" />
     </task>
     <servers />
   </component>
