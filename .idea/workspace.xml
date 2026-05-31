@@ -5,27 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c3df023-3a80-48c2-89c5-d5afa4deb3ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/Published Documents/.pages" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Published Documents/Aerodrome/OKAS - Ali Al Salem AB/.pages" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Published Documents/Aerodrome/OKAS - Ali Al Salem AB/General Information.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Published Documents/Aerodrome/OKKK - Kuwait/.pages" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Published Documents/Aerodrome/OKKK - Kuwait/General Information.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Published Documents/Aerodrome/OKKK - Kuwait/Kuwait Approach.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Published Documents/Aerodrome/OKKK - Kuwait/Kuwait Delivery.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Published Documents/Aerodrome/OKKK - Kuwait/Kuwait Ground.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Published Documents/Aerodrome/OKKK - Kuwait/Kuwait Tower.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Published Documents/Aerodrome/OKKK - Kuwait/img/AOR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Published Documents/Aerodrome/OKKK - Kuwait/img/FIN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Published Documents/Aerodrome/OKKK - Kuwait/img/KuwaitCTR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Published Documents/Aerodrome/OKKK - Kuwait/img/REST.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Published Documents/Aerodrome/OKKK - Kuwait/img/SAIR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Published Documents/Aerodrome/OKKK - Kuwait/img/TaxiRoutes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Published Documents/Aerodrome/OKKK - Kuwait/img/TaxiRoutes16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Published Documents/Enroute/.pages" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Published Documents/Enroute/K.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Published Documents/Enroute/KU.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Published Documents/Enroute/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Published Documents/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Controller Guidance/Audio Clients/.pages" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Controller Guidance/Audio Clients/TrackAudio.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Controller Guidance/Software/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Controller Guidance/Software/AFV.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Controller Guidance/Audio Clients/Audio for VATSIM.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Controller Guidance/img/AFV Settings.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,24 +63,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "javascript.preferred.runtime.type.id": "node",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/GitHub/vacc-documentation-site/docs",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/GitHub/vacc-documentation-site/docs&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\GitHub\vacc-documentation-site\docs" />
@@ -129,6 +113,7 @@
       <updated>1780063528279</updated>
       <workItem from="1780063529369" duration="13841000" />
       <workItem from="1780089791899" duration="8895000" />
+      <workItem from="1780238143848" duration="465000" />
     </task>
     <servers />
   </component>

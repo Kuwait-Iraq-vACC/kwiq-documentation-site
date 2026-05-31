@@ -22,7 +22,7 @@ Audio for VATSIM (AFV) is VATSIM’s voice communication system that provides re
 - Set a PTT keybind
 - Save your changes by clicking on 'Apply', then 'OK' on the bottom right
 
-![AFV Settings.png](../img/AFV%20Settings.png)
+![AFVSettings.png](../img/AFVSettings.png)
 
 ## Connecting and Transmitting on Frequency
 
@@ -41,7 +41,7 @@ Audio for VATSIM (AFV) is VATSIM’s voice communication system that provides re
 
 ## Cross-coupling a frequency
 
-Cross-coupling allows transmissions, on more than 1 tranceiver to be re-emitted by other transceivers. See '[What is XC and XCA?](https://github.com/pierr3/TrackAudio#what-is-xc-and-xca "Opens in new tab"){target="_blank"} for more.
+Cross-coupling allows transmissions, on more than 1 tranceiver to be re-emitted by other transceivers. See '[What is XC and XCA?](https://github.com/pierr3/TrackAudio#what-is-xc-and-xca "Opens in new tab"){target="_blank"}' for more.
 
 - To cross-couple a frequency, click on the 'XC' button next to frequencies you wish to cross-couple. You **must click the 'XC' button for all concerned frequencies.**
 
