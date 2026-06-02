@@ -27,5 +27,6 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install --upgrade pip
-      - run: pip install mkdocs-material 
+      - run: pip install mkdocs-material
+      - run: pip install awesome-pages
       - run: mkdocs gh-deploy --force
