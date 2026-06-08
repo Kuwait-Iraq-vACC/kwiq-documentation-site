@@ -6,7 +6,7 @@ title: Audio for VATSIM - Guide
 
 !!! warning
 
-    Note that Audio for VATSIM is **not the recommended controller audio client**; we recommend TrackAudio. A link to the TrackAudio guide can be found [here](https://docs.kuwait-iraqvacc.net/Controller Guidance/Audio Clients/TrackAudio/)
+    Note that Audio for VATSIM is **not the recommended controller audio client**; we recommend TrackAudio. A link to the TrackAudio guide can be found [here](../TrackAudio/)
 
 ## What is Audio for VATSIM?
 Audio for VATSIM (AFV) is VATSIM’s voice communication system that provides realistic radio simulation, including frequency tuning, radio range, and signal degradation. It improves voice clarity, reduces latency, and allows pilots and controllers to communicate more like real-world aviation.

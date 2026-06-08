@@ -7,7 +7,6 @@
 *[PTT]: Push-To-Talk
 *[RX]: Receive
 *[TX]: Transmit
-*[vACC]: Virtual Area Control Center
 *[VATMENA]: VATSIM Middle East & North Africa Division
 *[XC]: Cross-couple
 *[XCA]: Cross-couple Across
