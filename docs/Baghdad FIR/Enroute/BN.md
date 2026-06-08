@@ -19,3 +19,29 @@ Baghdad North Lower provides ATS services within the northern portion of the Bag
 - BS
 - Ankara FIR
 - Tehran FIR
+
+## Airspace Classification
+
+### Class A
+Above FL235
+
+### Class E
+Published ATS routes
+
+### Class G
+Outside controlled airspace  
+
+## Major ATS Routes
+
+### Northbound
+
+- UM860
+- UM688
+
+### Southbound
+
+- UL602
+
+### Eastbound
+
+- M703
