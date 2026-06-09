@@ -6,7 +6,7 @@
 
 /* Header and tabs keep their own colours as you already have */
 .md-header {
-    background-color: #007c3a;
+    background-color: #380e14;
 }
 
 .md-tabs {
@@ -270,7 +270,7 @@
 
 
 :root  > * {
-    --md-primary-fg-color: #00bb56;
+    --md-primary-fg-color: #139652;
     --md-primary-fg-color--light: #ECB7B7;
     --md-primary-fg-color--dark:  #90030C;
 }
@@ -295,14 +295,14 @@
 
 /* Active/current page - lighter green */
 .md-nav__link--active {
-    color: #4caf50 !important;
+    color: #7a1923 !important;
 }
 
 /* Hovered page - darker green */
 .md-nav__link:hover {
-    color: #007c3a !important;
+    color: #a73d4b !important;
 }
 
 .md-tabs__item--active {
-    box-shadow: inset 0 -2px 0 0 #007c3a !important;
+    box-shadow: inset 0 -2px 0 0 #872b36 !important;
 }
