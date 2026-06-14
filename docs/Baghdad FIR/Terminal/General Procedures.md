@@ -8,13 +8,6 @@ Baghdad Approach ensures surveillance-based separation to aircraft departing, ar
 
 The following table dictates what airports each approach unit provides top-down ATC service for.
 
-| Sector | Page | Aerodromes       |
-|-----|------|------------------|
-| Baghdad | [Baghdad Sector](bgd_app.md) | ORBI             |
-| Ali | [Ali Sector](ali_app.md) | ORMM, ORNI       |
-| Kirkuk | [Kirkuk Sector](kir_app.md) | ORER, ORKK, ORSJ |
-
-
 | Logon Callsign | Frequency | Sector | Aerodromes |
 | -------------- | --------- | ------ | ---------- |
 | ALI_APP | 120.200 | Ali Sector | ORMM, ORNI |
