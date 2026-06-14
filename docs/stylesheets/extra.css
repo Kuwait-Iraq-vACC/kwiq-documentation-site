@@ -283,7 +283,7 @@ body,
     --md-primary-fg-color--dark: #7a1923;
     --md-accent-fg-color: #c45c6a;
     --md-accent-fg-color--transparent: rgba(196, 92, 106, 0.1);
-    --md-typeset-a-color: #872b36;
+    --md-typeset-a-color: #4a90c4;
     --md-default-bg-color: #181a21;
 }
 
@@ -298,6 +298,22 @@ body,
 .md-typeset h5,
 .md-typeset h6 {
     color: #8e8e8e;
+}
+
+/* =========================
+   CONTENT LINKS
+========================= */
+
+.md-typeset a {
+    color: #4a90c4 !important;
+}
+
+.md-typeset a:hover {
+    color: #6aaed6 !important;
+}
+
+.md-typeset a:visited {
+    color: #4a90c4 !important;
 }
 
 /* =========================
