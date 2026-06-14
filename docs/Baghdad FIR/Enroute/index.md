@@ -2,4 +2,6 @@
 title: "ORBB - Baghdad Control"
 ---
 
-Welcome to the Baghdad Control section. This section provides information on the sector splits
+Welcome to the Baghdad Control section. This section provides information on the sector splits within the Baghdad FIR.
+
+![All.png](img/All.png)

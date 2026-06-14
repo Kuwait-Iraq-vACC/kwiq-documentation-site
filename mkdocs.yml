@@ -11,13 +11,13 @@ theme:
   palette:
     - scheme: default
       primary: custom
-      accent: green
+      accent: custom
       toggle:
         icon: material/weather-sunny
         name: Dark mode
     - scheme: slate
       primary: custom
-      accent: green
+      accent: custom
       toggle:
         icon: material/weather-night
         name: Light mode

@@ -1,10 +1,9 @@
 :root {
-    --md-primary-fg-color: #007c3a;
-    --md-primary-fg-color--light: #4caf50;
-    --md-primary-fg-color--dark: #005a29;
+    --md-primary-fg-color: #872b36;
+    --md-primary-fg-color--light: #a73d4b;
+    --md-primary-fg-color--dark: #7a1923;
 }
 
-/* Header and tabs keep their own colours as you already have */
 .md-header {
     background-color: #380e14;
 }
@@ -26,6 +25,15 @@
     height: 100%;
 }
 
+/* Force page background */
+body,
+.md-main,
+.md-content,
+[data-md-color-scheme="default"],
+[data-md-color-scheme="slate"] {
+    background-color: #181a21 !important;
+}
+
 /* =========================
    HERO CONTAINER
 ========================= */
@@ -36,9 +44,9 @@
     padding-bottom: 4rem;
 
     background:
-        linear-gradient(rgba(0, 0, 0, 0.45),
-        rgba(15, 13, 13, 0.717)),
-        url("../assets/hero-image.png");
+            linear-gradient(rgba(0, 0, 0, 0.45),
+            rgba(15, 13, 13, 0.717)),
+            url("../assets/hero-image.png");
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -187,9 +195,9 @@
         padding-top: 1.5rem;
 
         background:
-            linear-gradient(rgba(0, 0, 0, 0.45),
-            rgba(0, 0, 0, 0.45)),
-            url("../assets/hero-image.png");
+                linear-gradient(rgba(0, 0, 0, 0.45),
+                rgba(0, 0, 0, 0.45)),
+                url("../assets/hero-image.png");
 
         background-repeat: no-repeat;
         background-size: cover;
@@ -269,15 +277,20 @@
 }
 
 
-:root  > * {
-    --md-primary-fg-color: #2278d3;
-    --md-primary-fg-color--light: #ECB7B7;
-    --md-primary-fg-color--dark:  #90030C;
+:root > * {
+    --md-primary-fg-color: #872b36;
+    --md-primary-fg-color--light: #c45c6a;
+    --md-primary-fg-color--dark: #7a1923;
+    --md-accent-fg-color: #c45c6a;
+    --md-accent-fg-color--transparent: rgba(196, 92, 106, 0.1);
+    --md-typeset-a-color: #872b36;
+    --md-default-bg-color: #181a21;
 }
 
-/* HEADER COLOURS */
+/* =========================
+   HEADINGS
+========================= */
 
-/* All headings */
 .md-typeset h1,
 .md-typeset h2,
 .md-typeset h3,
@@ -287,21 +300,44 @@
     color: #8e8e8e;
 }
 
-/* Or individually
-.md-typeset h1 { color: #007c3a; }
-.md-typeset h2 { color: #005a29; }
-.md-typeset h3 { color: #1e1e20; }
-*/
+/* =========================
+   NAV LINKS — all states in one place
+========================= */
 
-/* Active/current page - lighter green */
-.md-nav__link--active {
-    color: #7a1923 !important;
+/* Default: use theme's normal nav colour */
+.md-nav__link {
+    color: var(--md-nav-item-fg-color);
+    transition: color 0.15s ease;
 }
 
-/* Hovered page - darker green */
-.md-nav__link:hover {
+/* Visited: don't let browser apply its own colour */
+.md-nav__link:visited {
+    color: var(--md-nav-item-fg-color);
+}
+
+/* Hover on non-active links: mid red */
+.md-nav__link:not(.md-nav__link--active):hover,
+.md-nav__link:not(.md-nav__link--active):focus {
     color: #a73d4b !important;
 }
+
+/* Active/current page: deep dark red */
+.md-nav__link--active {
+    color: #7a1923 !important;
+    font-weight: 700 !important;
+}
+
+/* Active page — hold on all interaction states */
+.md-nav__link--active:visited,
+.md-nav__link--active:hover,
+.md-nav__link--active:focus {
+    color: #7a1923 !important;
+    font-weight: 700 !important;
+}
+
+/* =========================
+   TABS
+========================= */
 
 .md-tabs__item--active {
     box-shadow: inset 0 -2px 0 0 #872b36 !important;
