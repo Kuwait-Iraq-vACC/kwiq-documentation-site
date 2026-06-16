@@ -1,14 +1,14 @@
 # Document Information
 ## Document Control Details
-|                     |                                                      |
-|---------------------|------------------------------------------------------|
-|         Type        |                    Procedure                         |
-|       Revision      |                     01/2025                          |
-|    Effective Date   |                    04 OCT 2025                       |
-|     Prepared by     | Kai Mannion - LEVOPS                                 |
-|     Approved by     |             Sebastian Delcroix - ACCLEV3             |
-|   Next review date  |                    04 OCT 2026                       |
-| Cancelled documents |                                                      |
+|                     |                   |
+|---------------------|-------------------|
+|         Type        | Procedure         |
+|       Revision      | 06/2026           |
+|    Effective Date   | 16 Jun 2026       |
+|     Prepared by     | John Yang - KWIQ1 |
+|     Approved by     | -                 |
+|   Next review date  |                   |
+| Cancelled documents |                   |
 
 ## Record of Revisions
 <table>
@@ -21,9 +21,9 @@
   </thead>
   <tbody>
     <tr>
-      <td>01/2025</td>
+      <td>06/2026</td>
       <td>Initial issue</td>
-      <td>04 OCT 2025</td>
+      <td>16 Jun 2026</td>
     </tr>
   </tbody>
 </table>
