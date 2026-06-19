@@ -19,7 +19,7 @@ ORNI_TWR is responsible for the AL-Najaf CTR airspace from `SFC` to `A040`.
 ![Al-Najaf CTR airspace structure](img/Al-Najaf structure.png)
 
 ## VFR Operations
-All VFR clearances are assigned by the revelant TWR controller.
+All VFR clearances are assigned by the relevant TWR controller.
 
 ### Circuits
 VFR Circuits are permitted on runways **10** and **28**.
@@ -129,7 +129,7 @@ At Al-Najaf, **ORNI_TWR** is responsible for the entirety of the CTR, and is req
 
 !!! phraseology
     **IAW123**: Al-Najaf Tower, IAW123, final runway 28.
-    **NJF TWR**: IAW123, Al-Najaf Tower, salam, winds 260 degrees at 8 knots, runway 28 cleared to land.  
+    **NJF TWR**: IAW123, Al-Najaf Tower, winds 260 degrees at 8 knots, runway 28 cleared to land.  
 
 
 ## Standard Taxi Routes
@@ -166,7 +166,7 @@ Due to the airspace structure in Al-Najaf, all departures shall be coordinated a
 
 'Next' coordination is additionally required for:
 
-- Visual depatures (eg. VFR aircraft)
+- Visual departures (eg. VFR aircraft)
 - After a go around, the next departure from that runway
 
 The Standard Assignable level from Al-Najaf **TWR** to Baghdad **TMA** is:
@@ -184,7 +184,7 @@ The Standard Assignable level from Al-Najaf **TWR** to Baghdad **TMA** is:
     <span class="hotline">**BI TMA** -> **NJF TWR**</span>: "IAW123 released, SIGBI1A departure, all is good"  
 
 ### Standard Assignable Departure Headings
-If a departing aircraft is receiving an omni-directional departure, they must recieve an assigned heading with their line up or take-off clearance. Al-Najaf **TWR** controller shall coordinate with the overlying TMA controller on a heading to follow after departure, prior to issuing a takeoff clearance. Unless coordinated otherwise **TWR** shall assign the following heading for departing aircraft
+If a departing aircraft is receiving an omni-directional departure, they must receive an assigned heading with their line up or take-off clearance. Al-Najaf **TWR** controller shall coordinate with the overlying TMA controller on a heading to follow after departure, prior to issuing a takeoff clearance. Unless coordinated otherwise **TWR** shall assign the following heading for departing aircraft
 
 | Runway | Heading |
 | ------ | ------- |

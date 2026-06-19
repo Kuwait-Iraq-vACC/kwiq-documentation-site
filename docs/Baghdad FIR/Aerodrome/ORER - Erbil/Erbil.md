@@ -143,7 +143,7 @@ Due to the airspace structure in Erbil, all departures shall be coordinated and 
 
 'Next' coordination is additionally required for:
 
-- Visual depatures (eg. VFR aircraft)
+- Visual departures (eg. VFR aircraft)
 - All departures not on a Standard Assignable Heading
 - After a go around, the next departure from that runway
 

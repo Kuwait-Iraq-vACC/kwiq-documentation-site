@@ -114,7 +114,7 @@ Due to the airspace structure in Basra, all departures shall be coordinated with
 
 'Next' coordination is additionally required for:
 
-- Visual depatures (eg. VFR aircraft)
+- Visual departures (eg. VFR aircraft)
 - All departures not on a Standard Assignable Heading
 - After a go around, the next departure from that runway
 

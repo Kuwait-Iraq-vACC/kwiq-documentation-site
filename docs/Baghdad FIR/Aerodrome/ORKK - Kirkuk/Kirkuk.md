@@ -92,7 +92,7 @@ At Kirkuk, **ORKK_TWR** is responsible for the entirety of the CTR, and is requi
 
 !!! phraseology
     **IAW123**: Kirkuk Tower, IAW123, final runway 31.
-    **KIK TWR**: IAW123, Kirkuk Tower, salam, winds 260 degrees at 8 knots, runway 31 cleared to land.  
+    **KIK TWR**: IAW123, Kirkuk Tower, winds 260 degrees at 8 knots, runway 31 cleared to land.  
 
 
 ## Standard Taxi Routes

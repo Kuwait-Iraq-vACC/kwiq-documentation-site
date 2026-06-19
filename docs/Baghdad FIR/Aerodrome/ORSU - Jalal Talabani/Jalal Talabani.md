@@ -17,7 +17,7 @@ ORSJ_TWR is responsible for the Sulaymaniyah CTR airspace from `SFC` to `A060`.
 ![Jalal Talabani CTR airspace structure](img/Jalal Talabani structure.png)
 
 ## VFR Operations
-All VFR clearances are assigned by the revelant TWR controller.
+All VFR clearances are assigned by the relevant TWR controller.
 
 ### Circuits
 VFR Circuits are permitted on runways **13** and **31**.
@@ -117,7 +117,7 @@ either the ERBIL1, ERBIL2, KIRKK1, KIRKK2 arrivals.
 
 !!! phraseology
     **IAW123**: Jalal Talabani Tower, IAW123, overhead SUL VOR, descending through 7000ft.  
-    **ISU TWR**: IAW123, Jalal Talabani Tower, salam, report established on the ILS runway 31.  
+    **ISU TWR**: IAW123, Jalal Talabani Tower, report established on the ILS runway 31.  
 
 ## Standard Taxi Routes
 All departing aircraft shall be assigned the most appropriate taxiway, onto taxiway A. Jalal Talabani **TWR** must exercise extreme caution on taxiway A, as conflicts can easily occur between arriving and departing traffic.
@@ -147,7 +147,7 @@ Due to the airspace structure in Jalal Talabani, all departures shall be coordin
 
 'Next' coordination is additionally required for:
 
-- Visual depatures (eg. VFR aircraft)
+- Visual departures (eg. VFR aircraft)
 - All departures not on a Standard Assignable Heading
 - After a go around, the next departure from that runway
 
@@ -160,7 +160,7 @@ The Standard Assignable level from Jalal Talabani **TWR** to Baghdad **TMA** is:
 
 
 ### Standard Assignable Departure Headings
-As there are only 2 SIDs currently used in Jalal Talabani, aircraft that are flying an omni-directional departure must recieve an assigned heading with their line up or take-off clearance. 'Next' coordination is not required to the relevant Baghdad **TMA** controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
+As there are only 2 SIDs currently used in Jalal Talabani, aircraft that are flying an omni-directional departure must receive an assigned heading with their line up or take-off clearance. 'Next' coordination is not required to the relevant Baghdad **TMA** controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
 
 | Runway | Heading |
 | ------ | ------- |
