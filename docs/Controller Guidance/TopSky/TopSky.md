@@ -1,5 +1,5 @@
 ---
-title: TopSky Guide
+title: TopSky
 ---
 
 !!! Warning "🛠️ In development"
@@ -11,4 +11,4 @@ title: TopSky Guide
 
 The following shortcuts have been added for the radar views.
 
-++alt+t++
+++alt+t++ enables all extended centrelines.
