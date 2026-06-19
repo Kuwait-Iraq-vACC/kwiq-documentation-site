@@ -33,7 +33,7 @@ This Standard Operating Procedure (SOP) outlines the procedures, responsibilitie
 
 This document serves as a reference for both newly certified and experienced controllers operating at Baghdad International Airport (ORBI).
 
-While this SOP focuses specifically on aerodrome operations, it complements and should be used in nonjunction with other local SOPs, including Letters of Agreement (LoAs) with adjacent sectors.
+While this SOP focuses specifically on aerodrome operations, it complements and should be used in conjunction with other local SOPs, including Letters of Agreement (LoAs) with adjacent sectors.
 
 ## Applicability
 This SOP is applicable to all VATSIM air traffic controllers operating Baghdad Airport at the aerodrome level, including:

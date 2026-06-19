@@ -8,7 +8,7 @@
 
 | Name                   | Callsign	| Frequency | Login ID     | Remarks |
 |------------------------| --------	| ---------	|--------------| ------- |
-| **Jalal Talabani ADC** | **Sulaymaniyah Tower** | **118.300** | **ORSJ_TWR** | |
+| **Jalal Talabani TWR** | **Sulaymaniyah Tower** | **118.300** | **ORSJ_TWR** | |
 
 ## Airspace - Procedural Class D
 
@@ -31,7 +31,7 @@ All VFR aircraft wishing to do remain in the circuit at Jalal Talabani shall be 
 
 !!! phraseology
     **ABC**: Jalal Talabani Tower, ABC holding short E runway 31, full ready.    
-    **ISU ADC**: ABC, Jalal Talabani Tower, cleared to operate in the circuit area not above altitude 6000ft, left hand circuits report on the downwind, surface winds 320 degrees 5 knots, cleared for take-off runway 31.  
+    **ISU TWR**: ABC, Jalal Talabani Tower, cleared to operate in the circuit area not above altitude 6000ft, left hand circuits report on the downwind, surface winds 320 degrees 5 knots, cleared for take-off runway 31.  
     **ABC**: Cleared to operate in the circuit area not above altitude 3000ft, will report on the left downwind, cleared for take-off runway 31, ABC.  
 
 VFR Circuits shall **not** be permitted at the aerodrome during times of increased IFR departure or arrival activity.
@@ -41,35 +41,35 @@ Once VFR aircraft are ready for departure, they shall be cleared for take-off in
 
 !!! phraseology
     **FYI**: Jalal Talabani Tower, FYI holding short E, runway 31.  
-    **ISU ADC**: FYI, Jalal Talabani Tower, surface winds 320 degrees 5 knots, cleared for take-off runway 31.  
+    **ISU TWR**: FYI, Jalal Talabani Tower, surface winds 320 degrees 5 knots, cleared for take-off runway 31.  
     **FYI**: Roger, cleared for take-off runway 31.  
     **AIRCRAFT ON THE CROSSWIND TURN**  
-    **ISU ADC**: FYI, report leaving the Jalal Talabani CTR, maintain at or below altitude 6000ft.  
+    **ISU TWR**: FYI, report leaving the Jalal Talabani CTR, maintain at or below altitude 6000ft.  
     **FYI**: At or below 6000ft, wilco, FYI.
 
 Aircraft requesting to exit the Jalal Talabani CTR shall be assigned a clearance limit followed by a valid VFR cruising altitude (+500ft).
 
 !!! phraseology
     **YYC**: Jalal Talabani Tower, YYC is requesting to exit the Jalal Talabani CTR via direct Erbil, altitude 7500ft.  
-    **ISU ADC**: YYC, Sulaymaniiah Tower, cleared to leave the Jalal Talabani CTR direct Erbil, maintain altitude 7500ft, squawk 7403, QNH 998 hectopascals.  
+    **ISU TWR**: YYC, Sulaymaniiah Tower, cleared to leave the Jalal Talabani CTR direct Erbil, maintain altitude 7500ft, squawk 7403, QNH 998 hectopascals.  
     **YYC**: Cleared to leave the Jalal Talabani CTR direct Erbil, maintain altitude 7500ft, QNH 998, and squawk 7403, YYC.
 
 ### Entering the CTR
-Inbound VFR aircraft shall be sent to **ADC** with enough time such that two-way
+Inbound VFR aircraft shall be sent to **TWR** with enough time such that two-way
 radio communications have been established before aircraft receive clearance to enter the CTR.
 
-On initial contact, Jalal Talabani **ADC** will pass the instructions for joining the circuit, as well as any other pertinent information such as traﬃc information with the sector.
+On initial contact, Jalal Talabani **TWR** will pass the instructions for joining the circuit, as well as any other pertinent information such as traﬃc information with the sector.
 
 !!! phraseology
     **YYC**: Jalal Talabani Tower, YYC is requesting to enter the Jalal Talabani CTR from the southeast for circuits.     
-    **ISU ADC**: YYC, Jalal Talabani Tower, information A, cleared to enter the Jalal Talabani CTR, maintain at or below altitude 6000ft, report final runway 31 with intentions, squawk 7403.  
+    **ISU TWR**: YYC, Jalal Talabani Tower, information A, cleared to enter the Jalal Talabani CTR, maintain at or below altitude 6000ft, report final runway 31 with intentions, squawk 7403.  
     **YYC**: We have A, cleared to enter the Jalal Talabani CTR, at or below altitude 6000ft, will report final runway 31 with intentions, squawk 7403, YYC.   
-    **ISU ADC**: YYC, correct, QNH 998 hectopascals.    
+    **ISU TWR**: YYC, correct, QNH 998 hectopascals.    
 
 During times of heavy IFR arrival activity, VFR arrivals may be denied entry into the CTR and instructed to hold outside of the CTR awaiting further instructions.
 
 ## IFR Operations
-IFR clearances are issued by Jalal Talabani **ADC**, ensuring appropriate routing.
+IFR clearances are issued by Jalal Talabani **TWR**, ensuring appropriate routing.
 
 Aircraft flying IFR may either fly a SID that fly to either waypoint KIRKUK or ERBIL, **or** an omnidirectional departure.
 
@@ -92,7 +92,7 @@ The departure runway does not need to be included within the clearance, as these
 
 !!! phraseology
     **IAW123**: Jalal Talabani Tower, IAW123, request clearance to Antalya, with information Alpha.  
-    **ISU ADC**: IAW123, Jalal Talabani Tower, Cleared to Antalya, KIRKK1 departure, flight planned route, initial climb 6,000 ft, squawk 4301. 
+    **ISU TWR**: IAW123, Jalal Talabani Tower, Cleared to Antalya, KIRKK1 departure, flight planned route, initial climb 6,000 ft, squawk 4301. 
 
 ### Omni-directional Departures
 Departing IFR aircraft shall fly an omni-directional departure, if they are not flying a SID.
@@ -105,22 +105,22 @@ If an aircraft are flying an omnidirectional to one of these waypoints, the Jala
 
 !!! phraseology
     **IAW123**: Jalal Talabani Tower, IAW123, request clearance to Antalya, with information Alpha.  
-    **ISU ADC**: IAW123, Jalal Talabani Tower, Cleared to Antalya, expect omni-directional departure, flight planned route, squawk 4301.  
+    **ISU TWR**: IAW123, Jalal Talabani Tower, Cleared to Antalya, expect omni-directional departure, flight planned route, squawk 4301.  
 
 ### Arrivals
 In addition to aircraft on the ground at Jalal Talabani, **ORSJ_TWR** is also responsible for airborne
 arrivals and departures at and below 6,000ft. As is the procedure at procedural airports, due to the lack
 of radar, only one aircraft must operate in the non-radar procedural airspace at one time.
 
-Arrivals are transferred to Jalal Talabani **ADC** from Baghdad **TMA** at 7,000ft or 8,000ft, following
+Arrivals are transferred to Jalal Talabani **TWR** from Baghdad **TMA** at 7,000ft or 8,000ft, following
 either the ERBIL1, ERBIL2, KIRKK1, KIRKK2 arrivals.
 
 !!! phraseology
     **IAW123**: Jalal Talabani Tower, IAW123, overhead SUL VOR, descending through 7000ft.  
-    **ISU ADC**: IAW123, Jalal Talabani Tower, salam, report established on the ILS runway 31.  
+    **ISU TWR**: IAW123, Jalal Talabani Tower, salam, report established on the ILS runway 31.  
 
 ## Standard Taxi Routes
-All departing aircraft shall be assigned the most appropriate taxiway, onto taxiway A. Jalal Talabani **ADC** must exercise extreme caution on taxiway A, as conflicts can easily occur between arriving and departing traffic.
+All departing aircraft shall be assigned the most appropriate taxiway, onto taxiway A. Jalal Talabani **TWR** must exercise extreme caution on taxiway A, as conflicts can easily occur between arriving and departing traffic.
 
 ## Runway Modes
 ### Preferred Runway Modes
@@ -151,7 +151,7 @@ Due to the airspace structure in Jalal Talabani, all departures shall be coordin
 - All departures not on a Standard Assignable Heading
 - After a go around, the next departure from that runway
 
-The Standard Assignable level from Jalal Talabani **ADC** to Baghdad **TMA** is:
+The Standard Assignable level from Jalal Talabani **TWR** to Baghdad **TMA** is:
 
 | Aircraft | Level |
 | -------- | ----- |
@@ -168,10 +168,10 @@ As there are only 2 SIDs currently used in Jalal Talabani, aircraft that are fly
 | 31 | `H310` |
 
 !!! tip
-    If strong winds are present at altitude, **ADC/TMA** should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
+    If strong winds are present at altitude, **TWR/TMA** should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
 
 !!! phraseology
     **IAW23**: IAW23 ready for departure.  
-    **ISU ADC**: IAW23, after departure climb to altitude 6000ft, fly runway heading, surface winds variable at 3 knots, runway 13 cleared for take-off.
+    **ISU TWR**: IAW23, after departure climb to altitude 6000ft, fly runway heading, surface winds variable at 3 knots, runway 13 cleared for take-off.
 
 

@@ -8,7 +8,7 @@
 
 |    Name   | Callsign	| Frequency | Login ID | Remarks |
 | --------- | --------	| ---------	| -------- | ------- |
-| **Al-Najaf ADC** | **Al-Najaf Tower** | **119.100** | **ORNI_TWR** | |
+| **Al-Najaf TWR** | **Al-Najaf Tower** | **119.100** | **ORNI_TWR** | |
 | **Al-Najaf SMC** | **Al-Najaf Ground** | **121.700** | **ORNI_GND**	| |
 | **Al-Najaf ATIS** | | **123.900** | **ORNI_ATIS** | |
 
@@ -33,7 +33,7 @@ All VFR aircraft wishing to do remain in the circuit at Al-Najaf shall be issued
 
 !!! phraseology
     **ABC**: AL-Najaf Tower, ABC holding short D runway 10, fully ready.   
-    **NJF ADC**: ABC, Al-Najaf Tower, cleared to operate in the circuit area not above altitude 4000ft, right hand circuits report on the downwind, surface winds 320 degrees 5 knots, cleared for take-off runway 10.  
+    **NJF TWR**: ABC, Al-Najaf Tower, cleared to operate in the circuit area not above altitude 4000ft, right hand circuits report on the downwind, surface winds 320 degrees 5 knots, cleared for take-off runway 10.  
     **ABC**: Cleared to operate in the circuit area not above altitude 4000ft, will report on the right downwind, cleared for take-off runway 10, ABC.
 
 VFR Circuits shall **not** be permitted at the aerodrome during times of increased IFR departure or arrival activity.
@@ -43,30 +43,30 @@ Once VFR aircraft are ready for departure, they shall be cleared for take-off in
 
 !!! phraseology
     **FYI**: Al-Najaf Tower, FYI holding short D runway 10.  
-    **NJF ADC**: FYI, Al-Najaf Tower, surface winds 320 degrees 5 knots, cleared for take-off runway 10.  
+    **NJF TWR**: FYI, Al-Najaf Tower, surface winds 320 degrees 5 knots, cleared for take-off runway 10.  
     **FYI**: Roger, cleared for take-off runway 10.  
     **AIRCRAFT ON THE CROSSWIND TURN**  
-    **NJF ADC**: FYI, report leaving the Al-Najaf CTR, maintain at or below altitude 4000ft.  
+    **NJF TWR**: FYI, report leaving the Al-Najaf CTR, maintain at or below altitude 4000ft.  
     **FYI**: At or below 4000ft, wilco, FYI.
 
 Aircraft requesting to exit the Al-Najaf CTR shall be assigned a clearance limit followed by a valid VFR cruising altitude (+500ft).
 
 !!! phraseology
     **YYC**: Al-Najaf Tower, YYC is requesting to exit the Al-Najaf CTR via direct Baghdad, altitude 5500ft.  
-    **NJF ADC**: YYC, Al-Najaf Tower, cleared to leave the Al-Najaf CTR direct Baghdad, maintain altitude 5500ft, squawk 7403, QNH 998 hectopascals.  
+    **NJF TWR**: YYC, Al-Najaf Tower, cleared to leave the Al-Najaf CTR direct Baghdad, maintain altitude 5500ft, squawk 7403, QNH 998 hectopascals.  
     **YYC**: Cleared to leave the Al-Najaf CTR direct Baghdad, maintain altitude 5500ft, QNH 998, and squawk 7403, YYC.
 
 ### Entering the CTR
-Inbound VFR aircraft shall be sent to **ADC** with enough time such that two-way
+Inbound VFR aircraft shall be sent to **TWR** with enough time such that two-way
 radio communications have been established before aircraft receive clearance to enter the CTR.
 
-On initial contact, Al-Najaf **ADC** will pass the instructions for joining the circuit, as well as any other pertinent information such as traﬃc information with the sector.
+On initial contact, Al-Najaf **TWR** will pass the instructions for joining the circuit, as well as any other pertinent information such as traﬃc information with the sector.
 
 !!! phraseology
     **YYC**: Al-Najaf Tower, YYC is requesting to enter the Al-Najaf CTR from the south for circuits.     
-    **NJF ADC**: YYC, Al-Najaf Tower, information A, cleared to enter the Al-Najaf CTR, maintain at or below altitude 4000ft, report left downwind runway 28 with intentions, squawk 7403.  
+    **NJF TWR**: YYC, Al-Najaf Tower, information A, cleared to enter the Al-Najaf CTR, maintain at or below altitude 4000ft, report left downwind runway 28 with intentions, squawk 7403.  
     **YYC**: We have A, cleared to enter the Al-Najaf CTR, at or below altitude 4000ft, will report left downwind runway 28 with intentions, squawk 7403, YYC.   
-    **NJF ADC**: YYC, correct, QNH 998 hectopascals.    
+    **NJF TWR**: YYC, correct, QNH 998 hectopascals.    
 
 During times of heavy IFR arrival activity, VFR arrivals may be denied entry into the CTR and instructed to hold outside of the CTR awaiting further instructions.
 
@@ -129,7 +129,7 @@ At Al-Najaf, **ORNI_TWR** is responsible for the entirety of the CTR, and is req
 
 !!! phraseology
     **IAW123**: Al-Najaf Tower, IAW123, final runway 28.
-    **NJF ADC**: IAW123, Al-Najaf Tower, salam, winds 260 degrees at 8 knots, runway 28 cleared to land.  
+    **NJF TWR**: IAW123, Al-Najaf Tower, salam, winds 260 degrees at 8 knots, runway 28 cleared to land.  
 
 
 ## Standard Taxi Routes
@@ -169,7 +169,7 @@ Due to the airspace structure in Al-Najaf, all departures shall be coordinated a
 - Visual depatures (eg. VFR aircraft)
 - After a go around, the next departure from that runway
 
-The Standard Assignable level from Al-Najaf **ADC** to Baghdad **TMA** is:
+The Standard Assignable level from Al-Najaf **TWR** to Baghdad **TMA** is:
 
 | Aircraft | Level |
 | -------- | ----- |
@@ -180,11 +180,11 @@ The Standard Assignable level from Al-Najaf **ADC** to Baghdad **TMA** is:
     'Next' coordination **is mandatory** for **all** aircraft departing Al-Najaf.  
 
 !!! phraseology
-    <span class="hotline">**NJF ADC** -> **BI TMA**</span>: "IAW123 for release, SIGBI1A departure, any problems?"  
-    <span class="hotline">**BI TMA** -> **NJF ADC**</span>: "IAW123 released, SIGBI1A departure, all is good"  
+    <span class="hotline">**NJF TWR** -> **BI TMA**</span>: "IAW123 for release, SIGBI1A departure, any problems?"  
+    <span class="hotline">**BI TMA** -> **NJF TWR**</span>: "IAW123 released, SIGBI1A departure, all is good"  
 
 ### Standard Assignable Departure Headings
-If a departing aircraft is receiving an omni-directional departure, they must recieve an assigned heading with their line up or take-off clearance. Al-Najaf **ADC** controller shall coordinate with the overlying TMA controller on a heading to follow after departure, prior to issuing a takeoff clearance. Unless coordinated otherwise **ADC** shall assign the following heading for departing aircraft
+If a departing aircraft is receiving an omni-directional departure, they must recieve an assigned heading with their line up or take-off clearance. Al-Najaf **TWR** controller shall coordinate with the overlying TMA controller on a heading to follow after departure, prior to issuing a takeoff clearance. Unless coordinated otherwise **TWR** shall assign the following heading for departing aircraft
 
 | Runway | Heading |
 | ------ | ------- |
@@ -193,7 +193,7 @@ If a departing aircraft is receiving an omni-directional departure, they must re
 
 
 !!! tip
-    If strong winds are present at altitude, **ADC/TMA** should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
+    If strong winds are present at altitude, **TWR/TMA** should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
 
 !!! warning
     The runway heading `H100`/`H280` shall be avoided when possible.
@@ -204,5 +204,5 @@ If a departing aircraft is receiving an omni-directional departure, they must re
 
 !!! phraseology
     **IAW23**: IAW23 ready for departure.  
-    **NJF ADC**: IAW23, after departure climb to altitude 4000ft, fly heading 160 degrees, surface winds variable at 3 knots, runway 10 cleared for take-off.
+    **NJF TWR**: IAW23, after departure climb to altitude 4000ft, fly heading 160 degrees, surface winds variable at 3 knots, runway 10 cleared for take-off.
 
