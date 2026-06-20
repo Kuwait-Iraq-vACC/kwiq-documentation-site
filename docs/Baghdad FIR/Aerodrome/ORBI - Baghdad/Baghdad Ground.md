@@ -2,14 +2,6 @@
 title: "GND - Baghdad Ground"
 toc_min_heading_level: 2
 toc_max_heading_level: 6
----
-
-### Amendment History
-
-| **Revision** | **Effective Date** | **Notes**           |
-|--------------|--------------------|---------------------|
-| Version 1    | 20JUN26            | Initial Publication |
-
 ----
 
 ## Chapter 1. Position Overview

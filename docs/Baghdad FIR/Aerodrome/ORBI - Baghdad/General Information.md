@@ -23,11 +23,11 @@ title: "GEN - General Information"
 
 ## Declared Distances
 | Runway | TORA (M) | TODA (M) | ASDA (M) | LDA (M) |
-|--------|----------|----------|----------|---------|
-| 33L    | 3301M    | 3700M    | 3301M    | 3400M   |
-| 15R    | 3301M    | 3700M    | 3301M    | 3400M   |
-| 33R    | 4000M    | 3500M    | 4000M    | 3500M   |
-| 15L    | 4000M    | 3500M    | 4000M    | 3500M   |
+|--------|----------|----------|----------|---------|   
+| 33L    | 3301M    | 3301M    | 3301M    | 3301M   |
+| 15R    | 3301M    | 3301M    | 3301M    | 3301M   |
+| 33R    | 4000M    | 4000M    | 4000M    | 4000M   |
+| 15L    | 4000M    | 4000M    | 4000M    | 4000M   |
 
 ## Air Traffic Services
 **Baghdad International Airport (ORBI/BGW)** is a fully controlled airport.
@@ -36,20 +36,20 @@ Airspaces
 
 |         Airspace Type         |   Airspace  | Class | Vertical Limits | Controller |
 |:-----------------------------:|:-----------:|:-----:|:---------------:|------------|
-|        **Control Zone**       | Baghdad CTR WEST  |   D   |   SFC - 3000ft  |  ORBI_TWR  |
+|        **Control Zone**       | Baghdad CTR WEST  |   D   | SFC - 3000ft |  ORBI_TWR  |
 |        **Control Zone**       | Baghdad CTR EAST  |   D   |   1000FT - 3000ft  |  ORBI_TWR  |
 |       **Control Area**        | Baghdad TMA  |   C   | SFC - 6000ft   |  ORBI_F_APP |
-|       **Control Area**        | Baghdad TMA 1 |   C   | 1000ft - FL235     |  ORBI_APP  |
-|       **Control Area**        | Baghdad TMA 2 |   C   | 3500ft - FL235     |  ORBI_APP  |
-|       **Control Area**        | Baghdad TMA 3 |   C   | 11500ft - FL235     |  ORBI_APP  |
-|       **Control Area**        | Baghdad TMA 4 |   C   | 3500ft - FL235     |  ORBI_APP  |
+|       **Control Area**        | Baghdad TMA 1 |   C   | 1000ft - FL235     |  BGD_APP  |
+|       **Control Area**        | Baghdad TMA 2 |   C   | 3500ft - FL235     |  BGD_APP  |
+|       **Control Area**        | Baghdad TMA 3 |   C   | 11500ft - FL235     |  BGD_APP  |
+|       **Control Area**        | Baghdad TMA 4 |   C   | 3500ft - FL235     |  BGD_APP  |
 
 ## ATS Callsigns 
 
 |  **Radio Callsign**  | **Logon Callsign** | **Abbreviation** | **Frequency (MHz)** |
 |:--------------------:|:------------------:|:----------------:|:-------------------:|
-|   **Baghdad ATIS**    |      ORBI_ATIS     |       ATIS       |       126.925       |
-|  **Baghdad Ground**   |      ORBI_GND    |        GMC       |       121.700       |
-|   **Baghdad Tower**   |      ORBI_TWR      |        TWR       |       118.900       |
-| **Baghdad Director**  |      ORBI_F_APP    |        FIN       |       123.825       |
-| **Baghdad Approach**  |      ORBI_APP      |        APP       |       124.800       |
+|   **Baghdad ATIS**    |      ORBI_ATIS    |       ATIS       |       126.925       |
+|  **Baghdad Ground**   |      ORBI_GND     |        GMC       |       121.700       |
+|   **Baghdad Tower**   |      ORBI_TWR     |        TWR       |       118.900       |
+| **Baghdad Director**  |      ORBI_F_APP   |        FIN       |       126.575       |
+| **Baghdad Approach**  |      BGD_APP      |        APP       |       124.800       |
