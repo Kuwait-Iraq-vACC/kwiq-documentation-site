@@ -1,8 +1,6 @@
 ---
 title: "TWR - Al-Najaf Tower"
-toc_min_heading_level: 2
-toc_max_heading_level: 6
-----
+---
 
 ## Chapter 1. Position Overview
 **Al-Najaf Tower (TWR)** controls aircraft on the runway, aircraft holding at runway holding points, and aircraft operating within the **Class D Al-Najaf Control Zone**. The **TWR Controller** is responsible for all aircraft within the Al-Najaf CTR and shall ensure traffic information is provided between IFR and VFR flights.
