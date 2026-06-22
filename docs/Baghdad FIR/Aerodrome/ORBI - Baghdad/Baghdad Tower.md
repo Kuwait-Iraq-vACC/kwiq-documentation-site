@@ -1,8 +1,6 @@
 ---
 title: "TWR - Baghdad Tower"
-toc_min_heading_level: 2
-toc_max_heading_level: 6
-----
+---
 
 ## Chapter 1. Position Overview
 **Baghdad Tower (TWR)** controls aircraft on the active runway, aircraft holding at runway holding points, and aircraft operating within the Baghdad Control Zone. The **TWR Controller** is responsible for selecting the active runway mode, issuing line-up, take-off, landing, and go-around instructions, and ensuring traffic information is passed between IFR and VFR aircraft within the Baghdad CTR.

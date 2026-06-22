@@ -1,8 +1,6 @@
 ---
 title: "GND - Baghdad Ground"
-toc_min_heading_level: 2
-toc_max_heading_level: 6
-----
+---
 
 ## Chapter 1. Position Overview
 **Baghdad Ground (SMC)** is responsible for validating routes, issuing IFR clearances, coordinating VFR clearances with Baghdad **TWR**, and managing aircraft movement on the Baghdad aprons and taxiways within its area of responsibility. The SMC Controller will provide aircraft with pushback and start instructions when required, taxi departing aircraft toward the applicable runway holding point, and taxi arriving aircraft from the runway exit area to an appropriate stand or apron.
@@ -30,8 +28,11 @@ Any departing aircraft requiring Taxiway **W** must be coordinated by Baghdad **
 
 Example:
 
-> **SMC Controller:** _**"Request to taxi IAW23 on Whiskey, 33R."**_  
-> **TWR Controller:** _**"Taxi IAW23 on Whiskey."**_
+> **SMC Controller:** _**"TWR, SMC."**_  
+> **TWR Controller:** _**"TWR pass your message."**_
+
+> **SMC Controller:** _**"Request to taxi IAW23 on W, 33R."**_  
+> **TWR Controller:** _**"Taxi IAW23 on W."**_
 
 ----
 
@@ -39,7 +40,7 @@ Example:
 
 ### 2.1 IFR Clearance
 
-IFR clearances are issued by Baghdad **SMC**, or by ACD when available. Baghdad **SMC** is responsible for validating the filed route, level, and departure details before issuing a clearance. Where the flight plan contains an invalid route, level, or departure procedure, Baghdad **SMC** shall ensure that the error is corrected before the aircraft is cleared.
+IFR clearances are issued by Baghdad **SMC**. Baghdad **SMC** is responsible for validating the filed route, level, and departure details before issuing a clearance. Where the flight plan contains an invalid route, level, or departure procedure, Baghdad **SMC** shall ensure that the error is corrected before the aircraft is cleared.
 
 Baghdad does not use SIDs, therefore aircraft receive departure instructions from **TWR** during line-up or take-off clearance. Baghdad **SMC** does not need to provide radar departure instructions as part of the IFR clearance.
 

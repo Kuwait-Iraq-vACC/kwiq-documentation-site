@@ -2,7 +2,6 @@
 title: "GEN - General Information"
 ---
 
-# General Information
 **Baghdad International Airport (ORBI/BGW)** is the main international airport of Iraq, situated approximately 16 kilometers (10 miles) west of the center of Baghdad within the Baghdad Governorate. It serves as the primary hub for Iraqi flag carrier Iraqi Airways and handles the majority of the country's international air traffic. The airport was officially opened in 1982 and has since become Iraq's busiest aviation gateway, connecting Baghdad with destinations across the Middle East, Europe, Asia, and beyond. Baghdad International Airport continues to undergo development and modernization projects aimed at improving passenger facilities, operational efficiency, and overall airport capacity.
 
 ## Aerodrome Details
