@@ -1,0 +1,386 @@
+:root {
+    --md-primary-fg-color: #872b36;
+    --md-primary-fg-color--light: #a73d4b;
+    --md-primary-fg-color--dark: #7a1923;
+}
+
+.md-header {
+    background-color: #380e14;
+}
+
+.md-tabs {
+    background-color: #1e1e20;
+}
+
+/* =========================
+   MAIN LAYOUT
+========================= */
+
+.md-main {
+    flex-grow: 1;
+}
+
+.md-main__inner {
+    display: flex;
+    height: 100%;
+}
+
+/* Dark mode only */
+[data-md-color-scheme="slate"] body,
+[data-md-color-scheme="slate"] .md-main,
+[data-md-color-scheme="slate"] .md-content {
+    background-color: #181a21 !important;
+}
+
+/* Light mode only */
+[data-md-color-scheme="default"] body,
+[data-md-color-scheme="default"] .md-main,
+[data-md-color-scheme="default"] .md-content {
+    background-color: #ffffff !important;
+}
+
+/* =========================
+   DARK MODE SPECIFIC OVERRIDES
+========================= */
+
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color: #872b36;
+    --md-primary-fg-color--light: #c45c6a;
+    --md-primary-fg-color--dark: #7a1923;
+    --md-accent-fg-color: #c45c6a;
+    --md-accent-fg-color--transparent: rgba(196, 92, 106, 0.1);
+    --md-typeset-a-color: #4a90c4;
+    --md-default-bg-color: #181a21;
+}
+
+/* =========================
+   LIGHT MODE SPECIFIC OVERRIDES
+========================= */
+
+[data-md-color-scheme="default"] {
+    --md-default-bg-color: #ffffff;
+    --md-typeset-a-color: #4a90c4;
+}
+
+/* =========================
+   HEADINGS
+========================= */
+
+[data-md-color-scheme="slate"] .md-typeset h1,
+[data-md-color-scheme="slate"] .md-typeset h2,
+[data-md-color-scheme="slate"] .md-typeset h3,
+[data-md-color-scheme="slate"] .md-typeset h4,
+[data-md-color-scheme="slate"] .md-typeset h5,
+[data-md-color-scheme="slate"] .md-typeset h6 {
+    color: #8e8e8e;
+}
+
+[data-md-color-scheme="default"] .md-typeset h1,
+[data-md-color-scheme="default"] .md-typeset h2,
+[data-md-color-scheme="default"] .md-typeset h3,
+[data-md-color-scheme="default"] .md-typeset h4,
+[data-md-color-scheme="default"] .md-typeset h5,
+[data-md-color-scheme="default"] .md-typeset h6 {
+    color: #2c3e50;
+}
+
+/* =========================
+   CONTENT LINKS
+========================= */
+
+.md-typeset a {
+    color: #4a90c4 !important;
+}
+
+.md-typeset a:hover {
+    color: #6aaed6 !important;
+}
+
+.md-typeset a:visited {
+    color: #4a90c4 !important;
+}
+
+/* =========================
+   NAV LINKS — all states in one place
+========================= */
+
+/* Default: use theme's normal nav colour */
+.md-nav__link {
+    color: var(--md-nav-item-fg-color);
+    transition: color 0.15s ease;
+}
+
+/* Visited: don't let browser apply its own colour */
+.md-nav__link:visited {
+    color: var(--md-nav-item-fg-color);
+}
+
+/* Hover on non-active links: mid red */
+.md-nav__link:not(.md-nav__link--active):hover,
+.md-nav__link:not(.md-nav__link--active):focus {
+    color: #a73d4b !important;
+}
+
+/* Active/current page: deep dark red */
+.md-nav__link--active {
+    color: #7a1923 !important;
+    font-weight: 700 !important;
+}
+
+/* Active page — hold on all interaction states */
+.md-nav__link--active:visited,
+.md-nav__link--active:hover,
+.md-nav__link--active:focus {
+    color: #7a1923 !important;
+    font-weight: 700 !important;
+}
+
+/* =========================
+   TABS
+========================= */
+
+.md-tabs__item--active {
+    box-shadow: inset 0 -2px 0 0 #872b36 !important;
+}
+
+/* =========================
+   HERO CONTAINER
+========================= */
+
+.container {
+    min-height: 100vh;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+
+    background:
+            linear-gradient(rgba(0, 0, 0, 0.45),
+            rgba(15, 13, 13, 0.717)),
+            url("../assets/hero-image.png");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero {
+    color: white;
+    display: flex;
+    align-items: center;
+    min-height: 600px;
+}
+
+.hero .hero-items {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 0 2rem;
+    width: 100%;
+}
+
+.hero-items .left {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.hero-items .right {
+    display: flex;
+    align-items: flex-start;
+}
+
+/* =========================
+   TEXT
+========================= */
+
+.hero .hero-items h1 {
+    color: white;
+    font-family: Mulish;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0;
+}
+
+.hero .hero-items p {
+    color: white;
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+/* =========================
+   BUTTON
+========================= */
+
+.hero .md-button {
+    margin: 0;
+    color: white;
+}
+
+.hero .md-button--primary {
+    background-color: var(--md-primary-fg-color);
+    color: white;
+    border-color: var(--md-primary-fg-color);
+
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    padding: 0.8rem 1.2rem;
+    border-radius: 12px;
+
+    box-shadow: none;
+}
+
+.hero .md-button:focus,
+.hero .md-button:hover {
+    background-color: var(--md-accent-fg-color);
+    color: white;
+    border-color: var(--md-accent-fg-color);
+}
+
+/* =========================
+   FEATURES
+========================= */
+
+.feature {
+    font-family: Mulish;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+
+.feature h2 {
+    color: var(--md-primary-fg-color);
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    display: inline-block;
+    border-bottom: 1px solid #f1f5f9;
+    padding-bottom: 5px;
+}
+
+.feature .cards {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.feature .cards .card {
+    margin: 20px 5px 0;
+}
+
+.feature .card a {
+    display: block;
+    background: var(--md-card-a);
+    color: var(--md-primary-fg-color);
+    transition: background-color 0.2s ease;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.feature .card a:hover {
+    background-color: var(--md-card-a-hover);
+    color: var(--md-primary-fg-color);
+}
+
+.feature .card a h3 {
+    margin-top: 8px;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media screen and (max-width: 480px) {
+
+    .container {
+        padding-top: 1.5rem;
+
+        background:
+                linear-gradient(rgba(0, 0, 0, 0.45),
+                rgba(0, 0, 0, 0.45)),
+                url("../assets/hero-image.png");
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 35%;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero .hero-items {
+        display: block;
+        padding: 1.5rem;
+    }
+
+    .hero-items .left {
+        width: 100%;
+    }
+
+    .hero-items .right a {
+        margin-top: 1rem;
+    }
+
+    .feature h2 {
+        margin-left: 20px;
+    }
+
+    .feature .cards {
+        flex-direction: column;
+    }
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media screen and (min-width: 481px) and (max-width: 899px) {
+
+    .hero .hero-items {
+        display: block;
+        padding: 1.5rem;
+    }
+
+    .hero-items .left {
+        width: 100%;
+    }
+
+    .hero-items .right a {
+        margin-top: 1rem;
+    }
+
+    .feature .cards {
+        flex-direction: column;
+    }
+}
+
+/* =========================
+   DESKTOP
+========================= */
+
+@media screen and (min-width: 900px) {
+
+    .hero-items {
+        padding: 0 2rem;
+    }
+
+    .feature h2 {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (min-width: 1120px) {
+
+    .feature h2 {
+        margin-left: 20px;
+    }
+}
