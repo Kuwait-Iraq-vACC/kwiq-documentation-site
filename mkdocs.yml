@@ -64,6 +64,8 @@ markdown_extensions:
   - pymdownx.tilde
   - abbr
   - pymdownx.keys
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.snippets:
       auto_append:
         - includes/abbreviations.md
