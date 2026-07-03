@@ -7,67 +7,492 @@
 
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+
+    <style>
+        :root {
+            --bg: #ffffff;
+            --fg: #1f2937;
+            --fg-muted: #6b7280;
+            --border: #e5e7eb;
+            --input-bg: #ffffff;
+            --hover-bg: #f3f4f6;
+            --scrollbar-thumb: #d1d5db;
+            --scrollbar-track: #f9fafb;
+            --error-bg: #fee2e2;
+            --error-text: #991b1b;
+        }
+
+        html.dark {
+            --bg: #0d1117;
+            --fg: #e5e7eb;
+            --fg-muted: #9ca3af;
+            --border: #30363d;
+            --input-bg: #161b22;
+            --hover-bg: #1c2128;
+            --scrollbar-thumb: #30363d;
+            --scrollbar-track: #161b22;
+            --error-bg: #2d1b1b;
+            --error-text: #f87171;
+        }
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            max-width: 100%;
+            overflow-x: hidden;
+            height: 100%;
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--fg);
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .app-wrapper {
+            width: 100%;
+            max-width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+        }
+
+        .themed-border { border-color: var(--border) !important; }
+        .themed-muted { color: var(--fg-muted) !important; }
+        .themed-input {
+            background-color: var(--input-bg) !important;
+            color: var(--fg) !important;
+            border-color: var(--border) !important;
+        }
+        .themed-input::placeholder { color: var(--fg-muted); }
+
+        .alias-container {
+            flex: 1;
+            min-height: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .alias-list {
+            flex: 1;
+            min-height: 0;
+            overflow-y: auto;
+            overflow-x: hidden;
+            border: 1px solid var(--border);
+            border-radius: 0.375rem;
+            width: 100%;
+        }
+
+        .alias-list::-webkit-scrollbar { width: 8px; }
+        .alias-list::-webkit-scrollbar-track {
+            background: var(--scrollbar-track);
+        }
+        .alias-list::-webkit-scrollbar-thumb {
+            background-color: var(--scrollbar-thumb);
+            border-radius: 4px;
+        }
+
+        .alias-list::-webkit-scrollbar-thumb:hover {
+            background-color: var(--fg-muted);
+        }
+
+        /* Prevent long alias text from forcing the grid columns to
+           overflow horizontally — wrap instead of stretching */
+        .alias-row > div,
+        .alias-header > div {
+            min-width: 0;
+            overflow-wrap: break-word;
+            word-break: break-word;
+        }
+
+        .alias-row:hover {
+            background-color: var(--hover-bg);
+        }
+
+        .error-message {
+            background-color: var(--error-bg);
+            color: var(--error-text);
+        }
+
+        .controls-container {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .filter-container {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .filter-container > * {
+            flex: 1;
+            min-width: 150px;
+        }
+
+        .header-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 2fr;
+            padding: 0.5rem 0.75rem;
+            font-weight: bold;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .row-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 2fr;
+            padding: 0.5rem 0.75rem;
+            border-bottom: 1px solid var(--border);
+            font-size: 0.875rem;
+            transition: background-color 0.15s ease;
+        }
+
+        @media (max-width: 640px) {
+            .header-grid,
+            .row-grid {
+                grid-template-columns: 1fr;
+                gap: 0.25rem;
+            }
+
+            .header-grid > div:not(:first-child) {
+                display: none;
+            }
+
+            .row-grid > div:not(:first-child) {
+                font-size: 0.8rem;
+                color: var(--fg-muted);
+            }
+
+            .row-grid > div:first-child {
+                font-weight: 600;
+            }
+        }
+    </style>
 </head>
 
 <body>
-<div class="container mx-auto p-4" x-data="aliasApp()">
+<div class="app-wrapper" x-data="aliasApp()" x-init="init()">
 
     <h1 class="text-3xl text-center mb-2">Alias Preview</h1>
 
-    <p class="text-center mb-4 text-gray-600">
+    <p class="text-center mb-4 themed-muted">
         GitHub-based alias viewer
     </p>
 
-    <div class="flex flex-col items-center">
+    <div class="controls-container">
+        <div class="flex flex-col items-center">
+            <select class="w-full max-w-xs p-2 border rounded themed-input"
+                    x-model="selectedTemplateIndex"
+                    @change="fetchAliases">
 
-        <select class="w-64 p-2 border rounded"
-                x-model="selectedTemplateIndex"
-                @change="fetchAliases">
+                <option value="-1">Select alias pack</option>
 
-            <option value="-1">Select alias pack</option>
+                <template x-for="(t, i) in templates">
+                    <option :value="i" x-text="t.name"></option>
+                </template>
 
-            <template x-for="(t, i) in templates">
-                <option :value="i" x-text="t.name"></option>
-            </template>
+            </select>
 
-        </select>
-
-        <p class="mt-2 text-sm text-gray-600">
-            <span x-text="aliases.length"></span> aliases loaded
-        </p>
-    </div>
-
-    <div class="mt-4 flex gap-2">
-        <input class="w-full p-2 border rounded"
-               placeholder="Search aliases..."
-               x-model="search" />
-
-        <select class="p-2 border rounded" x-model="selectedCategory">
-            <option value="">All categories</option>
-            <template x-for="c in categories">
-                <option :value="c" x-text="c"></option>
-            </template>
-        </select>
-    </div>
-
-    <div class="mt-4 font-bold grid grid-cols-3">
-        <div>Alias</div>
-        <div>Category</div>
-        <div>Text</div>
-    </div>
-
-    <hr class="my-2">
-
-    <template x-for="a in filteredAliases">
-        <div class="grid grid-cols-3 border-b py-1 text-sm">
-            <div x-text="a.alias"></div>
-            <div x-text="a.category"></div>
-            <div x-text="a.text"></div>
+            <p class="mt-2 text-sm themed-muted">
+                <span x-text="aliases.length"></span> aliases loaded
+            </p>
         </div>
-    </template>
+
+        <div x-show="error" x-text="error" class="p-2 rounded text-sm error-message"></div>
+
+        <div class="filter-container">
+            <input class="p-2 border rounded themed-input"
+                   placeholder="Search aliases..."
+                   x-model="search" />
+
+            <select class="p-2 border rounded themed-input" x-model="selectedCategory">
+                <option value="">All categories</option>
+                <template x-for="c in categories">
+                    <option :value="c" x-text="c"></option>
+                </template>
+            </select>
+        </div>
+    </div>
+
+    <div class="alias-container">
+        <div class="header-grid themed-border">
+            <div>Alias</div>
+            <div>Category</div>
+            <div>Text</div>
+        </div>
+
+        <div class="alias-list">
+            <template x-for="a in filteredAliases" :key="a.alias + a.category">
+                <div class="row-grid themed-border">
+                    <div x-text="a.alias"></div>
+                    <div x-text="a.category"></div>
+                    <div x-text="a.text"></div>
+                </div>
+            </template>
+
+            <div x-show="filteredAliases.length === 0 && !loading"
+                 class="p-4 text-center themed-muted">
+                No aliases found
+            </div>
+
+            <div x-show="loading"
+                 class="p-4 text-center themed-muted">
+                Loading aliases...
+            </div>
+        </div>
+    </div>
 
 </div>
 
-<script src="app.js"></script>
+<script>
+    function aliasApp() {
+        return {
+            templates: [],
+            aliases: [],
+            selectedTemplateIndex: -1,
+            search: "",
+            selectedCategory: "",
+            error: "",
+            loading: false,
+
+            async init() {
+                await this.loadTemplates();
+                this.initThemeSync();
+            },
+
+            // --- Theme syncing with MkDocs Material ---
+            initThemeSync() {
+                // Initial sync
+                this.syncTheme();
+
+                // Listen for messages from parent
+                window.addEventListener("message", (event) => {
+                    if (event.data && event.data.mdColorScheme) {
+                        this.applySchemeClass(event.data.mdColorScheme);
+                    }
+                });
+
+                // Try to observe parent theme changes
+                try {
+                    const parentHtml = window.parent?.document?.documentElement;
+                    if (parentHtml && window.parent !== window) {
+                        // Check if parent has the theme attribute
+                        const observer = new MutationObserver(() => {
+                            const scheme = parentHtml.getAttribute("data-md-color-scheme");
+                            if (scheme) {
+                                this.applySchemeClass(scheme);
+                                this.syncThemeColors();
+                            }
+                        });
+
+                        observer.observe(parentHtml, {
+                            attributes: true,
+                            attributeFilter: ["data-md-color-scheme"]
+                        });
+                    }
+                } catch (e) {
+                    // Cross-origin parent — can't observe
+                    console.debug("Cannot observe parent theme:", e.message);
+                }
+
+                // Fallback: listen to system preference changes
+                const mql = window.matchMedia("(prefers-color-scheme: dark)");
+                mql.addEventListener("change", () => {
+                    if (!this.hasMkDocsParent()) {
+                        document.documentElement.classList.toggle("dark", mql.matches);
+                    }
+                });
+            },
+
+            hasMkDocsParent() {
+                try {
+                    return !!window.parent?.document?.documentElement?.getAttribute("data-md-color-scheme");
+                } catch (e) {
+                    return false;
+                }
+            },
+
+            syncTheme() {
+                let scheme = null;
+                let parentStyles = null;
+
+                try {
+                    const parentHtml = window.parent?.document?.documentElement;
+                    scheme = parentHtml?.getAttribute("data-md-color-scheme");
+                    if (parentHtml) {
+                        parentStyles = window.parent.getComputedStyle(parentHtml);
+                    }
+                } catch (e) {
+                    // cross-origin — fall back below
+                }
+
+                // Apply dark mode class
+                const isDark = scheme === "slate" ||
+                    (!scheme && window.matchMedia("(prefers-color-scheme: dark)").matches);
+                this.applySchemeClass(isDark ? "slate" : "default");
+
+                // Sync colors if we have access to parent styles
+                if (parentStyles) {
+                    this.syncThemeColors(parentStyles);
+                }
+            },
+
+            syncThemeColors(parentStyles) {
+                // Map our CSS variables to MkDocs Material theme variables
+                const vars = {
+                    "--bg": "--md-default-bg-color",
+                    "--fg": "--md-default-fg-color",
+                    "--fg-muted": "--md-default-fg-color--light",
+                    "--border": "--md-default-fg-color--lightest",
+                    "--input-bg": "--md-code-bg-color",
+                    "--hover-bg": "--md-default-bg-color--light",
+                    "--scrollbar-thumb": "--md-default-fg-color--lighter",
+                    "--scrollbar-track": "--md-default-bg-color"
+                };
+
+                // If we have parent styles, use them
+                if (parentStyles) {
+                    for (const [localVar, mdVar] of Object.entries(vars)) {
+                        const val = parentStyles.getPropertyValue(mdVar).trim();
+                        if (val) {
+                            document.documentElement.style.setProperty(localVar, val);
+                        }
+                    }
+                } else {
+                    // Fallback: use computed styles from our own document
+                    const styles = getComputedStyle(document.documentElement);
+                    // If we're in dark mode but don't have parent styles, use reasonable defaults
+                    if (document.documentElement.classList.contains('dark')) {
+                        document.documentElement.style.setProperty('--bg', '#0d1117');
+                        document.documentElement.style.setProperty('--fg', '#e5e7eb');
+                        document.documentElement.style.setProperty('--fg-muted', '#9ca3af');
+                        document.documentElement.style.setProperty('--border', '#30363d');
+                        document.documentElement.style.setProperty('--input-bg', '#161b22');
+                        document.documentElement.style.setProperty('--hover-bg', '#1c2128');
+                    }
+                }
+            },
+
+            applySchemeClass(scheme) {
+                const isDark = scheme === "slate";
+                document.documentElement.classList.toggle("dark", isDark);
+                // Force re-sync colors after changing theme
+                setTimeout(() => this.syncThemeColors(), 50);
+            },
+            // --- end theme syncing ---
+
+            async loadTemplates() {
+                this.error = "";
+                try {
+                    const res = await fetch("templates.json");
+                    if (!res.ok) throw new Error(`templates.json returned ${res.status}`);
+                    this.templates = await res.json();
+                } catch (e) {
+                    this.error = `Failed to load templates.json: ${e.message}`;
+                    console.error(e);
+                }
+            },
+
+            isCategoryHeader(line) {
+                return /^;\*{2,}.*\*{2,}\s*$/.test(line.trim());
+            },
+
+            extractCategory(line) {
+                return line
+                    .replace(/;/g, "")
+                    .replace(/\*/g, "")
+                    .trim()
+                    .replace(/^\d+\s*/, "");
+            },
+
+            async fetchAliases() {
+                this.aliases = [];
+                this.selectedCategory = "";
+                this.error = "";
+
+                if (this.selectedTemplateIndex === -1) return;
+
+                this.loading = true;
+                const template = this.templates[this.selectedTemplateIndex];
+
+                try {
+                    const res = await fetch(template.github_directory_url);
+                    if (!res.ok) throw new Error(`GitHub directory fetch returned ${res.status}`);
+                    const files = await res.json();
+
+                    for (const file of files) {
+                        if (!file.download_url) continue;
+
+                        const fileRes = await fetch(file.download_url);
+                        if (!fileRes.ok) {
+                            console.warn(`Skipping ${file.name}: ${fileRes.status}`);
+                            continue;
+                        }
+                        const text = await fileRes.text();
+                        const lines = text.split("\n");
+
+                        let currentCategory = "General";
+
+                        for (const rawLine of lines) {
+                            const line = rawLine.trim();
+
+                            if (this.isCategoryHeader(line)) {
+                                currentCategory = this.extractCategory(line);
+                                continue;
+                            }
+
+                            if (!line.startsWith(".")) continue;
+
+                            const parts = line.split(" ");
+                            const alias = parts[0];
+                            const text = parts.slice(1).join(" ");
+
+                            this.aliases.push({
+                                category: currentCategory,
+                                alias,
+                                text
+                            });
+                        }
+                    }
+                } catch (e) {
+                    this.error = `Failed to load aliases: ${e.message}`;
+                    console.error(e);
+                } finally {
+                    this.loading = false;
+                }
+            },
+
+            get categories() {
+                return [...new Set(this.aliases.map(a => a.category))].sort();
+            },
+
+            get filteredAliases() {
+                let result = this.aliases;
+
+                if (this.selectedCategory) {
+                    result = result.filter(a => a.category === this.selectedCategory);
+                }
+
+                if (this.search) {
+                    const s = this.search.toLowerCase();
+                    result = result.filter(a =>
+                        a.alias.toLowerCase().includes(s) ||
+                        a.text.toLowerCase().includes(s)
+                    );
+                }
+
+                return result;
+            }
+        };
+    }
+</script>
 </body>
 </html>
