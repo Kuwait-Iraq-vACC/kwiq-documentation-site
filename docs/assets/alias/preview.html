@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alias Preview</title>
+
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+</head>
+
+<body>
+<div class="container mx-auto p-4" x-data="aliasApp()">
+
+    <h1 class="text-3xl text-center mb-2">Alias Preview</h1>
+
+    <p class="text-center mb-4 text-gray-600">
+        GitHub-based alias viewer
+    </p>
+
+    <div class="flex flex-col items-center">
+
+        <select class="w-64 p-2 border rounded"
+                x-model="selectedTemplateIndex"
+                @change="fetchAliases">
+
+            <option value="-1">Select alias pack</option>
+
+            <template x-for="(t, i) in templates">
+                <option :value="i" x-text="t.name"></option>
+            </template>
+
+        </select>
+
+        <p class="mt-2 text-sm text-gray-600">
+            <span x-text="aliases.length"></span> aliases loaded
+        </p>
+    </div>
+
+    <div class="mt-4 flex gap-2">
+        <input class="w-full p-2 border rounded"
+               placeholder="Search aliases..."
+               x-model="search" />
+
+        <select class="p-2 border rounded" x-model="selectedCategory">
+            <option value="">All categories</option>
+            <template x-for="c in categories">
+                <option :value="c" x-text="c"></option>
+            </template>
+        </select>
+    </div>
+
+    <div class="mt-4 font-bold grid grid-cols-3">
+        <div>Alias</div>
+        <div>Category</div>
+        <div>Text</div>
+    </div>
+
+    <hr class="my-2">
+
+    <template x-for="a in filteredAliases">
+        <div class="grid grid-cols-3 border-b py-1 text-sm">
+            <div x-text="a.alias"></div>
+            <div x-text="a.category"></div>
+            <div x-text="a.text"></div>
+        </div>
+    </template>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
