@@ -141,7 +141,7 @@ Aircraft should only be given take off clearance once the runway is clear of obs
 
 Example: 
 
-> **TWR Controller:** _**"KAC393, surface winds 300 Degrees at 12 knots, Runway 33L, cleared for takeoff."**_
+> **TWR Controller:** _**"KAC393, via W1, surface winds 300 Degrees at 12 knots, Runway 33L, cleared for takeoff."**_
 
 #### 3.3.3 Handing Off 
 Once the aircraft has taken off and a postive rate of climb can be seen **(typically passing 800ft)** they should be informed to contact the **Approach Controller** with their passing altitude. 
@@ -304,7 +304,7 @@ VFR Circuits at OKKK (Kuwait International Airport) are carried out only on RWY3
 
 > **Pilot:** _"Kuwait Tower, 9K-SAA with you holding point W1, ready for departure"_ 
 
-> **TWR:** _"9K-SAA, after departure left hand turn out, via W1, cleared for takeoff RWY33L, surface winds calm, QNH1019."_
+> **TWR:** _"9K-SAA, after departure left hand turn out, via W1, surface wind calm, runway 33L, cleared for takeoff, QNH1019."_
 
 > **Pilot:** _"After departure left hand turn out, via W1, cleared for takeoff RWY33L, 9K-SAA"_
 
