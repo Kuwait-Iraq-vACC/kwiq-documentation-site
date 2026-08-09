@@ -1,0 +1,12 @@
+[
+  {
+    "name": "ORBB Alias",
+    "id": "orbb",
+    "github_directory_url": "https://api.github.com/repos/Kuwait-Iraq-vACC/ORBB-Sectorfile/contents/ORBB/Alias"
+  },
+  {
+    "name": "OKAC Alias",
+    "id": "okac",
+    "github_directory_url": "https://api.github.com/repos/Kuwait-Iraq-vACC/OKAC-Sectorfile/contents/OKAC/Alias"
+  }
+]
