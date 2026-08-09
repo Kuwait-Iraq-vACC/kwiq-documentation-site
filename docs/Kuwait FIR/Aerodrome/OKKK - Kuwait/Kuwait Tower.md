@@ -201,12 +201,12 @@ The **TWR Controller** is responsible for issuing traffic landing clearance. The
 
 Example:
 
-> **TWR Controller:** _**"JZR1144, surface winds 300 Degrees at 10 knots, Runway 34, cleared to land"**_
+> **TWR Controller:** _**"JZR1144, plan to vacate V6, surface winds 300 degrees 10 knots, runway 34, cleared to land"**_
 
 #### 3.4.1.1 Late Landing Clearance 
 In the event traffic may be issued a late landing clearance due to traffic departing ahead of them or vacating slowly they can be issued a late landing clearance, however, the landing traffic must be issued a landing clearance no later than 2nm from touchdown. 
 
-> **TWR Controller:** _**"JZR1144, Expect late landing clearance, one to vacate ahead"**_
+> **TWR Controller:** _**"JZR1144, expect late landing clearance, one to vacate ahead, surface winds 300 degrees 10 knots"**_
 
 #### 3.4.2 Preferred Exit Points
 In order to ensure minimum runway occupancy time pilots are expected to vacate the active runway by the taxiways. 
@@ -218,7 +218,7 @@ In order to ensure minimum runway occupancy time pilots are expected to vacate t
 |   RWY33R   |    Loop 1 / Loop 2   |
 |   RWY33L   |      W5 / Loop       |
 | RWY34         | V4/V6                      |
-| RWY16         | V7/V5                      |
+| RWY16         | V7/V5                     |
 
 #### 3.4.3 Vacating Traffic
 Traffic vacating the active runway shall not be immediately transfered to the GMC Controller, it is the responsibility of the TWR Controller to issue an initial taxi clearance onto taxiway W1 or E1 to ensure the runway is not obstructed by aircraft stopping at the holding point and then waiting for an instruction from the GMC controller. 
