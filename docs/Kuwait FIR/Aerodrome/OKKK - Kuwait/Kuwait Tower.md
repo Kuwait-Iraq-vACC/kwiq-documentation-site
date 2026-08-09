@@ -218,7 +218,7 @@ In order to ensure minimum runway occupancy time pilots are expected to vacate t
 |   RWY33R   |    Loop 1 / Loop 2   |
 |   RWY33L   |      W5 / Loop       |
 | RWY34         | V4/V6                      |
-| RWY16         | V7/V5                      |
+| RWY16         | V7/V5                     |
 
 #### 3.4.3 Vacating Traffic
 Traffic vacating the active runway shall not be immediately transfered to the GMC Controller, it is the responsibility of the TWR Controller to issue an initial taxi clearance onto taxiway W1 or E1 to ensure the runway is not obstructed by aircraft stopping at the holding point and then waiting for an instruction from the GMC controller. 
