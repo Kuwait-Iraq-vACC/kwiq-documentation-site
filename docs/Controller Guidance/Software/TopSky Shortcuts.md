@@ -1,10 +1,5 @@
 ---
-title: TopSky
----
-
-!!! Warning "🛠️ In development"
-    Not yet developed. Check back later!
-
+title: TopSky Shortcuts
 ---
 
 ## Shortcuts

@@ -1,5 +1,0 @@
----
-title: TopSky Shortcuts
----
-
-s
