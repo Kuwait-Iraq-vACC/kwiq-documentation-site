@@ -75,5 +75,10 @@ markdown_extensions:
 plugins:
   - search
   - awesome-nav
+  - git-revision-date-localized:
+      enabled: true
+      type: UTC
+      timezone: Europe/London
+      fallback_to_build_date: true
 
 copyright: ""

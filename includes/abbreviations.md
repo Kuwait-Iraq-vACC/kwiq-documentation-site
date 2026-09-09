@@ -10,3 +10,4 @@
 *[VATMENA]: VATSIM Middle East & North Africa Division
 *[XC]: Cross-couple
 *[XCA]: Cross-couple Across
+*[PDC]: Pre-Departure Clearance
