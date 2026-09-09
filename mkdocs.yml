@@ -77,8 +77,8 @@ plugins:
   - awesome-nav
   - git-revision-date-localized:
       enabled: true
-      type: UTC
-      timezone: Europe/London
+      type: date
+      timezone: UTC
       fallback_to_build_date: true
 
 copyright: ""
