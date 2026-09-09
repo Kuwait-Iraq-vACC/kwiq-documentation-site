@@ -26,4 +26,8 @@ Prior to utilising the Hoppie network, controllers should complete a simple [reg
 ## Connecting to CPDLC
 
 When loading up the sector file you will notice a 'CPDLC Setting' menu. After connecting to the network and setting your primary frequency (priming), this will populate with the correct Login code (this should match the one in your info line).
+<figure markdown="span">
+  ![CPDLC Setting.png](../img/CPDLC%20Setting.png)
+  <figcaption>CPDLC Setting Window</figcaption>
+</figure>
 
