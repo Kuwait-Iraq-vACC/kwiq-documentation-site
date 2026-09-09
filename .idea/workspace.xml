@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c3df023-3a80-48c2-89c5-d5afa4deb3ae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/Controller Guidance/img/CPDLC Setting Online.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Controller Guidance/img/PDC Departure Clearance Window.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Controller Guidance/img/PDC RCD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Controller Guidance/img/PDC SENT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Controller Guidance/img/yellow.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.nav.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.nav.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Baghdad FIR/Aerodrome/ORBI - Baghdad/3. DEL.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Baghdad FIR/Aerodrome/ORBI - Baghdad/3. DEL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Baghdad FIR/Aerodrome/ORBI - Baghdad/info.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Baghdad FIR/Aerodrome/ORBI - Baghdad/info.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Kuwait FIR/.nav.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Kuwait FIR/.nav.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Kuwait FIR/Enroute/.nav.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Kuwait FIR/Enroute/.nav.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Kuwait FIR/Enroute/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Kuwait FIR/Enroute/Kuwait Radar.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/stylesheets/extra.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/stylesheets/extra.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Controller Guidance/Software/PDC.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Controller Guidance/Software/PDC.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Controller Guidance/img/CPDLC Setting.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Controller Guidance/img/CPDLC Setting.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +47,11 @@
     <option name="cachedIndexableFilesCount" value="142" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -55,12 +60,12 @@
     &quot;assignee&quot;: &quot;JYang365&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Kuwait-Iraq-vACC/kwiq-documentation-site.git",
-    "accountId": "fd1c4420-58ee-47a8-8881-116068b2a69b"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Kuwait-Iraq-vACC/kwiq-documentation-site.git&quot;,
+    &quot;accountId&quot;: &quot;fd1c4420-58ee-47a8-8881-116068b2a69b&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -133,26 +138,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "javascript.preferred.runtime.type.id": "node",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/GitHub/vacc-documentation-site/docs",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;19-add-pdc-via-cpdlc-guide&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/GitHub/vacc-documentation-site/docs&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\GitHub\vacc-documentation-site\docs" />
@@ -162,17 +171,17 @@
       <recent name="C:\GitHub\vacc-documentation-site\docs\Baghdad FIR\Aerodrome" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GitHub\kwiq-documentation-site\docs\Controller Guidance\img" />
       <recent name="C:\GitHub\kwiq-documentation-site\docs\Baghdad FIR\Enroute\img" />
       <recent name="C:\GitHub\vacc-documentation-site\docs\Kuwait FIR\Aerodrome" />
       <recent name="C:\GitHub\vacc-documentation-site\docs\Baghdad FIR\Aerodrome" />
       <recent name="C:\GitHub\vacc-documentation-site\docs\Kuwait FIR\OKKK - Kuwait" />
-      <recent name="C:\GitHub\vacc-documentation-site\docs\Kuwait FIR\Kuwait (OKKK-KWI)" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.25134.101" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.10315.144" />
       </set>
     </attachedChunks>
   </component>
@@ -188,6 +197,8 @@
       <workItem from="1780238143848" duration="465000" />
       <workItem from="1780249377064" duration="317000" />
       <workItem from="1781525205076" duration="3461000" />
+      <workItem from="1788953666064" duration="843000" />
+      <workItem from="1788954532935" duration="4115000" />
     </task>
     <servers />
   </component>

@@ -71,9 +71,15 @@ markdown_extensions:
         - includes/abbreviations.md
   - toc:
       permalink: true
+  - md_in_html
 
 plugins:
   - search
   - awesome-nav
+  - git-revision-date-localized:
+      enabled: true
+      type: date
+      timezone: UTC
+      fallback_to_build_date: true
 
 copyright: ""
