@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c3df023-3a80-48c2-89c5-d5afa4deb3ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/Controller Guidance/img/CPDLC Setting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Controller Guidance/img/CPDLC Setting Online.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Controller Guidance/img/PDC Departure Clearance Window.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Controller Guidance/img/PDC RCD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Controller Guidance/img/PDC SENT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Controller Guidance/img/yellow.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/Controller Guidance/Software/PDC.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Controller Guidance/Software/PDC.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Controller Guidance/img/CPDLC Setting.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Controller Guidance/img/CPDLC Setting.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

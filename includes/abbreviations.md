@@ -11,3 +11,4 @@
 *[VATMENA]: VATSIM Middle East & North Africa Division
 *[XC]: Cross-couple
 *[XCA]: Cross-couple Across
+*[CRF]: Clearance Received Flag
