@@ -1,4 +1,5 @@
 *[AFV]: Audio for VATSIM
+*[CRF]: Clearance Received Flag
 *[EMEA]: Europe, Middle East & Africa region
 *[GCAP]: Global Controller Administration Policy
 *[LoA]: Letter of Agreement
@@ -11,4 +12,3 @@
 *[VATMENA]: VATSIM Middle East & North Africa Division
 *[XC]: Cross-couple
 *[XCA]: Cross-couple Across
-*[CRF]: Clearance Received Flag
