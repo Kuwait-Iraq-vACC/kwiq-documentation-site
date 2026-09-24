@@ -63,9 +63,9 @@ If the pilot does not report the current ATIS letter on first contact, Baghdad *
 
 Example:
 
-> **Pilot:** _**"Baghdad Ground, IAW123, request IFR clearance to Dubai, with information A."**_  
-> **SMC Controller:** _**"IAW123, Baghdad Ground, cleared to Dubai, flight planned route, runway 33R, squawk 7403."**_  
-> **Pilot:** _**"Cleared to Dubai, flight planned route, runway 33R, squawk 7403, IAW123."**_  
+> **Pilot:** _**"Baghdad Ground, IAW123, request clearance to Dubai, information A."**_  
+> **SMC Controller:** _**"IAW123, Baghdad Ground, cleared to Dubai via NOLDO P975 to SIDAD, runway 33R, squawk 7403."**_  
+> **Pilot:** _**"Cleared to Dubai via NOLDO P975 to SIDAD, runway 33R, squawk 7403, IAW123."**_  
 > **SMC Controller:** _**"IAW123, readback correct, report ready for push and start."**_
 
 #### 2.1.1 Aircraft Requiring a Reroute
