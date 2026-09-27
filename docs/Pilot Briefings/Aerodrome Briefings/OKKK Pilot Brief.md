@@ -4,6 +4,8 @@ title: Kuwait (OKKK) Pilot Briefing
 
 ## General Information
 **ICAO/IATA** OKKK/KWI <br> **Elevation** 204 ft <br> **Transition Altitude** 13000 ft <br> **Transition Level** FL150
+
+Located 8 nm south of Kuwait City, Kuwait International Airport is the only, public, international airport in Kuwait. Kuwait stands as the 12th busiest airport in the Middle East. 
 ### Navigation Data
 Since AIRAC 2511, major changes to the Kuwait Airport and its procedures have changed. <br> **Up-to-date navigational data and charts is essential** before flying.
 ### Scenery

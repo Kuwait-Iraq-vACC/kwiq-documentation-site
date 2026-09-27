@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c3df023-3a80-48c2-89c5-d5afa4deb3ae" name="Changes" comment="" />
+    <list default="true" id="2c3df023-3a80-48c2-89c5-d5afa4deb3ae" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Pilot Briefings/Aerodrome Briefings/OKKK Pilot Brief.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Pilot Briefings/Aerodrome Briefings/OKKK Pilot Brief.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,11 +165,11 @@
       <recent name="C:\GitHub\vacc-documentation-site\docs\Baghdad FIR\Aerodrome" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GitHub\kwiq-documentation-site\.archive\docs\Pilot Briefings" />
       <recent name="C:\GitHub\kwiq-documentation-site\docs\Controller Guidance" />
       <recent name="C:\GitHub\kwiq-documentation-site\docs\Controller Guidance\img" />
       <recent name="C:\GitHub\kwiq-documentation-site\docs\Baghdad FIR\Enroute\img" />
       <recent name="C:\GitHub\vacc-documentation-site\docs\Kuwait FIR\Aerodrome" />
-      <recent name="C:\GitHub\vacc-documentation-site\docs\Baghdad FIR\Aerodrome" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -192,7 +195,7 @@
       <workItem from="1788954532935" duration="4115000" />
       <workItem from="1788973756346" duration="29000" />
       <workItem from="1789057065403" duration="975000" />
-      <workItem from="1790509906121" duration="7342000" />
+      <workItem from="1790509906121" duration="8945000" />
     </task>
     <servers />
   </component>
