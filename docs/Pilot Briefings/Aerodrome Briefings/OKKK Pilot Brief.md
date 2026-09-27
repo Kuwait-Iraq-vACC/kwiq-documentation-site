@@ -13,7 +13,7 @@ Many sceneries for Kuwait are outdated. Therefore only the sceneries below are r
 
 | Simulator | Freeware/Payware | Name |
 | --------- | ---------------- | ---- |
-| Microsoft Flight Simulator 2024 | Freeware | [Kuwait FS OKKK 2026](https://vats.im/OKKKscenery) |
+| Microsoft Flight Simulator 2024 | Freeware | [Kuwait FS OKKK 2026](https://vats.im/OKKKscenery "Opens in a new tab"){target="_blank"} |
 | X-Plane 11/12 | Freeware | Default Scenery |
 
 ## Controller Positions
