@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c3df023-3a80-48c2-89c5-d5afa4deb3ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/Controller Guidance/Software/vacs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Pilot Briefings/Aerodrome Briefings/OKKK Pilot Brief.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Controller Guidance/Prerequisites.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Controller Guidance/Prerequisites.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Controller Guidance/Software/EuroScope Setup.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Controller Guidance/Software/EuroScope Setup.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Pilot Briefings/Kuwait International Airport (OKKK)/Arrivals.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Pilot Briefings/Kuwait (OKKK)/Arrivals.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Pilot Briefings/Kuwait International Airport (OKKK)/Departures.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Pilot Briefings/Kuwait (OKKK)/Departures.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Pilot Briefings/Kuwait International Airport (OKKK)/General Information.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Pilot Briefings/Kuwait (OKKK)/General Information.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,6 +198,7 @@
       <workItem from="1788954532935" duration="4115000" />
       <workItem from="1788973756346" duration="29000" />
       <workItem from="1789057065403" duration="975000" />
+      <workItem from="1790509906121" duration="2118000" />
     </task>
     <servers />
   </component>
