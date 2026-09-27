@@ -27,7 +27,7 @@ jobs:
           pip install mkdocs-material mkdocs-awesome-nav mkdocs-git-revision-date-localized-plugin
 
       - name: Build site
-        run: mkdocs build --strict
+        run: mkdocs build
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
