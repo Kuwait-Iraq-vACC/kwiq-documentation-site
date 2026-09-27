@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c3df023-3a80-48c2-89c5-d5afa4deb3ae" name="Changes" comment="" />
+    <list default="true" id="2c3df023-3a80-48c2-89c5-d5afa4deb3ae" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/build-and-commit-site.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.archive/build-and-commit-site.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,11 +164,11 @@
       <recent name="C:\GitHub\vacc-documentation-site\docs\Baghdad FIR\Aerodrome" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GitHub\kwiq-documentation-site\.archive" />
       <recent name="C:\GitHub\kwiq-documentation-site\.archive\docs\Pilot Briefings" />
       <recent name="C:\GitHub\kwiq-documentation-site\docs\Controller Guidance" />
       <recent name="C:\GitHub\kwiq-documentation-site\docs\Controller Guidance\img" />
       <recent name="C:\GitHub\kwiq-documentation-site\docs\Baghdad FIR\Enroute\img" />
-      <recent name="C:\GitHub\vacc-documentation-site\docs\Kuwait FIR\Aerodrome" />
     </key>
   </component>
   <component name="SharedIndexes">
