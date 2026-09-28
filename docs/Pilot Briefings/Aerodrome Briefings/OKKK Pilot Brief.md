@@ -36,7 +36,7 @@ When flying to Kuwait, pilots can expect the following positions:
 
 ### Getting your clearance
 
-!!! information
+!!! info "Information"
     Pilots should request clearance 10 minutes prior to start up.
 
 The preferred method of obtaining your clearance is via PDC. Normally, a PDC can be requested through the Hoppie network. Alternatively a PDC can be sent straight to the pilot client by the controller. <br> Pilots can request a PDC to the station **OKKK**.
@@ -45,3 +45,14 @@ The preferred method of obtaining your clearance is via PDC. Normally, a PDC can
     PDC's do **not** require a readback.
 
 Voice clearances are also provided, when requesting one the pilot **must** provide the following:
+
+- Aircraft type
+- Stand number
+- ATIS letter
+
+!!! example
+    Kuwait Delivery, KAC673, A330, stand 79, information Golf, request clearance to Dubai
+
+!!! warning
+    You should always report "fully ready" to the controller. **Never swap frequencies on your own**. Being fully ready means that you are ready to push instantly. When appropriate, the controller will hand you off to the correct ground frequency.
+

@@ -36,6 +36,11 @@ theme:
     - toc.follow
     - content.tooltips
 
+  icon:
+    repo: fontawesome/brands/github
+    admonition:
+      example: fontawesome/solid/headset
+
 extra:
   social:
     - icon: fontawesome/brands/instagram
