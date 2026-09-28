@@ -5,7 +5,7 @@ title: Kuwait (OKKK) Pilot Briefing
 ## General Information
 **ICAO/IATA** OKKK/KWI <br> **Elevation** 204 ft <br> **Transition Altitude** 13000 ft <br> **Transition Level** FL150
 
-Located 8 nm south of Kuwait City, Kuwait International Airport is the only, public, international airport in Kuwait. Kuwait stands as the 12th busiest airport in the Middle East. 
+Kuwait International Airport (previously OKBK) is Kuwait's only civil airport, located in Farwaniya, around 8 nm south of Kuwait City. It's the primary hub for Kuwait Airways and Jazeera Airways, and the 12th busiest airport in the Middle East.
 ### Navigation Data
 Since AIRAC 2511, major changes to the Kuwait Airport and its procedures have changed. <br> **Up-to-date navigational data and charts is essential** before flying.
 ### Scenery
@@ -28,3 +28,20 @@ When flying to Kuwait, pilots can expect the following positions:
 | **Kuwait Tower** | `OKKK_TWR` | 118.300 |
 | **Kuwait Director** | `OKKK_F_APP` | 123.825 |
 | **Kuwait Approach** | `OKKK_APP` | 124.800 |
+
+!!! info "Information"
+    Auto handoffs are not used at Kuwait. Do not change frequencies unless explicitly instructed to by a controller. <br> Unsure if you are on the correct frequency? Just ask!
+
+## Departing
+
+### Getting your clearance
+
+!!! information
+    Pilots should request clearance 10 minutes prior to start up.
+
+The preferred method of obtaining your clearance is via PDC. Normally, a PDC can be requested through the Hoppie network. Alternatively a PDC can be sent straight to the pilot client by the controller. <br> Pilots can request a PDC to the station **OKKK**.
+
+!!! warning
+    PDC's do **not** require a readback.
+
+Voice clearances are also provided, when requesting one the pilot **must** provide the following:
