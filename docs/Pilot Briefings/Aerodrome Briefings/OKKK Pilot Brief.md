@@ -35,7 +35,6 @@ When flying to Kuwait, pilots can expect the following positions:
 ## Departing
 
 ### Clearance
-
 !!! info "Information"
     Pilots should request clearance 10 minutes prior to start up.
 
@@ -56,8 +55,10 @@ Voice clearances are also provided, when requesting one the pilot **must** provi
 !!! warning
     You should always report "fully ready" to the controller. **Never swap frequencies on your own**. Being fully ready means that you are ready to push instantly. When appropriate, the controller will hand you off to the correct ground frequency.
 
-### Pushback
+#### Flow Initiatives
+When the airspace is busy, or flow restrictions are put into place, flow restrictions will be used. Pilots are expected to follow any delays put into place. Any restrictions can be viewed at [vats.im/vdgs](https://vats.im/vdgs "Opens in a new tab"){target="_blank"}.
 
+### Pushback
 > Pilots should **never** automatically change frequencies without explicit instruction to do so.
 
 !!! warning
@@ -74,8 +75,7 @@ Pilots may be asked to stay clear of a taxiway.
     QTR1083, push and start approved face north, stay clear of taxiway W14, runway 33L
 
 ### Taxi out
-
-Kuwait utilises Standard Taxi Routes (STR). The Standard Taxi Routes are published graphically in the relevant chart and are referenced in ATC taxi clearances using the phrase: "Via Standard Routing". <br> ATC may assign an alternative taxi route where required.
+Kuwait utilises Standard Taxi Routes (STR). The STR's are published graphically in the relevant chart and are referenced in ATC taxi clearances using the phrase: "Via Standard Routing". <br> ATC may assign an alternative taxi route where required.
 
 !!! example
     ETD654, taxi to holding point runway 33L via standard routing
@@ -83,9 +83,38 @@ Kuwait utilises Standard Taxi Routes (STR). The Standard Taxi Routes are publish
 !!! warning
     Runway crossing clearances are always issued separately by ATC. Aircraft shall not cross any runway unless an explicit runway crossing clearance has been received by ATC.
 
-At times, controllers may opt out of using STR. Therefore a standard taxi clearance will be given.
+Charts for STR's can be found [here](https://cdn.kuwait-iraqvacc.net/Operations/Pilots/Kuwait/STR%20AIRAC%20AIP%20SUP%20Charts.pdf "Opens in a new tab"){target="_blank"}.
+
+At times, controllers may opt out of using a STR. Therefore a standard taxi clearance will be given.
 
 !!! example
     JZR131, taxi to holding point runway 33L via W17, W12, W13, W9, W20, W19, W3, W1, W2
 
 Depending on where you are located, taxi clearances may be lengthy. **If you are unsure always ask the controller!**
+
+!!! note
+    The standard holding point for Medium (M) Wake Turbulence Category aircraft is W2. <br> The TORA from W2 is 2500 M.
+
+### Takeoff
+As soon as instructed by the ground controller, change to the assigned Tower frequency. This will help to minimise delay for yourself, and aircraft around you.
+
+When the pilot is given a runway clearance (permission to enter the runway), they are expected to be ready to takeoff. If you are not ready, you should **inform the tower controller as soon as possible**.
+
+After you depart, no extra call to the tower controller is needed. The tower controller will keep you on the frequency until required. They will transfer you to the next controller as early as it is safe.
+
+### After departure
+
+!!! warning
+Unless otherwise instructed, all departures shall **climb via SID to 4000 ft**.
+
+After being transferred by the tower controller, pilots are expected to **immediately** swap to the assigned frequency. On first contact with the controller, you are expected to provide the following:
+
+- Callsign
+- SID
+- Passing Altitude
+- Cleared Altitude
+
+!!! example
+    Kuwait Approach, KAC135, TASMI5F passing 2400, climbing 4000
+
+If given an instruction, pilots should follow the instruction, and then respond. You may commence a turn whilst the controller is giving an instruction. 
