@@ -34,14 +34,14 @@ When flying to Kuwait, pilots can expect the following positions:
 
 ## Departing
 
-### Getting your clearance
+### Clearance
 
 !!! info "Information"
     Pilots should request clearance 10 minutes prior to start up.
 
 The preferred method of obtaining your clearance is via PDC. Normally, a PDC can be requested through the Hoppie network. Alternatively a PDC can be sent straight to the pilot client by the controller. <br> Pilots can request a PDC to the station **OKKK**.
 
-!!! warning
+!!! note
     PDC's do **not** require a readback.
 
 Voice clearances are also provided, when requesting one the pilot **must** provide the following:
@@ -58,3 +58,34 @@ Voice clearances are also provided, when requesting one the pilot **must** provi
 
 ### Pushback
 
+> Pilots should **never** automatically change frequencies without explicit instruction to do so.
+
+!!! warning
+    Please ensure that when calling for push, the pushback tag is connected and you are fully ready to move.
+
+Push instructions at Kuwait are standard to what you will get in other airports. Typically, an instruction will ask you to face a specific direction (north, east, south, west) and may also instruct you to push onto a specific taxiway.
+
+!!! example
+    KAC303, push and start approved face south on W1, runway 33L
+
+Pilots may be asked to stay clear of a taxiway.
+
+!!! example
+    QTR1083, push and start approved face north, stay clear of taxiway W14, runway 33L
+
+### Taxi out
+
+Kuwait utilises Standard Taxi Routes (STR). The Standard Taxi Routes are published graphically in the relevant chart and are referenced in ATC taxi clearances using the phrase: "Via Standard Routing". <br> ATC may assign an alternative taxi route where required.
+
+!!! example
+    ETD654, taxi to holding point runway 33L via standard routing
+
+!!! warning
+    Runway crossing clearances are always issued separately by ATC. Aircraft shall not cross any runway unless an explicit runway crossing clearance has been received by ATC.
+
+At times, controllers may opt out of using STR. Therefore a standard taxi clearance will be given.
+
+!!! example
+    JZR131, taxi to holding point runway 33L via W17, W12, W13, W9, W20, W19, W3, W1, W2
+
+Depending on where you are located, taxi clearances may be lengthy. **If you are unsure always ask the controller!**

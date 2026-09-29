@@ -12,3 +12,4 @@
 *[VATMENA]: VATSIM Middle East & North Africa Division
 *[XC]: Cross-couple
 *[XCA]: Cross-couple Across
+*[STR]: Standard Taxi Route
