@@ -7,7 +7,7 @@ title: Kuwait (OKKK) Pilot Briefing
 
 Kuwait International Airport (previously OKBK) is Kuwait's only civil airport, located in Farwaniya, around 8 nm south of Kuwait City. It's the primary hub for Kuwait Airways and Jazeera Airways, and the 12th busiest airport in the Middle East.
 ### Navigation Data
-Since AIRAC 2511, major changes to the Kuwait Airport and its procedures have changed. <br> **Up-to-date navigational data and charts is essential** before flying.
+Since AIRAC 2511, major changes to the Kuwait Airport and its procedures have come into effect. <br> **Up-to-date navigational data and charts is essential** before flying.
 ### Scenery
 Many sceneries for Kuwait are outdated. Therefore only the sceneries below are recommended.
 
