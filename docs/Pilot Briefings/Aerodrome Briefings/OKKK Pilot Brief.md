@@ -105,7 +105,7 @@ After you depart, no extra call to the tower controller is needed. The tower con
 ### After departure
 
 !!! warning
-Unless otherwise instructed, all departures shall **climb via SID to 4000 ft**.
+    Unless otherwise instructed, all departures shall **climb via SID to 4000 ft**.
 
 After being transferred by the tower controller, pilots are expected to **immediately** swap to the assigned frequency. On first contact with the controller, you are expected to provide the following:
 
