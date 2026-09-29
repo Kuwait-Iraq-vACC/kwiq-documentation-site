@@ -21,7 +21,7 @@ When flying to Kuwait, pilots can expect the following positions:
 
 | Callsign | Logon Callsign | Frequency |
 | ----------- | -------------- | --------- |
-| **Kuwait Information** | `OKKK_ATIS ` | 126.225 | 
+| **Kuwait Information** | `OKKK_ATIS` | 126.225 | 
 | **Kuwait Delivery** | `OKKK_DEL` | 126.775 |
 | **Kuwait Ground** | `OKKK_1_GND` | 121.700 |
 | **Kuwait Ground** | `OKKK_2_GND` | 121.850 |
