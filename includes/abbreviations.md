@@ -8,8 +8,8 @@
 *[PDC]: Pre-Departure Clearance
 *[PTT]: Push-To-Talk
 *[RX]: Receive
+*[STR]: Standard Taxi Route
 *[TX]: Transmit
 *[VATMENA]: VATSIM Middle East & North Africa Division
 *[XC]: Cross-couple
 *[XCA]: Cross-couple Across
-*[STR]: Standard Taxi Route
