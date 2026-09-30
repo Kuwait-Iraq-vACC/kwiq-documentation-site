@@ -1,6 +1,7 @@
 ---
 hide:
   - navigation
+  - toc
 ---
 
 ## Kuwait & Iraq vACC Documentation Site
