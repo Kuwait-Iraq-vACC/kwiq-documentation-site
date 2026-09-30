@@ -25,7 +25,7 @@ When flying to Baghdad, pilots can expect the following positions:
 | **Baghdad Approach/Departure** | `BGD_APP` | 122.400 |
 
 !!! info "Information"
-Auto handoffs are not used at Baghdad. Do not change frequencies unless explicitly instructed to by a controller. <br> Unsure if you are on the correct frequency? Just ask!
+    Auto handoffs are not used at Baghdad. Do not change frequencies unless explicitly instructed to by a controller. <br> Unsure if you are on the correct frequency? Just ask!
 
 ## Departing
 
@@ -53,7 +53,7 @@ All aircraft will get a route clearance to the point they exit the FIR. This wil
 ### Pushback
 
 !!! warning
-Please ensure that when calling for push, the pushback tag is connected and you are fully ready to move.
+    Please ensure that when calling for push, the pushback tag is connected and you are fully ready to move.
 
 Push instructions at Baghdad are standard to what you will get in other airports. Typically, an instruction will ask you to face a specific direction (north, east, south, or west), and may also include additional restrictions.
 
