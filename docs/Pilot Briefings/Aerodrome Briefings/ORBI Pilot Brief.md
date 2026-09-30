@@ -2,14 +2,10 @@
 title: Baghdad (ORBI) Pilot Briefing
 ---
 
----
-title: Baghdad (ORBI) Pilot Briefing
----
-
 ## General Information
 **ICAO/IATA** ORBI/BGW <br> **Elevation** 114 ft <br> **Transition Altitude** 14000 ft <br> **Transition Level** FL160 (FL170 if QNH is below 980 hPA)
 
-Baghdad International Airport is the main operational commercial airport in Iraq. It is located about 16 kilometres (10 mi) west of central Baghdad. The airport serves as the primary hub for Iraq’s national carrier, Iraqi Airways, and also hosts several domestic and international airlines operating passenger and cargo services.
+Baghdad International Airport is the main commercial airport in Iraq. It is located about 16 km west of central Baghdad. The airport serves as the primary hub for Iraq’s national carrier, Iraqi Airways, and also hosts several domestic and international airlines operating passenger and cargo services.
 ### Scenery
 
 | Simulator | Freeware/Payware | Name |
@@ -34,86 +30,81 @@ Auto handoffs are not used at Baghdad. Do not change frequencies unless explicit
 ## Departing
 
 ### Clearance
-!!! info "Information"
-Pilots should request clearance 10 minutes prior to start up.
-
-The preferred method of obtaining your clearance is via PDC. Normally, a PDC can be requested through the Hoppie network. Alternatively a PDC can be sent straight to the pilot client by the controller. <br> Pilots can request a PDC to the station **OKKK**.
 
 !!! note
-PDC's do **not** require a readback.
+    There are no SID's at ORBI. After departure instructions are provided by Tower at the holding point. 
 
-Voice clearances are also provided, when requesting one the pilot **must** provide the following:
+The preferred method of obtaining your clearance is via voice. When requesting a clearance the pilot **must** provide the following:
 
 - Aircraft type
 - Stand number
 - ATIS letter
 
 !!! example
-Kuwait Delivery, KAC673, A330, stand 79, information Golf, request clearance to Dubai
+    Baghdad Ground, IAW223, 737, stand B21, information Bravo, request clearance to Istanbul
 
-!!! warning
-You should always report "fully ready" to the controller. **Never swap frequencies on your own**. Being fully ready means that you are ready to push instantly. When appropriate, the controller will hand you off to the correct ground frequency.
+All aircraft will get a route clearance to the point they exit the FIR. This will be as follows:
 
-#### Flow Initiatives
-When the airspace is busy, or flow restrictions are put into place, flow restrictions will be used. Pilots are expected to follow any delays put into place. Any restrictions can be viewed at [vats.im/vdgs](https://vats.im/vdgs "Opens in a new tab"){target="_blank"}.
+!!! example
+    IAW223, Baghdad Ground, cleared to Istanbul via TAGRU L718 KABAN flight plan route, squawk 7475
+
+**You must readback the full route clearance, and check for any discrepancies to your filed route.**
 
 ### Pushback
-> Pilots should **never** automatically change frequencies without explicit instruction to do so.
 
 !!! warning
 Please ensure that when calling for push, the pushback tag is connected and you are fully ready to move.
 
-Push instructions at Kuwait are standard to what you will get in other airports. Typically, an instruction will ask you to face a specific direction (north, east, south, west) and may also instruct you to push onto a specific taxiway.
+Push instructions at Baghdad are standard to what you will get in other airports. Typically, an instruction will ask you to face a specific direction (north, east, south, or west), and may also include additional restrictions.
 
 !!! example
-KAC303, push and start approved face south on W1, runway 33L
+    FBA281, push and start approved face north
 
-Pilots may be asked to stay clear of a taxiway.
+Pilots may be instructed to make a long pushback abeam (next to) a stand or taxiway.
 
 !!! example
-QTR1083, push and start approved face north, stay clear of taxiway W14, runway 33L
+    IAW163, push and start approved, face north, long push abeam stand C31
 
 ### Taxi out
-Kuwait utilises Standard Taxi Routes (STR). The STR's are published graphically in the relevant chart and are referenced in ATC taxi clearances using the phrase: "Via Standard Routing". <br> ATC may assign an alternative taxi route where required.
+Baghdad has a relatively simple airport layout. Departing aircraft can expect to be taxied via Y.
 
 !!! example
-ETD654, taxi to holding point runway 33L via standard routing
+    QTR445, taxi to holding point runway 33R via Y, S
 
-!!! warning
-Runway crossing clearances are always issued separately by ATC. Aircraft shall not cross any runway unless an explicit runway crossing clearance has been received by ATC.
-
-Charts for STR's can be found [here](https://cdn.kuwait-iraqvacc.net/Operations/Pilots/Kuwait/STR%20AIRAC%20AIP%20SUP%20Charts.pdf "Opens in a new tab"){target="_blank"}.
-
-At times, controllers may opt out of using a STR. Therefore a standard taxi clearance will be given.
-
-!!! example
-JZR131, taxi to holding point runway 33L via W17, W12, W13, W9, W20, W19, W3, W1, W2
-
-Depending on where you are located, taxi clearances may be lengthy. **If you are unsure always ask the controller!**
-
-!!! note
-The standard holding point for Medium (M) Wake Turbulence Category aircraft is W2. <br> The TORA from W2 is 2500 M.
-
-### Takeoff
+### After departure instructions
 As soon as instructed by the ground controller, change to the assigned Tower frequency. This will help to minimise delay for yourself, and aircraft around you.
 
+Omnidirectional departures are used at Baghdad. All pilots should follow the charted procedure before flying the instruction given by the Tower controller.
+
+!!! example
+    MEA321, after departure runway 33R, turn left heading 270 degrees, climb to altitude 6000 ft
+
+This means that passing 1200' you should turn left heading 270 degrees and climb to 6000 ft. The altitude is charted and can be found in [this chart](https://cdn.kuwait-iraqvacc.net/Operations/Pilots/Baghdad/ORBI%20AD%202.2-31%20OMNIDIRECTIONAL%20DEPARTURE%20CHART.pdf "Opens in a new tab"){target="_blank"}. <br> You should ensure that you **fully read back this instruction**.
+
+!!! warning
+    This is **not a takeoff clearance**. You should only takeoff when the phrase "cleared for takeoff" is used.
+
+### Takeoff
 When the pilot is given a runway clearance (permission to enter the runway), they are expected to be ready to takeoff. If you are not ready, you should **inform the tower controller as soon as possible**.
 
 After you depart, no extra call to the tower controller is needed. The tower controller will keep you on the frequency until required. They will transfer you to the next controller as early as it is safe.
 
+#### Flow Initiatives
+Airspace around Baghdad may have flow restrictions. When this is the case you will be issued a slot (CTOT). All pilots are expected to adhere to these delays as per the CoC B12.
+
 ### After departure
 
 !!! warning
-Unless otherwise instructed, all departures shall **climb via SID to 4000 ft**.
+    Pilots must ensure strict adherence to after departure instructions.
 
 After being transferred by the tower controller, pilots are expected to **immediately** swap to the assigned frequency. On first contact with the controller, you are expected to provide the following:
 
 - Callsign
-- SID
+- Assigned lateral (heading or direct to fix) instruction
 - Passing Altitude
 - Cleared Altitude
 
 !!! example
-Kuwait Approach, KAC135, TASMI5F passing 2400, climbing 4000
+    Baghdad Departure, RJA819, heading 270 degrees passing 3400, climbing 6000
 
 If given an instruction, pilots should follow the instruction, and then respond. You may commence a turn whilst the controller is giving an instruction. 
