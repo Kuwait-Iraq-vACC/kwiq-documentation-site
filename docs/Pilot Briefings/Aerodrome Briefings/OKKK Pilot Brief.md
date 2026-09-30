@@ -56,7 +56,7 @@ Voice clearances are also available. When requesting one, pilots **must** provid
     You must always report yourself as "fully ready" to ATC. Do not change frequencies without explicit instruction. <br> "Fully ready" means the aircraft is ready to push and move immediately when instructed.
 
 #### Flow Initiatives
-When the airspace is busy, flow restrictions may be put into place. Pilots are expected to comply with any resulting delays. Current restrictions can be viewed at [vats.im/vdgs](https://vats.im/vdgs "Opens in a new tab"){target="_blank"}.
+When the airspace is busy, flow restrictions may be put in place. Pilots are expected to comply with any resulting delays. Current restrictions can be viewed at [vats.im/vdgs](https://vats.im/vdgs "Opens in a new tab"){target="_blank"}.
 
 ### Pushback
 > Pilots should **never** automatically change frequencies without explicit instruction to do so.
