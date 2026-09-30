@@ -64,7 +64,7 @@ When the airspace is busy, flow restrictions may be put in place. Pilots are exp
 !!! warning
     Please ensure that when calling for push, the pushback tag is connected and you are fully ready to move.
 
-Push instructions at Kuwait are standard to what you will get in other airports. Typically, an instruction will ask you to face a specific direction (north, east, south, or west), and may also include additional restrictions.
+Push instructions at Kuwait are standard to what you will get in other airports. Typically, an instruction will tell you to face a specific direction (north, east, south, or west), and may also include additional restrictions.
 
 !!! example
     KAC303, push and start approved face south on W1, runway 33L
