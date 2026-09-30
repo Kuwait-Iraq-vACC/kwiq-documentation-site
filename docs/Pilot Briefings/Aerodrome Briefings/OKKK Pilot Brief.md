@@ -43,7 +43,7 @@ The preferred method of obtaining your clearance is via PDC. Normally, a PDC can
 !!! note
     PDC's do **not** require a readback.
 
-Voice clearances are also provided, when requesting one the pilot **must** provide the following:
+Voice clearances are also available. When requesting one, pilots **must** provide the following:
 
 - Aircraft type
 - Stand number
@@ -53,7 +53,7 @@ Voice clearances are also provided, when requesting one the pilot **must** provi
     Kuwait Delivery, KAC673, A330, stand 79, information Golf, request clearance to Dubai
 
 !!! warning
-    You should always report "fully ready" to the controller. **Never swap frequencies on your own**. Being fully ready means that you are ready to push instantly. When appropriate, the controller will hand you off to the correct ground frequency.
+    You must always report yourself as "fully ready" to ATC. Do not change frequencies without explicit instruction. <br> "Fully ready" means the aircraft is ready to push and move immediately when instructed.
 
 #### Flow Initiatives
 When the airspace is busy, or flow restrictions are put into place, flow restrictions will be used. Pilots are expected to follow any delays put into place. Any restrictions can be viewed at [vats.im/vdgs](https://vats.im/vdgs "Opens in a new tab"){target="_blank"}.
@@ -64,12 +64,12 @@ When the airspace is busy, or flow restrictions are put into place, flow restric
 !!! warning
     Please ensure that when calling for push, the pushback tag is connected and you are fully ready to move.
 
-Push instructions at Kuwait are standard to what you will get in other airports. Typically, an instruction will ask you to face a specific direction (north, east, south, west) and may also instruct you to push onto a specific taxiway.
+Push instructions at Kuwait are standard to what you will get in other airports. Typically, an instruction will ask you to face a specific direction (north, east, south, or west), and may also include additional restrictions.
 
 !!! example
     KAC303, push and start approved face south on W1, runway 33L
 
-Pilots may be asked to stay clear of a taxiway.
+Pilots may be instructed to remain clear of a taxiway.
 
 !!! example
     QTR1083, push and start approved face north, stay clear of taxiway W14, runway 33L
