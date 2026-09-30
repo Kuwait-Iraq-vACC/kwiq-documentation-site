@@ -75,7 +75,7 @@ Pilots may be instructed to remain clear of a taxiway.
     QTR1083, push and start approved face north, stay clear of taxiway W14, runway 33L
 
 ### Taxi out
-Kuwait utilises Standard Taxi Routes (STR). The STR's are published graphically in the relevant chart and are referenced in ATC taxi clearances using the phrase: "Via Standard Routing". <br> ATC may assign an alternative taxi route where required.
+Kuwait utilises Standard Taxi Routes (STR). The STR's are published graphically in the relevant chart and are referenced in ATC taxi clearances using the phrase: "Via Standard Routing". <br> ATC may assign an alternative taxi route when required.
 
 !!! example
     ETD654, taxi to holding point runway 33L via standard routing
