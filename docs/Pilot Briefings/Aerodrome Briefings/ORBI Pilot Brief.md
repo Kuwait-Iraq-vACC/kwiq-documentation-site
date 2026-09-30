@@ -32,7 +32,7 @@ Auto handoffs are not used at Baghdad. Do not change frequencies unless explicit
 ### Clearance
 
 !!! note
-    There are no SID's at ORBI. After departure instructions are provided by Tower at the holding point. 
+    There are no SIDs at ORBI. After departure instructions are provided by Tower at the holding point. 
 
 The preferred method of obtaining your clearance is via voice. When requesting a clearance the pilot **must** provide the following:
 
