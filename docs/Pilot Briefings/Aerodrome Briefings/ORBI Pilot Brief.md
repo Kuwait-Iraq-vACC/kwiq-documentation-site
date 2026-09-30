@@ -2,6 +2,9 @@
 title: Baghdad (ORBI) Pilot Briefing
 ---
 
+!!! note "Did you know?"
+    You can view this pilot briefing on your browser at [vats.im/ORBIbrief](https://vats.im/ORBIbrief)
+
 ## General Information
 **ICAO/IATA** ORBI/BGW <br> **Elevation** 114 ft <br> **Transition Altitude** 14000 ft <br> **Transition Level** FL160 (FL170 if QNH is below 980 hPA)
 
