@@ -18,11 +18,11 @@ When flying to Baghdad, pilots can expect the following positions:
 
 | Callsign | Logon Callsign | Frequency |
 | ----------- | -------------- | --------- |
-| **Baghdad Information** | `ORBI_ATIS ` | 126.925 | 
+| **Baghdad Information** | `ORBI_ATIS` | 126.925 | 
 | **Baghdad Ground** | `ORBI_GND` | 121.400 |
-| **Baghdad Tower** | `OKKK_TWR` | 118.900 |
+| **Baghdad Tower** | `ORBI_TWR` | 118.900 |
 | **Baghdad Director** | `ORBI_F_APP` | 126.575 |
-| **Baghdad Approach** | `BGD_APP` | 122.400 |
+| **Baghdad Approach/Departure** | `BGD_APP` | 122.400 |
 
 !!! info "Information"
 Auto handoffs are not used at Baghdad. Do not change frequencies unless explicitly instructed to by a controller. <br> Unsure if you are on the correct frequency? Just ask!
