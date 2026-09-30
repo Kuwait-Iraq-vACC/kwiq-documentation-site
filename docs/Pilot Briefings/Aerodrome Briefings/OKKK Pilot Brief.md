@@ -41,7 +41,7 @@ When flying to Kuwait, pilots can expect the following positions:
 The preferred method of obtaining your clearance is via PDC. Normally, a PDC can be requested through the Hoppie network. Alternatively a PDC can be sent straight to the pilot client by the controller. <br> Pilots can request a PDC to the station **OKKK**.
 
 !!! note
-    PDC's do **not** require a readback.
+    PDC's do **not** require a voice readback.
 
 Voice clearances are also available. When requesting one, pilots **must** provide the following:
 
