@@ -19,7 +19,6 @@ Welcome to the **Kuwait & Iraq vACC Documentation Site**! This site is designed 
 ## Quick Links
 - [🔗 Main Website](https://kuwait-iraqvacc.net/ "Opens in new tab"){target="_blank"}
 - [🔗 Discord Server (VATSIM Community Hub)](https://community.vatsim.net/ "Opens in new tab"){target="_blank"}
-- [🔗 GitHub Repository](https://github.com/Kuwait-Iraq-vACC/kwiq-documentation-site "Opens in new tab"){target="_blank"}
 
 ---
 
