@@ -6,7 +6,7 @@ hide:
 
 ## Kuwait & Iraq vACC Documentation Site
 
-Welcome to the **Kuwait & Iraq vACC Documentation Site**! This site is designed to provide comprehensive guides and resources for both VATSIM pilots and controllers in the Kuwait & Iraq vACC.
+Welcome to the **Kuwait & Iraq vACC Documentation Site**! This site is designed to provide comprehensive guides and resources for both VATSIM pilots and controllers in Kuwait and Iraq.
 
 !!! warning "Documentation Site Under Construction"
 
