@@ -12,7 +12,7 @@ Welcome to the **Kuwait & Iraq vACC Documentation Site**! This site is designed 
 
     This documentation site is currently under construction, and any content that you may see may be incomplete. The Operations Team is working tirelessly to complete the documentation site as soon as possible.
 
-    If you have any suggestions, or issues you want to raise, open an issue in the [GitHub repository](https://github.com/Kuwait-Iraq-vACC/kwiq-documentation-site/issues) or ask in one the appropriate channels in the Kuwait & Iraq vACC Discord server.
+    Any suggestions, or issues can be directed to [operations@kuwait-iraqvacc.net](mailto:operations@kuwait-iraqvacc.net).
 
 ---
 
