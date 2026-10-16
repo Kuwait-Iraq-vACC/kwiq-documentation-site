@@ -28,7 +28,7 @@ Prior to being provided with radar service, an ATCO unit will establish identifi
 
 !!! info "Radar Control Service"
     A radar control service will be provided in all controlled airspaces within the Baghdad FIR, and along all airways except from segments of airways in the west of the Baghdad FIR.
-    Information regarding this, can be found in the ['Procedural' page](Procedural.md).
+    Information regarding this can be found in the ['Procedural' page](Procedural.md).
 
 
 
