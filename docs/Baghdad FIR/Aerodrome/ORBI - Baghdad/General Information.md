@@ -45,7 +45,7 @@ title: "GEN - General Information"
 |  **Radio Callsign**  | **Logon Callsign** | **Abbreviation** | **Frequency (MHz)** |
 |:--------------------:|:------------------:|:----------------:|:-------------------:|
 |   **Baghdad ATIS**    |      ORBI_ATIS    |       ATIS       |       126.925       |
-|  **Baghdad Ground**   |      ORBI_GND     |        GMC       |       121.700       |
+|  **Baghdad Ground**   |      ORBI_GND     |        GMC       |       121.400       |
 |   **Baghdad Tower**   |      ORBI_TWR     |        TWR       |       118.900       |
 | **Baghdad Director***  |      ORBI_F_APP   |        FIN       |       126.575       |
 | **Baghdad Approach**  |      BGD_APP      |        APP       |       124.800       |
