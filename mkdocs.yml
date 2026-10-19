@@ -44,15 +44,13 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/instagram
-      link: https://www.instagram.com/
+      link: https://www.instagram.com/kwiqvacc/
     - icon: fontawesome/brands/discord
       link: https://community.vatsim.net
-    - icon: fontawesome/brands/twitch
-      link: https://www.twitch.tv/
-    - icon: fontawesome/brands/github
-      link: https://github.com/
+    #- icon: fontawesome/brands/twitch
+    #  link: https://www.twitch.tv/
     - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/
+      link: https://www.youtube.com/@kwiqvacc
 
 extra_css:
   - stylesheets/extra.css
