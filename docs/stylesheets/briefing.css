@@ -1,0 +1,127 @@
+/* Briefing blog: KWIQ styling */
+
+/* Listing cards */
+.md-post--excerpt {
+    margin: 0 0 1.25rem;
+    padding: 1rem 1.25rem 0.75rem;
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-left: 4px solid var(--md-primary-fg-color);
+    border-radius: 8px;
+    background: var(--md-code-bg-color);
+    transition: box-shadow 0.15s ease;
+}
+
+.md-post--excerpt:hover {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+.md-post--excerpt .md-post__header {
+    margin-bottom: 0.2rem;
+}
+
+.md-post--excerpt .md-meta {
+    font-size: 0.68rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--md-default-fg-color--light);
+}
+
+.md-post--excerpt .md-post__content h2 {
+    margin: 0.2rem 0 0.8rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.md-post--excerpt .md-post__content h2 a {
+    color: inherit !important;
+}
+
+/* Continue reading button */
+.md-post__action {
+    margin: 0.6rem 0 0.2rem;
+    text-align: right;
+}
+
+.md-typeset .md-post__action a {
+    display: inline-block;
+    padding: 0.25rem 0.9rem;
+    border-radius: 999px;
+    background: var(--md-primary-fg-color);
+    color: #fff !important;
+    font-size: 0.72rem;
+    font-weight: 700;
+}
+
+.md-typeset .md-post__action a:hover {
+    background: var(--md-primary-fg-color--light);
+    color: #fff !important;
+}
+
+/* Metadata panel (wrap the table in <div class="brief" markdown>) */
+.md-typeset .brief table:not([class]) {
+    display: table;
+    width: 100%;
+    max-width: 36rem;
+    border: 0;
+    border-top: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    font-size: 0.74rem;
+}
+
+.md-typeset .brief table:not([class]) th,
+.md-typeset .brief table:not([class]) td {
+    min-width: 0;
+    padding: 0.5em 0;
+    border: 0;
+    border-bottom: 1px solid var(--md-default-fg-color--lightest);
+    background: transparent;
+    color: inherit;
+    font-weight: 400;
+}
+
+.md-typeset .brief table:not([class]) th:first-child,
+.md-typeset .brief table:not([class]) td:first-child {
+    width: 12rem;
+    color: var(--md-default-fg-color--light);
+    font-size: 0.66rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+/* Status chips */
+.status {
+    display: inline-block;
+    padding: 0.05rem 0.6rem;
+    border-radius: 999px;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+.status::before {
+    content: "";
+    display: inline-block;
+    width: 0.45rem;
+    height: 0.45rem;
+    margin-right: 0.4rem;
+    border-radius: 50%;
+    background: currentColor;
+}
+
+.status--active {
+    background: rgba(28, 157, 93, 0.15);
+    color: #1c9d5d;
+}
+
+.status--superseded {
+    background: rgba(250, 172, 2, 0.18);
+    color: #b57f00;
+}
+
+.status--expired {
+    background: rgba(135, 43, 54, 0.18);
+    color: #c45c6a;
+}
