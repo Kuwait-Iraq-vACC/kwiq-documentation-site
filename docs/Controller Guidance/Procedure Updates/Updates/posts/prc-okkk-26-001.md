@@ -30,7 +30,7 @@ STRs are published for departures and arrivals on **RWY 15R/16** and **RWY 33L/3
 !!! note "Real world supplement"
     The supplement states that aircraft taxi in accordance with the published STR unless ATC instructs otherwise, and that ATC may assign an alternative route at any time for operational, traffic, weather, construction, emergency or safety reasons.
 
-The charts can be found at [vats.im/okkkSTR](https://vats.im/okkkSTR "Opens in a new tab"){target="_blank"}
+The charts can be found [here](https://cdn.kuwait-iraqvacc.net/Operations/Pilots/Kuwait/STR%20AIRAC%20AIP%20SUP%20Charts.pdf "Opens in a new tab"){target="_blank"}.
 
 ## Standard taxi clearances
 
