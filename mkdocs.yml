@@ -54,6 +54,7 @@ extra:
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/briefing.css
 
 markdown_extensions:
   - admonition
@@ -66,7 +67,6 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
   - abbr
-  - pymdownx.keys
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.snippets:
@@ -78,6 +78,19 @@ markdown_extensions:
 
 plugins:
   - search
+  - blog:
+      blog_dir: Controller Guidance/Procedure Updates/Updates
+      blog_toc: true
+      archive_name: Past Updates
+      categories_name: Update Types
+      post_date_format: long
+      post_excerpt: required
+      post_excerpt_separator: <!-- more -->
+      categories_allowed:
+        - Procedure Changes
+        - Procedure NOTAMs
+  - tags:
+      tags_file: Controller Guidance/Procedure Updates/Updates/tags.md
   - awesome-nav
   - git-revision-date-localized:
       enabled: true
