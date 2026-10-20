@@ -12,7 +12,7 @@ tags:
 
 | Reference                     | PRC-OKKK-26-001                                   |
 | ----------------------------- | ------------------------------------------------- |
-| **Effective Date**            | 19/10/2026                                        |
+| **Effective Date**            | 20/10/2026                                        |
 | **Status**                    | <span class="status status--active">Active</span> |
 | **Applies To**                | OKKK (GND, TWR)                                   |
 | **Docs Updated**              | In Progress                                       |
