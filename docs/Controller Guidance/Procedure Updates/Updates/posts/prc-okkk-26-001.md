@@ -38,4 +38,4 @@ Which docs have or haven't been updated yet.
 
 ---
 
-Spotted an error? Contact the KWIQ staff team.
+Spotted an error, or want to suggest a change? Email [operations@kuwait-iraqvacc.net](mailto:operations@kuwait-iraqvacc.net?subject=Documentation%20Change%20-%20PRC-OKKK-26-001)
