@@ -56,6 +56,7 @@ extra:
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/briefing.css
 
 markdown_extensions:
   - admonition
@@ -80,8 +81,10 @@ markdown_extensions:
 plugins:
   - search
   - blog:
-      blog_dir: Controller Guidance/Procedure Updates
+      blog_dir: Controller Guidance/Procedure Updates/Updates
       blog_toc: true
+      archive_name: Past Updates
+      categories_name: Update Types
       post_date_format: long
       post_excerpt: required
       post_excerpt_separator: <!-- more -->
@@ -89,7 +92,7 @@ plugins:
         - Procedure Changes
         - Procedure NOTAMs
   - tags:
-      tags_file: Controller Guidance/Procedure Updates/tags.md
+      tags_file: Controller Guidance/Procedure Updates/Updates/tags.md
   - awesome-nav
   - git-revision-date-localized:
       enabled: true

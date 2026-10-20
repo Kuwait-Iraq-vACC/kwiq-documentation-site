@@ -2,5 +2,10 @@
 title: Procedure Updates
 ---
 
-Welcome to the Procedure Updates area. This area documents any procedure updates within the Baghdad (ORBB) and Kuwait (OKAC) FIRs. Any documentation in this area supersedes any SOPs unless otherwise stated.
+# Procedure Updates
 
+Official procedure changes and NOTAMs for the Baghdad (ORBB) and Kuwait (OKAC) FIRs. Where an update conflicts with an SOP, the update takes precedence unless stated otherwise.
+
+**Procedure Changes** are permanent changes to how we operate. **Procedure NOTAMs** are notices for temporary or short-notice changes.
+
+See the [latest updates](Updates/index.md).
