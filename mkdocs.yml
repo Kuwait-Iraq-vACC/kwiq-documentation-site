@@ -55,6 +55,8 @@ extra:
 extra_css:
   - stylesheets/extra.css
   - stylesheets/briefing.css
+  - stylesheets/footer.css
+  - stylesheets/light.css
 
 markdown_extensions:
   - admonition
