@@ -1,0 +1,84 @@
+/* Light mode: match kuwait-iraqvacc.net
+   Everything is scoped to the light scheme, so dark mode is untouched. */
+
+/* ---------------------------------------------------------------
+   PALETTE
+---------------------------------------------------------------- */
+[data-md-color-scheme="default"] {
+    /* surfaces */
+    --md-default-bg-color: #f4f1ea;
+    --md-code-bg-color: #eae3d5;
+
+    /* text */
+    --md-default-fg-color: #333333;
+    --md-default-fg-color--light: #5c5c5c;
+    --md-default-fg-color--lighter: rgba(51, 51, 51, 0.4);
+    --md-default-fg-color--lightest: rgba(51, 51, 51, 0.1);
+    --md-typeset-color: #333333;
+
+    /* brand red */
+    --md-primary-fg-color: #64130f;
+    --md-primary-fg-color--light: #872b36;
+    --md-primary-fg-color--dark: #4a0e0a;
+    --md-accent-fg-color: #872b36;
+    --md-accent-fg-color--transparent: rgba(135, 43, 54, 0.1);
+}
+
+/* ---------------------------------------------------------------
+   PAGE BACKGROUND
+---------------------------------------------------------------- */
+[data-md-color-scheme="default"] body,
+[data-md-color-scheme="default"] .md-main,
+[data-md-color-scheme="default"] .md-content {
+    background-color: #f4f1ea !important;
+}
+
+/* ---------------------------------------------------------------
+   HEADER AND TABS (a step darker than the page)
+---------------------------------------------------------------- */
+[data-md-color-scheme="default"] .md-header {
+    background-color: #e1d7c2;
+    color: #333333;
+    box-shadow: none !important;
+}
+
+[data-md-color-scheme="default"] .md-tabs {
+    background-color: #d4c6a8;
+    color: #333333;
+    border-bottom: 1px solid #c4b693;
+}
+
+[data-md-color-scheme="default"] .md-tabs__item--active {
+    box-shadow: inset 0 -2px 0 0 #64130f !important;
+}
+
+/* Search box */
+[data-md-color-scheme="default"] .md-search__form {
+    background-color: rgba(51, 51, 51, 0.07);
+    color: #333333;
+}
+
+[data-md-color-scheme="default"] .md-search__form:hover {
+    background-color: rgba(51, 51, 51, 0.12);
+}
+
+[data-md-color-scheme="default"] .md-search__input::placeholder {
+    color: #5c5c5c;
+}
+
+/* ---------------------------------------------------------------
+   CONTENT
+---------------------------------------------------------------- */
+[data-md-color-scheme="default"] .md-typeset h1,
+[data-md-color-scheme="default"] .md-typeset h2,
+[data-md-color-scheme="default"] .md-typeset h3,
+[data-md-color-scheme="default"] .md-typeset h4,
+[data-md-color-scheme="default"] .md-typeset h5,
+[data-md-color-scheme="default"] .md-typeset h6 {
+    color: #333333;
+}
+
+/* Briefing cards: a step darker than the page instead of white */
+[data-md-color-scheme="default"] .md-post--excerpt {
+    background: #eae3d5;
+}

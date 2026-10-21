@@ -1,0 +1,81 @@
+/* KWIQ footer: faceted pattern (markup lives in overrides/main.html) */
+
+/* ---------------------------------------------------------------
+   PALETTE (copied from kuwait-iraqvacc.net)
+---------------------------------------------------------------- */
+[data-md-color-scheme="default"] .kwiq-footer {
+    --facet-base: #e0d5be;
+    --facet-1: #d4c6a8;
+    --facet-2: #daceb4;
+    --facet-3: #e1d7c2;
+    --facet-4: #e8e0cf;
+    --footer-fg: #474747;
+    --footer-line: #33333326;
+}
+
+[data-md-color-scheme="slate"] .kwiq-footer {
+    --facet-base: #380e14;
+    --facet-1: #2b0b0f;
+    --facet-2: #340d13;
+    --facet-3: #401017;
+    --facet-4: #4e141c;
+    --footer-fg: #b0b0b0;
+    --footer-line: #ffffff1f;
+}
+
+/* ---------------------------------------------------------------
+   LAYOUT
+---------------------------------------------------------------- */
+.kwiq-footer {
+    position: relative;
+    overflow: hidden;
+    background-color: var(--facet-base);
+
+    /* Make Material's own footer transparent so the pattern shows */
+    --md-footer-bg-color: transparent;
+    --md-footer-bg-color--dark: transparent;
+    --md-footer-fg-color: var(--footer-fg);
+    --md-footer-fg-color--light: var(--footer-fg);
+    --md-footer-fg-color--lighter: var(--footer-fg);
+}
+
+.kwiq-footer__facets {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.kwiq-footer__facets .facet-base { fill: var(--facet-base); }
+.kwiq-footer__facets .facet-1 { fill: var(--facet-1); }
+.kwiq-footer__facets .facet-2 { fill: var(--facet-2); }
+.kwiq-footer__facets .facet-3 { fill: var(--facet-3); }
+.kwiq-footer__facets .facet-4 { fill: var(--facet-4); }
+
+.kwiq-footer .md-footer,
+.kwiq-footer .md-footer-meta {
+    position: relative;
+    background-color: transparent;
+}
+
+.kwiq-footer .md-footer-meta {
+    border-top: 1px solid var(--footer-line);
+}
+
+.kwiq-footer .md-footer-meta__inner {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+/* Social icons follow the footer text colour. Text links (like the
+   email address) keep the site-wide blue from extra.css. */
+.kwiq-footer .md-social__link,
+.kwiq-footer .md-social__link:visited,
+.kwiq-footer .md-social__link:hover {
+    color: var(--footer-fg) !important;
+}
+
+.kwiq-footer .md-footer-meta a:hover {
+    opacity: 0.75;
+}

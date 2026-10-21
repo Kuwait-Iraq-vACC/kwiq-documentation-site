@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c3df023-3a80-48c2-89c5-d5afa4deb3ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/stylesheets/briefing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/stylesheets/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/stylesheets/light.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Controller Guidance/Procedure Updates/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Controller Guidance/Procedure Updates/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Controller Guidance/Procedure Updates/posts/prc-okkk-26-001.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Controller Guidance/Procedure Updates/posts/prc-okkk-26-001.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overrides/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/overrides/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +144,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "26-add-procedure-change-for-strs",
+    "git-widget-placeholder": "update-footer",
     "javascript.preferred.runtime.type.id": "node",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "C:/GitHub/kwiq-documentation-site/docs/Controller Guidance/Procedure Updates/Categories",
@@ -203,6 +203,7 @@
       <workItem from="1790710138884" duration="7556000" />
       <workItem from="1790776993785" duration="2988000" />
       <workItem from="1792530775823" duration="2106000" />
+      <workItem from="1792606614511" duration="1327000" />
     </task>
     <servers />
   </component>
