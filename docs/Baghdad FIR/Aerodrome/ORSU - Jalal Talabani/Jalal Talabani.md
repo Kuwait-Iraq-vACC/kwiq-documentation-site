@@ -136,7 +136,7 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 
 ## Coordination
 ### Departure Procedures
-Due to the airspace structure in Jalal Talabani, all departures shall be coordinated and receive a release for departure with the relevant Baghdad **TMA** controller (ORKK_APP) before release.
+Due to the airspace structure in Jalal Talabani, all departures shall be coordinated and receive a release for departure with the relevant Baghdad **TMA** controller (KIR_APP) before release.
 
 'Next' coordination is **not** required to Baghdad **TMA** for aircraft that are:
 

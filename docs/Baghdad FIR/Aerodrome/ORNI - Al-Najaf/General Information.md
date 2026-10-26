@@ -33,11 +33,11 @@ Published runway dimensions are used where separate declared-distance breakdowns
 |         Airspace Type         |   Airspace    | Class | Vertical Limits | Controller |
 |:-----------------------------:|:-------------:|:-----:|:---------------:|------------|
 |        **CTR**       | Al-Najaf CTR  |   D   | SFC - 4000ft    | ORNI_TWR   |
-|        **TMA**       | Ali TMA 1     |   D   | 1000ft - FL235  | ALI_APP    |
+|        **TMA**       | Ali TMA 1     |   D   | 1800ft - FL235  | ALI_APP    |
 |        **TMA**       | Ali TMA 2     |   D   | 3500ft - FL235  | ALI_APP    |
 |        **TMA**       | Ali TMA 3     |   D   | 11500ft - FL235 | ALI_APP    |
 |        **TMA**       | Ali TMA 4     |   D   | 3500ft - FL235  | ALI_APP    |
-|        **TMA**       | Ali TMA 5     |   D   | 1000ft - 5000ft | ALI_APP    |
+|        **TMA**       | Ali TMA 5     |   D   | 1800ft - FL235  | ALI_APP    |
 
 ## ATS Callsigns
 

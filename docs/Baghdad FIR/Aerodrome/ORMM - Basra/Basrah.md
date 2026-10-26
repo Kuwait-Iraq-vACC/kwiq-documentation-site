@@ -104,7 +104,7 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 
 ## Coordination
 ### Departure Procedures
-Due to the airspace structure in Basra, all departures shall be coordinated with the relevant **TMA** controller (ORMM_APP) before release.
+Due to the airspace structure in Basra, all departures shall be coordinated with the relevant **TMA** controller (ALI_APP) before release.
 
 'Next' coordination is **not** required to Baghdad **TMA** for aircraft that are:
 

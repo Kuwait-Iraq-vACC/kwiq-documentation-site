@@ -212,10 +212,10 @@ Next coordination is required to the following stations in the following scenari
 
 | **Coordination Station** | **Departing Procedure** |
 |--------------------------|-------------------------|
-| ORBI_APP                 | All SIDs except ILMAP departures, and omni-directional departures expected to enter Baghdad TMA, mainly departures to the north |
-| ORNI_APP/ORMM_APP        | ILMAP departures and all other omni-directional departures |
+| BGD_APP                  | All SIDs except ILMAP departures, and omni-directional departures expected to enter Baghdad TMA, mainly departures to the north |
+| ALI_APP                  | ILMAP departures and all other omni-directional departures |
 
-ORNI_APP/ORMM_APP must be notified of aircraft that are being released on an omni-directional departure to ORBI_APP.
+ALI_APP must be notified of aircraft that are being released on an omni-directional departure to BGD_APP.
 
 Next coordination is additionally required for:
 
