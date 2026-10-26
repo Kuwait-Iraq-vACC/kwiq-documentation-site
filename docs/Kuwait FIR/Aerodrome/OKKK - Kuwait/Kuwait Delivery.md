@@ -195,7 +195,7 @@ If the readback is incorrect, correct only the item that was read back wrongly:
 > **DEL Controller:** _**"9K-VFR, negative, squawk 7001"**_
 
 !!! note "Callsign Shortening"
-    After two-way communication has been established, and provided no confusion is likely, the callsign may be abbreviated, e.g. 9K-VFR to 9-FR (Niner - Foxtrot - Romeo).
+    After two-way communication has been established, and provided no confusion is likely, the callsign may be abbreviated to the first character and the last two letters of the registration, e.g. 9K-VFR to 9FR (Niner Foxtrot Romeo), as per ICAO Annex 10.
 
 ### 2.4 Departure List Management 
 The **DEL Controller** is responsible for ensuring the departure list is correct and maintained prior to handing aircraft off to the GMC Controller. This includes ensuring filed routings are correct, Standard Instrument Departures (SIDs) have been assigned, initial altitudes has been set correctly and a squawk code has been assigned. 

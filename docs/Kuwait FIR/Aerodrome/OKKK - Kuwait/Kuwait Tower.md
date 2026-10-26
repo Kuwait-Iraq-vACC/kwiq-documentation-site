@@ -293,7 +293,7 @@ The following information should be provided prior to joining the circuit:
 - Any applicable traffic information
 
 !!! note "Callsign Shortening"
-    The first transmission to an aircraft must always use its full callsign. After two-way communication has been established, and provided no confusion is likely, the callsign may be abbreviated (e.g. 9K-SAA to 9-AA).
+    The first transmission to an aircraft must always use its full callsign. After two-way communication has been established, and provided no confusion is likely, the callsign may be abbreviated to the first character and the last two letters of the registration, e.g. 9K-SAA to 9AA (Niner Alfa Alfa), as per ICAO Annex 10.
 
 ---
 
@@ -313,17 +313,17 @@ VFR circuits at **Kuwait International Airport (OKKK)** are carried out only on 
 
 > **Pilot:** _"Left hand circuits, not above altitude 1000ft, wilco, runway 34, cleared for take-off, 9K-SAA"_
 
-> **Pilot:** _"9-AA, downwind runway 34, touch and go"_
+> **Pilot:** _"9AA, downwind runway 34, touch and go"_
 
-> **TWR Controller:** _**"9-AA, number 2, follow the A320 on 3 mile final, caution wake turbulence, report final"**_
+> **TWR Controller:** _**"9AA, number 2, follow the A320 on 3 mile final, caution wake turbulence, report final"**_
 
-> **Pilot:** _"Number 2, traffic in sight, wilco, 9-AA"_
+> **Pilot:** _"Number 2, traffic in sight, wilco, 9AA"_
 
-> **Pilot:** _"9-AA, final runway 34"_
+> **Pilot:** _"9AA, final runway 34"_
 
-> **TWR Controller:** _**"9-AA, wind calm, runway 34, cleared touch and go"**_
+> **TWR Controller:** _**"9AA, wind calm, runway 34, cleared touch and go"**_
 
-> **Pilot:** _"Runway 34, cleared touch and go, 9-AA"_
+> **Pilot:** _"Runway 34, cleared touch and go, 9AA"_
 
 ---
 
@@ -348,13 +348,11 @@ Aircraft shall leave the CTR via a **Visual Reporting Point (VRP)**:
 
 > **Pilot:** _"Leave the control zone via Qurain Shopping Area, not above altitude 1000ft VFR, wilco, runway 16, cleared for take-off, 9K-SAA"_
 
-> **Pilot:** _"9-AA, overhead Qurain Shopping Area"_
+> **Pilot:** _"9AA, overhead Qurain Shopping Area"_
 
-> **TWR Controller:** _**"9-AA, contact Kuwait Approach 124.800"**_
+> **TWR Controller:** _**"9AA, leaving the control zone, monitor advisory 122.800"**_
 
-If **Kuwait Approach** is offline and no higher position is covering the CTA:
-
-> **TWR Controller:** _**"9-AA, leaving the control zone, frequency change approved"**_
+> **Pilot:** _"Monitor advisory 122.800, 9AA"_
 
 ### 3.5.3 Inbound VFR Traffic
 Inbound VFR aircraft shall be transferred to TWR early enough that two-way radio communication is established before they reach the CTR boundary. TWR then issues the clearance to enter the CTR, the instructions for joining the circuit and any relevant traffic information.
@@ -367,8 +365,8 @@ During times of heavy IFR arrival activity, VFR arrivals may be told to hold out
 
 > **Pilot:** _"Enter control zone eastbound, not above altitude 1000ft VFR, QNH 1019, wilco, 9K-SAA"_
 
-> **Pilot:** _"9-AA, airfield in sight"_
+> **Pilot:** _"9AA, airfield in sight"_
 
-> **TWR Controller:** _**"9-AA, join left hand downwind runway 34, report downwind"**_
+> **TWR Controller:** _**"9AA, join left hand downwind runway 34, report downwind"**_
 
-> **Pilot:** _"Join left hand downwind runway 34, wilco, 9-AA"_
+> **Pilot:** _"Join left hand downwind runway 34, wilco, 9AA"_
