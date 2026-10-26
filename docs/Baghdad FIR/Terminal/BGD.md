@@ -92,5 +92,5 @@ Departures should be handed off to **Baghdad Control North** climbing **FL230**.
 |------------------|----------------|-----------|
 | Baghdad Control  | ORBB_N_CTR     | 132.875   |
 | Baghdad Approach | ALI_APP        | 120.200   |
-| Baghdad Approach | KIR_APP        | 127.700   |
+| Baghdad Approach | KRK_APP        | 127.700   |
 | Baghdad Tower    | ORBI_TWR       | 118.900   |

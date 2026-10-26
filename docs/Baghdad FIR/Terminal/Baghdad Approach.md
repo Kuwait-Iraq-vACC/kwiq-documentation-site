@@ -12,7 +12,7 @@ The following table dictates which airports each approach unit provides top-down
 | -------------- | --------- |--------------------------| ---------------------- |
 | ALI_APP        | 120.200   | [Ali Sector](ALI.md)     | ORMM, ORNI             |
 | BGD_APP        | 122.400   | [Baghdad Sector](BGD.md) | ORBI                   |
-| KIR_APP        | 127.700   | [Kirkuk Sector](KIR.md)  | ORBM, ORER, ORKK, ORSJ |
+| KRK_APP        | 127.700   | [Kirkuk Sector](KRK.md)  | ORBM, ORER, ORKK, ORSJ |
 
 All three sectors use the radio callsign **Baghdad Approach**.
 
