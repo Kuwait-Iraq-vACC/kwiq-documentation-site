@@ -49,13 +49,16 @@ Table 2.3.1. - Surrounding Airspace
 ## 2.4 Restricted Airspace
 The **Kuwait Terminal Maneuvering Area (TMA)** has multiple **Restricted** sections of Airspace which must not be encroached at any time, except for R01 which may be used for extra track miles during the 15/16 config in times of increased activity.
 
-| **Restricted Airspace Identifier** | **Vertical Limits** | **Validity** |
-|:----------------------------------:|:-------------------:|:------------:|
-|               **R01**              |     GND - UNLTD     |   Permanent  |
-|               **D10**              |      GND- UNLTD     |   Permanent  |
-|               **D16**              |     GND - FL160     |   Permanent  |
-|               **R08**              |     GND - FL150     |   Permanent  |
-|               **D04**              |     GND - 2000     |   Permanent  |
+| **Restricted Airspace Identifier** | **Type** | **Vertical Limits** | **Validity** |
+|:----------------------------------:|:--------:|:-------------------:|:------------:|
+|        **P03** (Umoqsubah)         | Prohibited | GND - 3000ft      |   Permanent  |
+|        **R01** (Rawdatein)         | Restricted | GND - UNLTD       |   Permanent  |
+|               **R05**              | Restricted | GND - 2400ft      |   Permanent  |
+|               **R07**              | Restricted (sky diving) | GND - 11000ft | 01 OCT - 31 MAR |
+|               **R08**              | Restricted | GND - 15000ft     |   Permanent  |
+|         **D04** (Kazimah)          | Danger     | GND - 2000ft      |   Permanent  |
+|               **D06**              | Danger     | GND - 15000ft     |   Permanent  |
+|               **D10**              | Danger (firing range) | GND - UNLTD |   Permanent  |
 
 ![Kuwait Surrounding](img/REST.png#center)
 
@@ -172,7 +175,7 @@ Within the **Kuwait Terminal Maneuvering Area (TMA)** there are 3 published hold
 | **Hold Identifier** | **Vertical Limits** | **Inbound Holding Course** | **Maximum Holding Speed** | **Turn Direction** |
 |:-------------------:|:-------------------:|:--------------------------:|---------------------------|--------------------|
 |        DEBTI        |   3000ft - FL460    |            314°            |           250kts          |        Right       |
-|        RALKA        |   3000ft - FL460    |            275°            |           250kts          |        Right       |
+|        RALKA        |   3000ft - FL460    |            276°            |           250kts          |        Right       |
 |         KFR         |   3000ft - FL460    |            078°            |           250kts          |        Right       |
 
 It is imperative that the **APP Controller** fully understands the standard procedures of each of the above holding patterns within the **Kuwait Terminal Maneuvering Area (TMA)**.

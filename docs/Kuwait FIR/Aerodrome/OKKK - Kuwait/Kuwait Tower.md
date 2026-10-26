@@ -21,7 +21,7 @@ The **TWR Controller** is responsible for selecting the active runways for arriv
 ----
 
 ## Chapter 2. Airspace 
-The **Kuwait Control Zone (CTR)** is **Class D Airspace** from the Ground up to 2000ft Mean Sea Level (MSL). The **TWR Controller** is responsible for ensuring all traffic within the Control Zone are separated. This will typically include all IFR Flights departing and arriving as well as VFR Flights operating within the Control Zone or entering and exiting. 
+The **Kuwait Control Zone (CTR)** is **Class D Airspace** within a 10nm radius of the KUA DVOR/DME, from the Ground up to 2000ft Above Ground Level (AGL). The **TWR Controller** is responsible for ensuring all traffic within the Control Zone are separated. This will typically include all IFR Flights departing and arriving as well as VFR Flights operating within the Control Zone or entering and exiting. 
 
 ---
 
@@ -38,6 +38,9 @@ At **Kuwait International Airport (OKKK)**, the preferential runway is 34 for ar
     - You can always refernece real world sources! However, this should NEVER become a reliance. NOTAMs should be read in the case there are runway closures/maintenance to simulate realism.
     
     - All Controllers should bare the ability to read weather and make an assessment on what the active runway in use should be. Additional information of reading METAR information can be found under the vMATS.
+
+!!! warning "RWY 15L/33R closed"
+    As per **AIP SUP 01/26**, RWY 15L/33R is **closed** from 06/01/2026 until 22/02/2027 for rehabilitation. The associated ILS has been removed. TWY E2 (affected portions) and the RWY 15L and RWY 33R loops are also closed.
 
 #### 3.1.1 Runway Change
 If the **TWR Controller** deems it necessary to change the active runway due to a change in wind direction this should be coordinated with all controllers above and below as this changes departure and arrival clearances. This should not be done suddenly, it must be carefully coordinated. The **Approach Controller** and **Tower Controller** will carefully select which aircraft is the last aircraft to land prior to the runway change.
@@ -82,6 +85,9 @@ All departures from Kuwait will be assigned a **Standard Instrument Departure (S
 
 All SIDs in Kuwait are RNAV1 (Area Navigation) which means aircraft must be able to maintain a total system error of no more than 1 nautical mile (NM) for 95% of the flight time. This enhances safety, and accuracy of the departure routing an aircraft should fly. 
 
+!!! note "AIRAC AIP SUP 04/26"
+    From 01/10/2026, **RALKA1K** and **RALKA5E** are withdrawn and replaced by **TASMI1K** (RWY 16) and **TASMI5E** (RWY 15R). Speed restrictions have been removed from all SIDs.
+
 **16:**
 
 | **SID** | **Designator** | **Departure Runway** |
@@ -89,7 +95,7 @@ All SIDs in Kuwait are RNAV1 (Area Navigation) which means aircraft must be able
 | ALVAX   | 1K             | 16                   |
 | ASVIR   | 1K             | 16                   |
 | BOXIK   | 1K             | 16                   |
-| RALKA   | 1K             | 16                   |
+| TASMI   | 1K             | 16                   |
 | SESRU   | 1K             | 16                   |
 | DEKOB   | 1K             | 16                   |
 | KATOD   | 1K             | 16                   |
@@ -102,7 +108,7 @@ All SIDs in Kuwait are RNAV1 (Area Navigation) which means aircraft must be able
 | ALVAX   | 5E             | 15R                  |
 | ASVIR   | 5E             | 15R                  |
 | BOXIK   | 5E             | 15R                  |
-| RALKA   | 5E             | 15R                  |
+| TASMI   | 5E             | 15R                  |
 | SESRU   | 5E             | 15R                  |
 | DEKOB   | 1L             | 15R                  |
 | KATOD   | 1L             | 15R                  |
@@ -272,108 +278,97 @@ Once the aircraft has acknowledged the go around, the TWR Controller shall issue
 !!!node "Coordination" 
     If a go around instruction has been issued, the Approach Controller should be notified immediately once the aircraft has been given instructions. 
 
-### 3.5 VFR Procedures 
+### 3.5 VFR Procedures
+**Kuwait Tower (TWR)** issues **all VFR clearances** at OKKK: circuits, zone exits and zone entries. **Kuwait Delivery (DEL)** only assigns the SSR code, departure runway and QNH on start-up, before the aircraft is passed to GMC.
 
-VFR departures should be given departure instructions, including turn directions and leg to exit the circuit (if appropriate), and altitude.
-Circuits shall be conducted in accordance with the following procedures: VFR aircraft shall be assigned an SSR code and taxied to their assigned runway (with concurrence of Tower) and shall receive departure instructions from Tower prior to departure.
+VFR departures receive their VFR clearance and departure instructions from TWR at the holding point, before take-off clearance. This includes the turn direction, the circuit or exit route, and the altitude restriction.
 
-Aircraft may request either touch and go, a stop and go, a low approach, or a full stop.
-
-Once the Tower Controller is aware of the aircraft’s intentions within the control zone, they may be sequenced to the runway, with due consideration given to runway occupancy time.
+Aircraft in the circuit may request a touch and go, a stop and go, a low approach or a full stop. Once TWR is aware of the aircraft's intentions, it may be sequenced to the runway, with due consideration given to runway occupancy time.
 
 The following information should be provided prior to joining the circuit:
-- Leg to join
-- Expected runway
-- Sequence
-- Any applicable traffic information 
 
-!!!node "Callsign Shortening"
-    With VFR Traffic you are allowed to abbreviate the callsign once contact has been established. Your first transmission with the aircraft must always include their full callsign however, from then on, you may abbreviate the callsign to 3 letters, this helps reduce frequency congestion.
+- Leg to join
+- Runway in use
+- Sequence
+- Any applicable traffic information
+
+!!! note "Callsign Shortening"
+    The first transmission to an aircraft must always use its full callsign. After two-way communication has been established, and provided no confusion is likely, the callsign may be abbreviated (e.g. 9K-SAA to 9-AA).
 
 ---
 
-#### 3.5.1 Traffic remaining in VFR Circuit
-VFR Circuits at OKKK (Kuwait International Airport) are carried out only on RWY34 and RWY16 in right/left hand circuits. Refer to the table below.
+#### 3.5.1 Traffic Remaining in the VFR Circuit
+VFR circuits at **Kuwait International Airport (OKKK)** are carried out only on RWY34 and RWY16. Refer to the table below.
 
 | **Runway** | **Circuit Direction** | **Altitude (Piston)** | **Altitude (Jet)** |
 |------------|-----------------------|-----------------------|--------------------|
 | 34         | Left-Hand             | 1000ft                | 1500ft             |
 | 16         | Right-Hand            | 1000ft                | 1500ft             |
 
-#### 3.5.1.1 VFR Circuits phraseology
+#### 3.5.1.1 VFR Circuit Phraseology
 
-> **Pilot:** _"Kuwait Tower, 9K-SAA with you holding point W1, ready for departure"_ 
+> **Pilot:** _"Kuwait Tower, 9K-SAA, holding point runway 34, ready for departure, request left hand circuits"_
 
-> **TWR:** _"9K-SAA, after departure left hand turn out, via W1, surface wind calm, runway 33L, cleared for takeoff, QNH1019."_
+> **TWR Controller:** _**"9K-SAA, left hand circuits runway 34, not above altitude 1000ft, report downwind. Wind calm, runway 34, cleared for take-off"**_
 
-> **Pilot:** _"After departure left hand turn out, via W1, cleared for takeoff RWY33L, 9K-SAA"_
+> **Pilot:** _"Left hand circuits, not above altitude 1000ft, wilco, runway 34, cleared for take-off, 9K-SAA"_
 
-Once the aircraft is airborne and established on the left hand turn off you can advise them to report downwind with intentions. 
+> **Pilot:** _"9-AA, downwind runway 34, touch and go"_
 
-> **TWR:** _"9-AA, report downwind **runway 34** with intentions"_
+> **TWR Controller:** _**"9-AA, number 2, follow the A320 on 3 mile final, caution wake turbulence, report final"**_
 
-> **Pilot:** _"Wilco, 9-AA"_ 
+> **Pilot:** _"Number 2, traffic in sight, wilco, 9-AA"_
 
-> **Pilot:** _"9-AA, right hand downwind RWY34 for touch and go"_
+> **Pilot:** _"9-AA, final runway 34"_
 
-> **TWR:** _"9-AA, roger, you are number 2 to a Jazeera A320 on 3nm final, maintain visual separation, caution wake turbulence, report final runway 34"_
+> **TWR Controller:** _**"9-AA, wind calm, runway 34, cleared touch and go"**_
 
-> **Pilot:** _"Traffic is in sight, maintaining visual separation, will report final runway 34, 9-AA"_
-
-> **Pilot:** _"9-AA, final runway 34"_ 
-
-> **TWR:** _"9-AA, cleared touch and go runway 34, winds calm, report downwind"_
-
-
-### 3.5.2 Zone Exit Clearances
-
-VFR Flights planning to depart **Kuwait International Airport (OKKK)** to leave the **Control Zone (CTR)** must first have prior approval from the APP Controller to enter the **Terminal Manevuering Area (TMA)**. This is done through coordination by the Tower & Terminal controllers.
-
-
-> Pilot - "9K-SAA with you Apron 3 with information A on board, aircraft type C172 request clearance to leave the zone to the South"
-
-> **TWR Controller:** "9K-SAA, good afternoon, cleared to leave the zone to the south via Ahmadi not above altitude 1500ft VFR, squawk 1011"
-
-> Pilot - "9K-SAA, cleared to leave the zone to the south via Ahmadi, not above altitude 1500ft VFR, squawk 1011.
-
-> **TWR Controller:** "9K-SAA, readback correct information A is current QNH 1019 advise when ready for startup."
-
-> Pilot - "9K-SAA, wilco."
+> **Pilot:** _"Runway 34, cleared touch and go, 9-AA"_
 
 ---
 
-Once the pilot has taken off, and reports airbone, instruct them to leave the control routing westbound with a reporting instruction, as seen as in the example below:
+### 3.5.2 Zone Exit Clearances
+VFR flights departing **Kuwait International Airport (OKKK)** and leaving the **Control Zone (CTR)** will enter the **Kuwait CTA**, which is **Class C** airspace from the surface to FL150. TWR must therefore coordinate every zone exit with the **APP Controller** before issuing the clearance.
 
-> **TWR Controller:** "9K-SAA, report one mile from leaving the control zone"
+Aircraft shall leave the CTR via a **Visual Reporting Point (VRP)**:
 
-> Pilot - "9K-SAA, wilco."
+| **Runway** | **Identifier** | **Direction of Flight** | **Procedure** |
+|:----------:|:--------------:|:-----------------------:|:-------------|
+| RWY15L/15R | VFR Q East | East | Climb to 1000ft on runway heading. When passing the departure end of the runway (DER), turn left towards Qurain Shopping Area and report overhead. |
+| RWY15L/15R | VFR G West | West | Climb to 1000ft on runway heading. When passing the DER, turn right towards the petrol station on the 7th Ring Road beside the drag circuit and report overhead. |
+| RWY33L/33R | VFR F East | East | Climb to 1000ft on runway heading. When passing the DER, turn right towards Mishrif Fairground and report overhead. |
+| RWY33L/33R | VFR U West | West | Climb to 1000ft on runway heading. When passing the DER, turn left towards Alshedadiya University and report overhead. |
 
-> Pilot - "9K-SAA, one mile from exiting, 1500ft VFR."
+!!! note "VRPs"
+    A **Visual Reporting Point (VRP)** is a clearly identifiable ground feature (such as a town, road intersection or landmark) used by pilots to navigate and report their position visually under **VFR**. Helicopters also use VRPs to request zone entry or exit.
 
-> **TWR Controller:** "9K-SAA, you are leaving the control zone monitor advisory on 122.800."
+> **Pilot:** _"Kuwait Tower, 9K-SAA, holding point runway 16, ready for departure, request zone exit to the east"_
 
-If applicable, pilots entering the **Class Charlie** must be with Kuwait Approach (124.800) or higher. Coordination is **mandatory**.
+> **TWR Controller:** _**"9K-SAA, leave the control zone via Qurain Shopping Area, not above altitude 1000ft VFR, report overhead Qurain Shopping Area. Wind calm, runway 16, cleared for take-off"**_
+
+> **Pilot:** _"Leave the control zone via Qurain Shopping Area, not above altitude 1000ft VFR, wilco, runway 16, cleared for take-off, 9K-SAA"_
+
+> **Pilot:** _"9-AA, overhead Qurain Shopping Area"_
+
+> **TWR Controller:** _**"9-AA, contact Kuwait Approach 124.800"**_
+
+If **Kuwait Approach** is offline and no higher position is covering the CTA:
+
+> **TWR Controller:** _**"9-AA, leaving the control zone, frequency change approved"**_
 
 ### 3.5.3 Inbound VFR Traffic
-Inbound VFR aircraft shall be sent to ADC with enough time such that two-way radio communications have been established before aircraft receive clearance to enter the aerodrome control zone.
+Inbound VFR aircraft shall be transferred to TWR early enough that two-way radio communication is established before they reach the CTR boundary. TWR then issues the clearance to enter the CTR, the instructions for joining the circuit and any relevant traffic information.
 
-On initial contact, ADC will pass the instructions for joining the circuit, as well as any other pertinent information such as traffic information with the sector.
+During times of heavy IFR arrival activity, VFR arrivals may be told to hold outside the CTR. Once a slot has been coordinated with the APP Controller, they may proceed. The estimated delay must be given to the pilot.
 
-During times of heavy IFR arrival activity, VFR arrivals may be denied entry into the control zone and instructed to hold outside of the CTR awaiting further instructions. Once a slot has been coordinated with the radar controllers, VFR arrivals may proceed, however, the estimated delay must be given to the pilot.
+> **Pilot:** _"Kuwait Tower, 9K-SAA, Cessna 172, 15 miles west, altitude 1500ft, information Alpha, for circuits runway 34"_
 
->Pilot - "9K-SAA, with you 15nm west of the airfield request clearance to enter the control zone."
+> **TWR Controller:** _**"9K-SAA, enter control zone eastbound, not above altitude 1000ft VFR, QNH 1019, report airfield in sight"**_
 
->**TWR Controller:** "9K-SAA, good afternoon, cleared to enter the control zone routing **eastbound**, not above altitude 1500ft VFR, squawk 1057"
+> **Pilot:** _"Enter control zone eastbound, not above altitude 1000ft VFR, QNH 1019, wilco, 9K-SAA"_
 
->Pilot - "9K-SAA, cleared to enter the control zone routing eastbound, not above altitude 1500ft VFR, squawk 1057"
+> **Pilot:** _"9-AA, airfield in sight"_
 
->**TWR Controller:** "9K-SAA, read back is correct, **QNH 1019**. Report when airfield is in-sight."
+> **TWR Controller:** _**"9-AA, join left hand downwind runway 34, report downwind"**_
 
->Pilot - "9K-SAA, QNH 1019, and wilco."
-
->Pilot - "9K-SAA, airfield in-sight, requesting visual circuits runway 34."
-
->**TWR Controller:** "9K-SAA, cleared to enter the left hand visual circuit RWY34, not above altitude 1000ft VFR, report downwind with intentions."
-
->Pilot - "9K-SAA, cleared to enter the right hand visual circuit RWY34, not above altitude 1000ft VFR, we will report downwind with the intent."
-
+> **Pilot:** _"Join left hand downwind runway 34, wilco, 9-AA"_
