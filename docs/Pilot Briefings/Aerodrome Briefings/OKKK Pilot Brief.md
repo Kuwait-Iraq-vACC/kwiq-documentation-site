@@ -23,8 +23,8 @@ When flying to Kuwait, pilots can expect the following positions:
 | ----------- | -------------- | --------- |
 | **Kuwait Information** | `OKKK_ATIS` | 126.225 | 
 | **Kuwait Delivery** | `OKKK_DEL` | 126.775 |
-| **Kuwait Ground** | `OKKK_1_GND` | 121.700 |
-| **Kuwait Ground** | `OKKK_2_GND` | 121.850 |
+| **Kuwait Ground** | `OKKK_E_GND` | 121.700 |
+| **Kuwait Ground** | `OKKK_W_GND` | 121.850 |
 | **Kuwait Tower** | `OKKK_TWR` | 118.300 |
 | **Kuwait Director** | `OKKK_F_APP` | 123.825 |
 | **Kuwait Approach** | `OKKK_APP` | 124.800 |

@@ -50,8 +50,8 @@ Airspaces
 |:--------------------:|:------------------:|:----------------:|:-------------------:|
 |   **Kuwait ATIS**    |      OKKK_ATIS     |       ATIS       |       126.225       |
 | **Kuwait Delivery**  |      OKKK_DEL      |        DEL       |       126.775       |
-|  **Kuwait Ground**   |      OKKK_1_GND    |        GMC       |       121.700       |
-|  **Kuwait Ground**   |      OKKK_2_GND    |        GMC-W     |       121.850       |
+|  **Kuwait Ground**   |      OKKK_E_GND    |        GMC-E     |       121.700       |
+|  **Kuwait Ground**   |      OKKK_W_GND    |        GMC-W     |       121.850       |
 |   **Kuwait Tower**   |      OKKK_TWR      |        TWR       |       118.300       |
 | **Kuwait Director**  |      OKKK_F_APP    |        FIN       |       123.825       |
 | **Kuwait Approach**  |      OKKK_APP      |        APP       |       124.800       |
