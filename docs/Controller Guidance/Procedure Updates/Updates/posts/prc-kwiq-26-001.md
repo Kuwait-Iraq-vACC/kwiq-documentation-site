@@ -30,7 +30,7 @@ This applies to all coordination with adjacent KWIQ positions, including departu
 
 ## Coordination Methods
 
-**EuroScope's built-in coordination functions (COPX, COPN, PEL, XFL) are always the preferred method**, whoever the adjacent controller is. Use voice or text coordination only when the built-in functions can't handle the request.
+**EuroScope's built-in coordination functions remain as the preferred method**. Use voice or text coordination only when the built-in functions can't handle the request.
 
 !!! note "Neighbouring vACCs"
     Neighbouring vACCs may not be using vacs. When coordinating across the vACC boundary, use the following, in order of preference:
