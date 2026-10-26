@@ -31,14 +31,14 @@ When a VFR aircraft calls for start-up, DEL only assigns:
 
 - The departure runway
 - An SSR code
-- The QNH, and confirms the current ATIS information
+- Current ATIS information
 
-The aircraft is then transferred to **GMC**, as for IFR departures.
+The aircraft is then transferred to **GMC**, and treated the same as IFR departures.
 
 | Phase        | Phraseology                                                       |
 | ------------ | ----------------------------------------------------------------- |
-| **Start-up** | 9K-VFR, runway 34, squawk 7001, QNH 1013                          |
-| **Transfer** | 9K-VFR, readback correct, contact Kuwait Ground 121.700           |
+| **Start-up** | 9K-VFR, information A, runway 34, squawk 7001                    |
+| **Transfer** | 9K-VFR, readback correct, hold position, contact Kuwait Ground 121.700           |
 
 !!! note
     DEL should still inform TWR as soon as a VFR flight plan is filed, so TWR can coordinate with APP early.
