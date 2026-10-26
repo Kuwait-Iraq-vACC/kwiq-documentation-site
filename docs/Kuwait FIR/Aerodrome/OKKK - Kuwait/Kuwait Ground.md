@@ -27,7 +27,7 @@ toc_max_heading_level: 6
 
 - GMC-E (**OKKK_E_GND**) is the primary GMC position and is **always** the bandbox position. It assumes the responsibilities of DEL or GMC-W when either **OKKK_DEL or OKKK_W_GND** are offline respectively.
 - When DEL is offline, pilots will call GMC-E for their clearance, and GMC-E shall issue clearances as per the [Kuwait Delivery](Kuwait%20Delivery.md) procedures.
-- GMC-W (**OKKK_W_GND**) must **not** be opened without DEL being online first.
+- GMC-W (**OKKK_W_GND**) may be opened without DEL being online. When DEL is offline, clearances are still issued by GMC-E.
 
 ----
 
