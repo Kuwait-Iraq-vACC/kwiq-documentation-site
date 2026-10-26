@@ -98,6 +98,9 @@ Aircraft will be taxied out from their respective apron at the most convenient p
 - Aircraft taxiing from Terminal 1 or Terminal 5 will be instructed to taxi via the appropriate Apron Exit point onto W14 or W1, then given to taxi via W1 for the holding point RWY15R.
 - Aircraft taxiing from anywhere East of Terminal 5 shall be instructed to taxi via E1, E9, W14 and to hold short of taxiway W1, once approaching W1 they can then be given further instructions to taxi to holding point RWY15R.
 
+!!! warning "AIP SUP 02/26 - TWY E1 restricted"
+    From 09/06/2026, TWY E1 is partially restricted due to construction works. **Code D, E and F** aircraft taxiing to or from the Eastern Apron, Amiri Terminal or VIP Terminal shall use **TWY E10**, escorted by a follow-me vehicle. Code D, E and F aircraft taxiing northbound out of the G/A Terminal via E1 shall vacate E1 via **E8** only, and those taxiing southbound into the G/A Terminal shall use **E8** only. Code C and smaller aircraft may use E1 or E10.
+
 Example 1:
 > **GMC Controller:** _**"KAC343, taxi to holding point RWY15R via W1, QNH 1013."**_
 
