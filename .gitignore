@@ -1,9 +1,29 @@
-# wrangler files
-.wrangler
+# MkDocs build output
+site/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.cache/
+
+# Wrangler / Cloudflare
+.wrangler/
 .dev.vars*
 !.dev.vars.example
 .env*
 !.env.example
 
-# mkdocs build output
-site/
+# Editors / IDEs
+.idea/
+.vscode/
+*.iml
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
