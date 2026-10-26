@@ -52,6 +52,9 @@ Voice clearances are also available. When requesting one, pilots **must** provid
 !!! example
     Kuwait Delivery, KAC673, A330, stand 79, information Golf, request clearance to Dubai
 
+!!! info "Kuwait Delivery offline"
+    If **Kuwait Delivery** is offline, request your clearance from **Kuwait Ground (OKKK_E_GND) on 121.700**.
+
 !!! warning
     You must always report yourself as "fully ready" to ATC. Do not change frequencies without explicit instruction. <br> "Fully ready" means the aircraft is ready to push and move immediately when instructed.
 

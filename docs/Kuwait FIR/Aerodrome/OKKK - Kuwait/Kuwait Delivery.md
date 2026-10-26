@@ -18,6 +18,9 @@ toc_max_heading_level: 6
 
 Once clearance has been issued and readback correctly from the pilot the DEL controller will transfer the aircraft to the GMC controller when they report they are ready for pushback and start. During busy periods the GMC Controller can inform the DEL Controller of the requirement to not release aircraft in order to restrict the rate of departures. 
 
+!!! info "DEL offline"
+    When **Kuwait Delivery (DEL)** is offline, its responsibilities are assumed by **GMC-E (OKKK_E_GND)**, which is always the bandbox position. Pilots will call **Kuwait Ground on 121.700** for their clearance.
+
 ----
 
 ## Chapter 2. GEN | Standard Operating Procedures 

@@ -35,12 +35,13 @@ The radio callsign (**Kuwait Ground**), frequencies and areas of responsibility 
 ## Controller Actions
 
 - From 29/10/2026, log on using the new callsigns only.
-- **GMC-E (OKKK_E_GND)** remains the primary GMC position and bandboxes DEL and GMC-W when they are offline.
+- **GMC-E (OKKK_E_GND)** remains the primary GMC position and is **always** the bandbox position. It assumes the responsibilities of DEL and GMC-W when they are offline.
+- When **DEL is offline**, pilots will call **Kuwait Ground on 121.700** for their clearance, and GMC-E issues it.
 - **GMC-W (OKKK_W_GND)** must still **not** be opened without DEL being online first.
 
 ## Documentation Status
 
-The Kuwait Ground document, OKKK General Information and the OKKK Pilot Briefing have been updated to reflect this change.
+The Kuwait Ground and Kuwait Delivery documents, OKKK General Information and the OKKK Pilot Briefing have been updated to reflect this change.
 
 ---
 
