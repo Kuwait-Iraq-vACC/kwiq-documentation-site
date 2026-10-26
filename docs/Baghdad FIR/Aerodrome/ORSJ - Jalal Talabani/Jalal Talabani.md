@@ -1,5 +1,5 @@
 ---
-  title: ORSJ - Talal Talabani
+  title: ORSJ - Jalal Talabani
 ---
 
 --8<-- "includes/abbreviations.md"
@@ -8,11 +8,11 @@
 
 | Name                   | Callsign	| Frequency | Login ID     | Remarks |
 |------------------------| --------	| ---------	|--------------| ------- |
-| **Jalal Talabani TWR** | **Sulaymaniyah Tower** | **118.300** | **ORSJ_TWR** | |
+| **Jalal Talabani TWR** | **Jalal Talabani Tower** | **118.300** | **ORSJ_TWR** | |
 
 ## Airspace - Procedural Class D
 
-ORSJ_TWR is responsible for the Sulaymaniyah CTR airspace from `SFC` to `A060`.
+ORSJ_TWR is responsible for the Jalal Talabani CTR airspace from `SFC` to `A060`.
 
 ![Jalal Talabani CTR airspace structure](img/Jalal Talabani structure.png)
 

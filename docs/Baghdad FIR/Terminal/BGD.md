@@ -50,6 +50,24 @@ The **Baghdad Sector** covers central and western Iraq, including Baghdad Intern
 
 ---
 
+## Agreed Levels - ORBI Arrivals
+
+!!! warning "To be confirmed"
+    These agreed levels are provisional and may change.
+
+Unless otherwise coordinated, arrivals into ORBI should cross the following points at the levels below.
+
+| Arriving From | Airway | Point | Level  |
+|---------------|--------|-------|--------|
+| South         | L602   | UROKO | FL340  |
+| South         | L602   | MUTLO | FL270  |
+| South         | L602   | LOVEK | FL170  |
+| North         | M688   | SOBIL | FL350  |
+
+The track distance from **LOVEK** to **SEBIE** is **44.9 NM**. This should be considered when planning the descent of aircraft crossing LOVEK at FL170.
+
+---
+
 ## Prohibited and Restricted Areas
 
 | Area           | Vertical Limits    | Remarks                                         |

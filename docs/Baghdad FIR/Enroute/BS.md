@@ -56,9 +56,14 @@ Aircraft landing in Bahrain should expect to cross **SIDAD at FL310 or FL330**.
 
 ## Coordination
 
+!!! warning "To be confirmed"
+    Handoff and agreed levels are provisional and may change.
+
 Aircraft will be handed off by **Baghdad Control North (BN)** at RFL, or climbing to RFL. Aircraft should be handed off **~20 NM** prior to the sector boundary.
 
-Departures from the Ali TMA will be handed off by **ALI_APP** climbing **FL230**. Baghdad Control should climb them further to their RFL. Arrivals should be descended to be at or above FL240 when handed off to ALI_APP, unless otherwise coordinated.
+Departures from the Ali TMA will be handed off by **ALI_APP** climbing **FL230**. Baghdad Control should climb them further to their RFL.
+
+Arrivals into ORBI from the south on **L602** should cross **UROKO at FL340** and **MUTLO at FL270**, to be at **FL170 at LOVEK**. See the provisional [agreed levels for ORBI arrivals](../Terminal/BGD.md#agreed-levels-orbi-arrivals).
 
 | Radio Callsign   | Logon Callsign | Frequency |
 |------------------|----------------|-----------|

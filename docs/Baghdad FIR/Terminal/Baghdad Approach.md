@@ -66,9 +66,12 @@ There are no published enroute holds in the Baghdad FIR. If required, aircraft m
 
 ## Coordination
 
+!!! warning "To be confirmed"
+    Handoff and agreed levels between Baghdad Approach and Baghdad Control are provisional and may change.
+
 Departures should be handed off to [Baghdad Control](../Enroute/Baghdad%20Control.md) climbing **FL230**, at the earliest possible opportunity.
 
-Arrivals will be handed off by Baghdad Control descending to **FL240** or above, unless otherwise coordinated.
+Agreed levels for arrivals into ORBI are listed on the [Baghdad Sector page](BGD.md#agreed-levels-orbi-arrivals).
 
 | Radio Callsign  | Logon Callsign | Frequency |
 |-----------------|----------------|-----------|

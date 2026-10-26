@@ -84,8 +84,8 @@ Departing IFR aircraft shall always fly an omni-directional departure. **SMC** m
 At Basra, **ORMM_TWR** is responsible for the entirety of the CTR, and is required to provide top-down service if the underlying **SMC** controller is offline.
 
 !!! phraseology
-    **IAW123**: Sulaymaniyah Tower, IAW123, overhead SUL VOR, descending through 7000ft.  
-    **BSR TWR**: IAW123, Sulaymaniyah Tower, report established on the ILS runway 32.  
+    **IAW123**: Basra Tower, IAW123, established ILS runway 32.  
+    **BSR TWR**: IAW123, Basra Tower, continue approach runway 32.  
 
 ## Standard Taxi Routes
 All departing aircraft shall be assigned the most appropriate taxiway, onto taxiway T. Basra **SMC** must exercise extreme caution on taxiway T, and ensure handoffs are made to Basra **TWR** efficiently, as conflicts can easily occur between arriving and departing traffic. 

@@ -62,9 +62,14 @@ All aircraft entering or exiting the FIR at the same level shall be separated by
 
 ## Coordination
 
+!!! warning "To be confirmed"
+    Handoff and agreed levels are provisional and may change.
+
 Aircraft will be handed off by **Baghdad Control South (BS)** at RFL, or climbing to RFL. Aircraft should be handed off **~20 NM** prior to the sector boundary.
 
-Departures from the Baghdad and Kirkuk TMAs will be handed off by **BGD_APP** and **KIR_APP** climbing to the top of the TMA (FL235 or below). Arrivals should be descended to be at or above FL240 when handed off to the relevant approach sector, unless otherwise coordinated.
+Departures from the Baghdad and Kirkuk TMAs will be handed off by **BGD_APP** and **KIR_APP** climbing **FL230**.
+
+Arrivals into ORBI from the north should cross **SOBIL at FL350**. See the provisional [agreed levels for ORBI arrivals](../Terminal/BGD.md#agreed-levels-orbi-arrivals).
 
 | Radio Callsign   | Logon Callsign | Frequency |
 |------------------|----------------|-----------|
