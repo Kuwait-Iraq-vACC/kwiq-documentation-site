@@ -23,8 +23,8 @@ When flying to Kuwait, pilots can expect the following positions:
 | ----------- | -------------- | --------- |
 | **Kuwait Information** | `OKKK_ATIS` | 126.225 | 
 | **Kuwait Delivery** | `OKKK_DEL` | 126.775 |
-| **Kuwait Ground** | `OKKK_1_GND` | 121.700 |
-| **Kuwait Ground** | `OKKK_2_GND` | 121.850 |
+| **Kuwait Ground** | `OKKK_E_GND` | 121.700 |
+| **Kuwait Ground** | `OKKK_W_GND` | 121.850 |
 | **Kuwait Tower** | `OKKK_TWR` | 118.300 |
 | **Kuwait Director** | `OKKK_F_APP` | 123.825 |
 | **Kuwait Approach** | `OKKK_APP` | 124.800 |
@@ -51,6 +51,9 @@ Voice clearances are also available. When requesting one, pilots **must** provid
 
 !!! example
     Kuwait Delivery, KAC673, A330, stand 79, information Golf, request clearance to Dubai
+
+!!! info "Kuwait Delivery offline"
+    If **Kuwait Delivery** is offline, request your clearance from **Kuwait Ground (OKKK_E_GND) on 121.700**.
 
 !!! warning
     You must always report yourself as "fully ready" to ATC. Do not change frequencies without explicit instruction. <br> "Fully ready" means the aircraft is ready to push and move immediately when instructed.
