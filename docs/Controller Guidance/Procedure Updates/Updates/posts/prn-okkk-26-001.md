@@ -6,11 +6,11 @@ tags:
   - OKKK
 ---
 
-# NTM-OKKK-26-001 — Kuwait (OKKK) RWY 15L/33R Closure and TWY E1 Restrictions
+# PRN-OKKK-26-001 — Kuwait (OKKK) RWY 15L/33R Closure and TWY E1 Restrictions
 
 <div class="brief" markdown>
 
-| Reference                     | NTM-OKKK-26-001                                   |
+| Reference                     | PRN-OKKK-26-001                                   |
 | ----------------------------- | ------------------------------------------------- |
 | **Effective Date**            | On publication                                    |
 | **Valid Until**               | RWY 15L/33R: 22/02/2027<br>TWY E1: completion of construction works |
@@ -58,4 +58,4 @@ OKKK General Information, Kuwait Tower (3.1) and Kuwait Ground (2.2) carry a war
 
 ---
 
-Spotted an error, or want to suggest a change? Email [operations@kuwait-iraqvacc.net](mailto:operations@kuwait-iraqvacc.net?subject=Documentation%20Change%20-%20NTM-OKKK-26-001)
+Spotted an error, or want to suggest a change? Email [operations@kuwait-iraqvacc.net](mailto:operations@kuwait-iraqvacc.net?subject=Documentation%20Change%20-%20PRN-OKKK-26-001)
