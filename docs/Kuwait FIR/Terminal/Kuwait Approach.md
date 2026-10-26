@@ -135,7 +135,7 @@ The **Approach Controller** should be aware of which controller an aircraft need
 |   Kuwait Director  |     OKKK_F_APP     |    123.825    |
 |   Kuwait Radar     |     OKAC_CTR       |    125.300    |
 |   Jeddah Control   |     OEJD_1_CTR     |    126.500    |
-|   Baghdad Approach |     ORMM_APP       |    120.200    |
+|   Baghdad Approach |     ALI_APP        |    120.200    |
 
 ### 3.2 Arrival Procedures
 **Kuwait Approach (APP)** is responsible for ensuring all aircraft arriving into the **Kuwait Terminal Maneuvering Area (TMA)** are safely separated vertically and laterally before being handed off to the TWR Controller on final approach.

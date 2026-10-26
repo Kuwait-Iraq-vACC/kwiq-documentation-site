@@ -1,5 +1,5 @@
 ---
-  title: ORSJ - Talal Talabani
+  title: ORSJ - Jalal Talabani
 ---
 
 --8<-- "includes/abbreviations.md"
@@ -8,11 +8,11 @@
 
 | Name                   | Callsign	| Frequency | Login ID     | Remarks |
 |------------------------| --------	| ---------	|--------------| ------- |
-| **Jalal Talabani TWR** | **Sulaymaniyah Tower** | **118.300** | **ORSJ_TWR** | |
+| **Jalal Talabani TWR** | **Jalal Talabani Tower** | **118.300** | **ORSJ_TWR** | |
 
 ## Airspace - Procedural Class D
 
-ORSJ_TWR is responsible for the Sulaymaniyah CTR airspace from `SFC` to `A060`.
+ORSJ_TWR is responsible for the Jalal Talabani CTR airspace from `SFC` to `A060`.
 
 ![Jalal Talabani CTR airspace structure](img/Jalal Talabani structure.png)
 
@@ -136,7 +136,7 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 
 ## Coordination
 ### Departure Procedures
-Due to the airspace structure in Jalal Talabani, all departures shall be coordinated and receive a release for departure with the relevant Baghdad **TMA** controller (ORKK_APP) before release.
+Due to the airspace structure in Jalal Talabani, all departures shall be coordinated and receive a release for departure with the relevant Baghdad **TMA** controller (KIR_APP) before release.
 
 'Next' coordination is **not** required to Baghdad **TMA** for aircraft that are:
 

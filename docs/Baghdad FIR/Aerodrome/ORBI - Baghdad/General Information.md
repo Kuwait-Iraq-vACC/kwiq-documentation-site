@@ -35,19 +35,19 @@ title: "GEN - General Information"
 |:-----------------------------:|:-----------:|:-----:|:---------------:|------------|
 |        **CTR**       | Baghdad CTR WEST  |   D   | SFC - 3000ft |  ORBI_TWR  |
 |        **CTR**       | Baghdad CTR EAST  |   D   |   1000FT - 3000ft  |  ORBI_TWR  |
-|       **TMA**        | Baghdad TMA 1 |   D   | 1000ft - FL235     |  BGD_APP  |
+|       **TMA**        | Baghdad TMA 1 |   D   | 1800ft - FL235     |  BGD_APP  |
 |       **TMA**        | Baghdad TMA 2 |   D   | 3500ft - FL235     |  BGD_APP  |
-|       **TMA**        | Baghdad TMA 3 |   D   | 1000ft - FL235     |  BGD_APP  |
-|       **TMA**        | Baghdad TMA 4 |   D   | 1000ft - FL235     |  BGD_APP  |
+|       **TMA**        | Baghdad TMA 3 |   D   | 11500ft - FL235    |  BGD_APP  |
+|       **TMA**        | Baghdad TMA 4 |   D   | 3500ft - FL235     |  BGD_APP  |
 
 ## ATS Callsigns 
 
 |  **Radio Callsign**  | **Logon Callsign** | **Abbreviation** | **Frequency (MHz)** |
 |:--------------------:|:------------------:|:----------------:|:-------------------:|
 |   **Baghdad ATIS**    |      ORBI_ATIS    |       ATIS       |       126.925       |
-|  **Baghdad Ground**   |      ORBI_GND     |        GMC       |       121.700       |
+|  **Baghdad Ground**   |      ORBI_GND     |        GMC       |       121.400       |
 |   **Baghdad Tower**   |      ORBI_TWR     |        TWR       |       118.900       |
 | **Baghdad Director***  |      ORBI_F_APP   |        FIN       |       126.575       |
-| **Baghdad Approach**  |      BGD_APP      |        APP       |       124.800       |
+| **Baghdad Approach**  |      BGD_APP      |        APP       |       122.400       |
 
 `*` Baghdad Director (FIN) is an events only position.
