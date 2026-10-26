@@ -52,7 +52,7 @@ TWR issues the VFR clearance together with the departure instructions at the hol
 | **Circuits**          | 9K-SAA, left hand circuits runway 34, not above altitude 1000ft, report downwind. Wind calm, runway 34, cleared for take-off                  |
 | **Zone exit**         | 9K-SAA, leave the control zone via Qurain Shopping Area, not above altitude 1000ft VFR, report overhead Qurain Shopping Area. Wind calm, runway 16, cleared for take-off |
 | **Zone entry**        | 9K-SAA, enter control zone eastbound, not above altitude 1000ft VFR, QNH 1019, report airfield in sight                                       |
-| **Joining**           | 9-AA, join left hand downwind runway 34, report downwind                                                                                      |
+| **Joining**           | SAA, join left hand downwind runway 34, report downwind                                                                                      |
 
 - VFR circuits are flown on **RWY34 (left-hand)** and **RWY16 (right-hand)** only, at 1000ft (piston) or 1500ft (jet).
 - Zone exits must be via a **Visual Reporting Point (VRP)**. The VRP table has moved from the Kuwait Delivery document to Kuwait Tower 3.5.2.
@@ -61,11 +61,11 @@ TWR issues the VFR clearance together with the departure instructions at the hol
 
 The **Kuwait CTA** surrounding the CTR is **Class C** from the surface to FL150. Every VFR zone exit must therefore be coordinated with **APP** before the clearance is issued.
 
-Once the aircraft is leaving the CTR, instruct it to monitor advisory:
+Once the aircraft is leaving the CTR, instruct them to monitor advisory:
 
 | Phase                 | Phraseology                                                  |
 | --------------------- | ------------------------------------------------------------ |
-| **Leaving the CTR**   | 9-AA, leaving the control zone, monitor advisory 122.800     |
+| **Leaving the CTR**   | 9AA, leaving the control zone, monitor advisory 122.800     |
 
 ## Documentation Status
 
