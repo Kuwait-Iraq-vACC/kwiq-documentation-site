@@ -8,7 +8,7 @@ title: "GEN - General Information"
 ## Aerodrome Details
 | Aerodrome ICAO | Airport Name                  | Airport Coordinates    | Airport Runways         | Airport Elevation |
 |----------------|-------------------------------|------------------------|-------------------------|-------------------|
-| OKKK           | Kuwait International Airport  | 29.22266° N, 47.9689° E| 15L/33R, 15R/33L, 16/34 |       205ft       |
+| OKKK           | Kuwait International Airport  | 29.22677° N, 47.97995° E| 15L/33R, 15R/33L, 16/34 |       204ft       |
 
 
 ## Runways
@@ -16,12 +16,12 @@ title: "GEN - General Information"
 
 | Runway | Dimensions  | True Bearing | Elevation |
 |--------|-------------|--------------|-----------|
-| 33L    | 3400M x 45M | 332          | 133ft     |
-| 15R    | 3400M x 45M | 152          | 168ft     |
-| 33R    | 3500M x 45M | 332          | 205ft     |
-| 15L    | 3500M x 45M | 152          | 160ft     |
-| 34     | 4580M x 60M | 332          | 172ft     |
-| 16     | 4580M x 60M | 152          | 166ft     |
+| 33L    | 3400M x 45M | 335          | 168ft     |
+| 15R    | 3400M x 45M | 155          | 133ft     |
+| 33R    | 3500M x 45M | 335          | 204ft     |
+| 15L    | 3500M x 45M | 155          | 160ft     |
+| 34     | 4580M x 60M | 335          | 172ft     |
+| 16     | 4580M x 60M | 155          | 166ft     |
 
 ## Declared Distances
 | Runway | TORA (M) | TODA (M) | ASDA (M) | LDA (M) |
@@ -40,7 +40,7 @@ Airspaces
 
 |         Airspace Type         |   Airspace  | Class | Vertical Limits | Controller |
 |:-----------------------------:|:-----------:|:-----:|:---------------:|------------|
-|        **Control Zone**       | Kuwait CTR  |   D   |   SFC - 2000ft  |  OKKK_TWR  |
+|        **Control Zone**       | Kuwait CTR  |   D   | SFC - 2000ft AGL |  OKKK_TWR  |
 |       **Control Area**        | Kuwait CTA  |   C   | SFC - 6000ft   |  OKKK_F_APP |
 |       **Control Area**        | Kuwait CTA  |   C   | SFC - FL150     |  OKKK_APP  |
 

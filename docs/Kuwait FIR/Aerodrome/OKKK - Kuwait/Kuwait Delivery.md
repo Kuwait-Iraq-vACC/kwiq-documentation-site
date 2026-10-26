@@ -169,20 +169,18 @@ DEL is responsible for issuing VFR Clearances as well. Prior to issuing a VFR Cl
 #### 2.3.1 VFR Circuits
 Once **Kuwait Delivery (DEL)** has received confirmation from the TWR controller that they are happy to accept **VFR Circuit Traffic** they can continue with issuing a VFR clearance to the aircraft. Please see below the standard pattern information below.
 
-!!!node "Act Promptly"
+!!! note "Act Promptly"
     When you see a pilot file a VFR FPL ensure you act promptly and efficiently and coordinate with the relevant controller to ensure they are able to accept the aircraft into their airspace. Do not wait for the pilot to call up on frequency before coordinating with the relevant ATS Unit. 
 
-| **Runway Configuration** | **Direction** | **Altitude** |
-|--------------------------|---------------|--------------|
-| 33R                      | Right Hand    | 1000ft       |
-| 15R                      | Right Hand    | 1000ft       |
-| 33L                      | Left Hand     | 1000ft       |
-| 15L                      | Left Hand     | 1000ft       |
-| 34                       | Left Hand     | 1000ft       |
-| 16                       | Right         | 1000ft       |
+VFR Circuits are carried out only on RWY34 and RWY16, as per [Kuwait Tower](Kuwait%20Tower.md) 3.5.1.
 
-!!!node "Circuit Selection for Runway"
-    The TWR Controller will advise the DEL Controller which runway the circuits will be conducted on, standard is 15L/33R. 
+| **Runway** | **Circuit Direction** | **Altitude (Piston)** | **Altitude (Jet)** |
+|------------|-----------------------|-----------------------|--------------------|
+| 34         | Left-Hand             | 1000ft                | 1500ft             |
+| 16         | Right-Hand            | 1000ft                | 1500ft             |
+
+!!! note "Circuit Selection for Runway"
+    The TWR Controller will advise the DEL Controller which runway the circuits will be conducted on. 
 
 ***VFR Circuit Clearance Example***
 
