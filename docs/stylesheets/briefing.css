@@ -116,6 +116,11 @@
     color: #1c9d5d;
 }
 
+.status--upcoming {
+    background: rgba(47, 111, 214, 0.15);
+    color: #2f6fd6;
+}
+
 .status--superseded {
     background: rgba(250, 172, 2, 0.18);
     color: #b57f00;
