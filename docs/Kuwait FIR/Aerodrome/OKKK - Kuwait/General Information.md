@@ -14,6 +14,9 @@ title: "GEN - General Information"
 ## Runways
 **Kuwait International Airport** has 3 published runways, 15L/33R, 15R/33L, and 16/34.  
 
+!!! warning "RWY 15L/33R closed"
+    As per **AIP SUP 01/26**, RWY 15L/33R is **closed** from 06/01/2026 until 22/02/2027 for rehabilitation. The associated ILS has been removed. TWY E2 (affected portions) and the RWY 15L and RWY 33R loops are also closed.
+
 | Runway | Dimensions  | True Bearing | Elevation |
 |--------|-------------|--------------|-----------|
 | 33L    | 3400M x 45M | 335          | 168ft     |

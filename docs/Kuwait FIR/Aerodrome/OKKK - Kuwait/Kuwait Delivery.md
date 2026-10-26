@@ -111,6 +111,9 @@ Please note TOBTs are only issued during certain events, this will be outlined v
 In Kuwait all departures should be cleared via a **Standard Instrument Departure (SID)** which is selected based on the first waypoint in their filed Flight Plan (FPL). 
 All **Standard Instrument Departures (SIDs)** in Kuwait are RNAV (Area Navigation) and provide aircraft with a pre-defined route taking them from the departure airport into the **Control Area (CTA)** where they will be taken into the en-route environment. 
 
+!!! note "AIRAC AIP SUP 04/26"
+    From 01/10/2026, **RALKA1K** and **RALKA5E** are withdrawn and replaced by **TASMI1K** (RWY 16) and **TASMI5E** (RWY 15R). Speed restrictions have been removed from all SIDs.
+
 **16:**
 
 | **SID** | **Designator** | **Departure Runway** |
@@ -118,7 +121,7 @@ All **Standard Instrument Departures (SIDs)** in Kuwait are RNAV (Area Navigatio
 | ALVAX   | 1K             | 16                   |
 | ASVIR   | 1K             | 16                   |
 | BOXIK   | 1K             | 16                   |
-| RALKA   | 1K             | 16                   |
+| TASMI   | 1K             | 16                   |
 | SESRU   | 1K             | 16                   |
 | DEKOB   | 1K             | 16                   |
 | KATOD   | 1K             | 16                   |
@@ -131,7 +134,7 @@ All **Standard Instrument Departures (SIDs)** in Kuwait are RNAV (Area Navigatio
 | ALVAX   | 5E             | 15R                  |
 | ASVIR   | 5E             | 15R                  |
 | BOXIK   | 5E             | 15R                  |
-| RALKA   | 5E             | 15R                  |
+| TASMI   | 5E             | 15R                  |
 | SESRU   | 5E             | 15R                  |
 | DEKOB   | 1L             | 15R                  |
 | KATOD   | 1L             | 15R                  |

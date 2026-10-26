@@ -39,6 +39,9 @@ At **Kuwait International Airport (OKKK)**, the preferential runway is 34 for ar
     
     - All Controllers should bare the ability to read weather and make an assessment on what the active runway in use should be. Additional information of reading METAR information can be found under the vMATS.
 
+!!! warning "RWY 15L/33R closed"
+    As per **AIP SUP 01/26**, RWY 15L/33R is **closed** from 06/01/2026 until 22/02/2027 for rehabilitation. The associated ILS has been removed. TWY E2 (affected portions) and the RWY 15L and RWY 33R loops are also closed.
+
 #### 3.1.1 Runway Change
 If the **TWR Controller** deems it necessary to change the active runway due to a change in wind direction this should be coordinated with all controllers above and below as this changes departure and arrival clearances. This should not be done suddenly, it must be carefully coordinated. The **Approach Controller** and **Tower Controller** will carefully select which aircraft is the last aircraft to land prior to the runway change.
 
@@ -82,6 +85,9 @@ All departures from Kuwait will be assigned a **Standard Instrument Departure (S
 
 All SIDs in Kuwait are RNAV1 (Area Navigation) which means aircraft must be able to maintain a total system error of no more than 1 nautical mile (NM) for 95% of the flight time. This enhances safety, and accuracy of the departure routing an aircraft should fly. 
 
+!!! note "AIRAC AIP SUP 04/26"
+    From 01/10/2026, **RALKA1K** and **RALKA5E** are withdrawn and replaced by **TASMI1K** (RWY 16) and **TASMI5E** (RWY 15R). Speed restrictions have been removed from all SIDs.
+
 **16:**
 
 | **SID** | **Designator** | **Departure Runway** |
@@ -89,7 +95,7 @@ All SIDs in Kuwait are RNAV1 (Area Navigation) which means aircraft must be able
 | ALVAX   | 1K             | 16                   |
 | ASVIR   | 1K             | 16                   |
 | BOXIK   | 1K             | 16                   |
-| RALKA   | 1K             | 16                   |
+| TASMI   | 1K             | 16                   |
 | SESRU   | 1K             | 16                   |
 | DEKOB   | 1K             | 16                   |
 | KATOD   | 1K             | 16                   |
@@ -102,7 +108,7 @@ All SIDs in Kuwait are RNAV1 (Area Navigation) which means aircraft must be able
 | ALVAX   | 5E             | 15R                  |
 | ASVIR   | 5E             | 15R                  |
 | BOXIK   | 5E             | 15R                  |
-| RALKA   | 5E             | 15R                  |
+| TASMI   | 5E             | 15R                  |
 | SESRU   | 5E             | 15R                  |
 | DEKOB   | 1L             | 15R                  |
 | KATOD   | 1L             | 15R                  |
