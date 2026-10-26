@@ -49,9 +49,6 @@ TWY E1 is partially restricted due to construction works for the new RWY 15L/33R
 - **Code D, E and F** aircraft taxiing out of the G/A Terminal northbound via E1 shall vacate E1 via **E8** only. Those taxiing in southbound shall use **E8** only.
 - **Code C and smaller** aircraft may use E1 or E10.
 
-!!! note "Coordination"
-    **GMC** should expect more taxi delays and should plan routings for larger aircraft from the Eastern Apron early.
-
 ## Documentation Status
 
 OKKK General Information, Kuwait Tower (3.1) and Kuwait Ground (2.2) carry a warning for the duration of these supplements. This NOTAM will be marked as expired once both supplements are cancelled.
