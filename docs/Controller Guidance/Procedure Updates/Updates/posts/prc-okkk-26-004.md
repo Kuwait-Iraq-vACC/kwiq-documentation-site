@@ -42,6 +42,9 @@ All OKKK SID, STAR, ILS and RNP charts have been replaced. For SID allocation, t
 
 Departures towards TASMI now have a TASMI SID from every runway (TASMI1K, TASMI5E, TASMI5F and TASMI1I). Speed restrictions have also been removed from all SIDs.
 
+!!! info "Sector files and plugins"
+    The **vSID** plugin configuration and the **OKAC sector files** have been updated to reflect these SID changes. Ensure you are using the latest sector file package.
+
 !!! warning
     Do not assign RALKA1K or RALKA5E. Pilots using an older AIRAC may not have the TASMI SIDs for RWY 16 and RWY 15R.
 
