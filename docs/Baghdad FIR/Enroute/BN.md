@@ -67,7 +67,7 @@ All aircraft entering or exiting the FIR at the same level shall be separated by
 
 Aircraft will be handed off by **Baghdad Control South (BS)** at RFL, or climbing to RFL. Aircraft should be handed off **~20 NM** prior to the sector boundary.
 
-Departures from the Baghdad and Kirkuk TMAs will be handed off by **BGD_APP** and **KIR_APP** climbing **FL230**.
+Departures from the Baghdad and Kirkuk TMAs will be handed off by **BGD_APP** and **KRK_APP** climbing **FL230**.
 
 Arrivals into ORBI from the north should cross **SOBIL at FL350**. See the provisional [agreed levels for ORBI arrivals](../Terminal/BGD.md#agreed-levels-orbi-arrivals).
 
@@ -76,4 +76,4 @@ Arrivals into ORBI from the north should cross **SOBIL at FL350**. See the provi
 | Baghdad Control  | ORBB_S_CTR     | 128.700   |
 | Baghdad Control  | ORBB_NU_CTR    | 125.900   |
 | Baghdad Approach | BGD_APP        | 122.400   |
-| Baghdad Approach | KIR_APP        | 127.700   |
+| Baghdad Approach | KRK_APP        | 127.700   |

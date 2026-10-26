@@ -33,15 +33,15 @@ Published runway dimensions are used where separate declared-distance breakdowns
 |         Airspace Type         |   Airspace  | Class | Vertical Limits | Controller |
 |:-----------------------------:|:-----------:|:-----:|:---------------:|------------|
 |        **CTR**       | Erbil CTR   |   D   | SFC - 6000ft    | ORER_TWR   |
-|        **TMA**       | Kirkuk TMA 1 |   D   | 3000ft - FL235 | KIR_APP    |
-|        **TMA**       | Kirkuk TMA 2 |   D   | 7500ft - FL235 | KIR_APP    |
-|        **TMA**       | Kirkuk TMA 3 |   D   | 5000ft - FL235 | KIR_APP    |
-|        **TMA**       | Kirkuk TMA 4 |   D   | 11000ft - FL235| KIR_APP    |
-|        **TMA**       | Kirkuk TMA 5 |   D   | 5000ft - FL235 | KIR_APP    |
-|        **TMA**       | Kirkuk TMA 6 |   D   | 14000ft - FL235| KIR_APP    |
-|        **TMA**       | Kirkuk TMA 7 |   D   | 12500ft - FL235| KIR_APP    |
-|        **TMA**       | Kirkuk TMA 8 |   D   | FL160 - FL235  | KIR_APP    |
-|        **TMA**       | Kirkuk TMA 9 |   D   | 3500ft - 5000ft| KIR_APP    |
+|        **TMA**       | Kirkuk TMA 1 |   D   | 3000ft - FL235 | KRK_APP    |
+|        **TMA**       | Kirkuk TMA 2 |   D   | 7500ft - FL235 | KRK_APP    |
+|        **TMA**       | Kirkuk TMA 3 |   D   | 5000ft - FL235 | KRK_APP    |
+|        **TMA**       | Kirkuk TMA 4 |   D   | 11000ft - FL235| KRK_APP    |
+|        **TMA**       | Kirkuk TMA 5 |   D   | 5000ft - FL235 | KRK_APP    |
+|        **TMA**       | Kirkuk TMA 6 |   D   | 14000ft - FL235| KRK_APP    |
+|        **TMA**       | Kirkuk TMA 7 |   D   | 12500ft - FL235| KRK_APP    |
+|        **TMA**       | Kirkuk TMA 8 |   D   | FL160 - FL235  | KRK_APP    |
+|        **TMA**       | Kirkuk TMA 9 |   D   | 3500ft - 5000ft| KRK_APP    |
 
 
 ## ATS Callsigns
@@ -50,4 +50,4 @@ Published runway dimensions are used where separate declared-distance breakdowns
 |:--------------------:|:------------------:|:----------------:|:-------------------:|
 |    **Erbil ATIS**    |     ORER_ATIS      |       ATIS       |       130.400       |
 |   **Erbil Tower**    |      ORER_TWR      |        TWR       |       128.800       |
-| **Baghdad Approach** |      KIR_APP       |        APP       |       127.700       |
+| **Baghdad Approach** |      KRK_APP       |        APP       |       127.700       |

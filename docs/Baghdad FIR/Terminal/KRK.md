@@ -1,5 +1,5 @@
 ---
-title: "KIR_APP - Kirkuk Sector"
+title: "KRK_APP - Kirkuk Sector"
 ---
 
 ![KIR APP.png](img/KIR%20APP.png)
@@ -8,7 +8,7 @@ title: "KIR_APP - Kirkuk Sector"
 
 | Radio Callsign   | Logon Callsign | Frequency | Aerodromes             |
 |------------------|----------------|-----------|------------------------|
-| Baghdad Approach | KIR_APP        | 127.700   | ORBM, ORER, ORKK, ORSJ |
+| Baghdad Approach | KRK_APP        | 127.700   | ORBM, ORER, ORKK, ORSJ |
 
 The **Kirkuk Sector** covers northern Iraq, including Kirkuk (ORKK), Erbil (ORER), Jalal Talabani (ORSJ) and Mosul (ORBM), from the lower limits below up to **FL235**.
 
