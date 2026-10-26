@@ -350,11 +350,9 @@ Aircraft shall leave the CTR via a **Visual Reporting Point (VRP)**:
 
 > **Pilot:** _"9-AA, overhead Qurain Shopping Area"_
 
-> **TWR Controller:** _**"9-AA, contact Kuwait Approach 124.800"**_
+> **TWR Controller:** _**"9-AA, leaving the control zone, monitor advisory 122.800"**_
 
-If **Kuwait Approach** is offline and no higher position is covering the CTA:
-
-> **TWR Controller:** _**"9-AA, leaving the control zone, frequency change approved"**_
+> **Pilot:** _"Monitor advisory 122.800, 9-AA"_
 
 ### 3.5.3 Inbound VFR Traffic
 Inbound VFR aircraft shall be transferred to TWR early enough that two-way radio communication is established before they reach the CTR boundary. TWR then issues the clearance to enter the CTR, the instructions for joining the circuit and any relevant traffic information.

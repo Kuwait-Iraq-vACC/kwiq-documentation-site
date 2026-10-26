@@ -57,12 +57,15 @@ TWR issues the VFR clearance together with the departure instructions at the hol
 - VFR circuits are flown on **RWY34 (left-hand)** and **RWY16 (right-hand)** only, at 1000ft (piston) or 1500ft (jet).
 - Zone exits must be via a **Visual Reporting Point (VRP)**. The VRP table has moved from the Kuwait Delivery document to Kuwait Tower 3.5.2.
 
-## Zone exits and Kuwait Approach
+## Zone exits
 
-The **Kuwait CTA** surrounding the CTR is **Class C** from the surface to FL150. Every VFR zone exit must therefore be coordinated with **APP** before the clearance is issued. Once the aircraft is leaving the CTR, it is transferred to **Kuwait Approach (124.800)**.
+The **Kuwait CTA** surrounding the CTR is **Class C** from the surface to FL150. Every VFR zone exit must therefore be coordinated with **APP** before the clearance is issued.
 
-!!! tip "APP offline"
-    If Kuwait Approach is offline and no higher position is covering the CTA, approve a frequency change instead: "9-AA, leaving the control zone, frequency change approved".
+Once the aircraft is leaving the CTR, instruct it to monitor advisory:
+
+| Phase                 | Phraseology                                                  |
+| --------------------- | ------------------------------------------------------------ |
+| **Leaving the CTR**   | 9-AA, leaving the control zone, monitor advisory 122.800     |
 
 ## Documentation Status
 
