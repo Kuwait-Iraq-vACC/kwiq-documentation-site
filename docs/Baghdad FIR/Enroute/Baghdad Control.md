@@ -88,9 +88,9 @@ RVSM applies between **FL290 and FL410 inclusive**. Only RVSM-approved aircraft 
 
 Prior to being provided with radar service, an ATCO unit will establish identification of the aircraft concerned. A pilot will be informed whenever radar identification is established or lost.
 
-> Controller: "IAW123, radar identified/contact"
+> Controller: "IAW123, radar contact/identified"
 
-> Controller: "Radar identification/contact lost"
+> Controller: "Radar contact/identification lost"
 
 !!! info "Radar Control Service"
     A radar control service will be provided in all controlled airspace within the Baghdad FIR, and along all airways except segments of airways in the west of the Baghdad FIR.

@@ -62,7 +62,7 @@ Controllers can record a pilot's estimate for a point by using the EuroScope `.e
 
 Once the aircraft passes the end of the procedural segment (RAPLU or GIBUX), radar identification should be established and a radar control service provided.
 
-> Controller: "IAW123, radar identified"
+> Controller: "IAW123, radar contact"
 
 ### Exiting Traffic
 For aircraft leaving the FIR via the procedural segments, the radar service should be terminated and the aircraft transferred to the next unit.
