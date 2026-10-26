@@ -12,8 +12,8 @@ tags:
 
 | Reference                     | PRC-ORBB-26-002                                   |
 | ----------------------------- | ------------------------------------------------- |
-| **Effective Date**            | On release of the ORBB vATIS profile update       |
-| **Status**                    | <span class="status status--upcoming">Upcoming</span> |
+| **Effective Date**            | 26/10/2026                                        |
+| **Status**                    | <span class="status status--active">Active</span> |
 | **Applies To**                | ORBI, ORER, ORMM, ORNI (ATIS)                     |
 | **Docs Updated**              | Yes                                               |
 
