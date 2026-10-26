@@ -13,7 +13,7 @@ tags:
 | Reference                     | PRC-OKKK-26-002                                   |
 | ----------------------------- | ------------------------------------------------- |
 | **Effective Date**            | 29/10/2026 (AIRAC 2611)                           |
-| **Status**                    | <span class="status status--upcoming">Upcoming</span> |
+| **Status**                    | <span class="status status--active">Active</span>   |
 | **Applies To**                | OKKK (GND)                                        |
 | **Docs Updated**              | Yes                                               |
 
