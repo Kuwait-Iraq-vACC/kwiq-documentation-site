@@ -10,7 +10,7 @@ title: "BNU - Baghdad North High"
 |-----------------|----------------|-----------|-------------|:-----:|
 | Baghdad Control | ORBB_NU_CTR    | 125.900   | 345 - 460   |   A   |
 
-**Baghdad Control North High (BNU)** covers the North sector of the Baghdad FIR from FL345 to FL460. If **BN** is not online, BNU also covers North Low (FL235 - FL345) and the top-down services listed on the [BN page](BN.md).
+**Baghdad Control North High (BNU)** covers the North sector of the Baghdad FIR from FL345 to FL460. BNU only ever covers North High. It never covers North Low (FL235 - FL345) or provides top-down services, even if **BN** is not online.
 
 The lateral limits, FIR entry and exit points and level restrictions for the North sector are listed on the [BN page](BN.md).
 
