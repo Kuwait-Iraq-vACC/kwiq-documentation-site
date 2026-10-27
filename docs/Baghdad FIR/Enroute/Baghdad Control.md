@@ -28,13 +28,13 @@ Airspace to the north and west of this line belongs to the North sector. Airspac
 
 ### Top-down Coverage
 
-If a split sector is not online, its airspace is covered by the next available position in the order below.
+If a split sector is not online, its airspace is covered by the next available position in the order below. **BNU** and **BSU** only ever cover the High sectors. They never cover the Low sectors or provide top-down services.
 
 | Sector     | Coverage Order    |
 |------------|-------------------|
-| North Low  | BN → BNU → B      |
+| North Low  | BN → B            |
 | North High | BNU → B           |
-| South Low  | BS → BSU → B      |
+| South Low  | BS → B            |
 | South High | BSU → B           |
 
 When online, Baghdad Control also provides top-down services to the Baghdad Approach sectors and aerodromes that are not staffed. See [Baghdad Approach](../Terminal/Baghdad%20Approach.md) for which aerodromes fall under each approach sector.
