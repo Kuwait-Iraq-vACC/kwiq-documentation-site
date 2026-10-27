@@ -35,7 +35,7 @@ The **Kuwait Control Zone (CTR)** is **Class D Airspace** within a 10nm radius o
 At **Kuwait International Airport (OKKK)**, the preferential runway is 34 for arrivals and 33L for departures which may be utilised with a tailwind of up to 5kts. If the tailwind component is greater than 5kts then the 15/16 config should be used for arrivals and departures. If the 15s have to be utilised then 15R is the favoured departure runway and 16 is used for arrivals. Runway 34/16 should be used for those parked in the Cargo City Aprons.
 
 !!! tip "References to Use" 
-    - You can always refernece real world sources! However, this should NEVER become a reliance. NOTAMs should be read in the case there are runway closures/maintenance to simulate realism.
+    - You can always reference real world sources! However, this should NEVER become a reliance. NOTAMs should be read in the case there are runway closures/maintenance to simulate realism.
     
     - All Controllers should bare the ability to read weather and make an assessment on what the active runway in use should be. Additional information of reading METAR information can be found under the vMATS.
 
@@ -59,7 +59,7 @@ Example:
 > **TWR Controller:** _**"KAC501, via W1, line up and wait RWY33L."**_ 
 
 #### 3.2.1 Conditional Line Up Clearance (Landing Traffic)
-The **TWR Controller** may issue a conditional line up clearance in order to maximise movements and runway efficency. This must be done efficently and precisely. 
+The **TWR Controller** may issue a conditional line up clearance in order to maximise movements and runway efficiency. This must be done efficiently and precisely. 
 
 Example:
 
@@ -69,7 +69,7 @@ Example:
     The use of the word "behind" at the start and end of the instruction is compulsory, this is to ensure the aircraft fully understands they are to give way to the landing traffic
 
 #### 3.2.2 Conditional Line Up Clearance (Departing Traffic) 
-The **TWR Controller** can also issue a conditional line up clearance for traffic waiting to depart behind a departing aircraft ahead of him. Again, this must be done efficently and precisly to prevent any runway incursions or misunderstanding. 
+The **TWR Controller** can also issue a conditional line up clearance for traffic waiting to depart behind a departing aircraft ahead of him. Again, this must be done efficiently and precisely to prevent any runway incursions or misunderstanding. 
 
 Example:
 
@@ -81,7 +81,7 @@ Example:
 ### 3.3 Take Off Procedures 
 
 #### 3.3.1 Standard Instrument Departures (SIDs) 
-All departures from Kuwait will be assigned a **Standard Instrument Departure (SID)** when they recieve their departure clearance, they are assigned based on the first waypoint in their flight plan and/or direction of flight. The purpose of SIDs are to ehance safety, predictability and efficiently guide traffic from their initial departure phase to the en-route traffic environment. 
+All departures from Kuwait will be assigned a **Standard Instrument Departure (SID)** when they receive their departure clearance, they are assigned based on the first waypoint in their flight plan and/or direction of flight. The purpose of SIDs are to enhance safety, predictability and efficiently guide traffic from their initial departure phase to the en-route traffic environment. 
 
 All SIDs in Kuwait are RNAV1 (Area Navigation) which means aircraft must be able to maintain a total system error of no more than 1 nautical mile (NM) for 95% of the flight time. This enhances safety, and accuracy of the departure routing an aircraft should fly. 
 
@@ -147,31 +147,31 @@ Aircraft should only be given take off clearance once the runway is clear of obs
 
 Example: 
 
-> **TWR Controller:** _**"KAC393, via W1, surface winds 300 Degrees at 12 knots, Runway 33L, cleared for takeoff."**_
+> **TWR Controller:** _**"KAC393, via W1, surface winds 300 Degrees 12 knots, Runway 33L, cleared for takeoff."**_
 
 #### 3.3.3 Handing Off 
-Once the aircraft has taken off and a postive rate of climb can be seen **(typically passing 800ft)** they should be informed to contact the **Approach Controller** with their passing altitude. 
+Once the aircraft has taken off and a positive rate of climb can be seen **(typically passing 800ft)** they should be informed to contact the **Approach Controller** with their passing altitude. 
 
 Example: 
 
 > **TWR Controller:** _**"KAC393, contact Kuwait Approach 124.800."**_
 
 #### 3.3.4 Wake Separation 
-Time based separation is utilised at Kuwait to ensure separation between various wake turbulence catergories is maintained. 
-The **TWR Controller** is responsible for ensuring the seperation system is enforced. 
+Time based separation is utilised at Kuwait to ensure separation between various wake turbulence categories is maintained. 
+The **TWR Controller** is responsible for ensuring the separation system is enforced. 
 
-#### 3.3.4.1 Wake Turbulence Catergories
+#### 3.3.4.1 Wake Turbulence Categories
 
-Aircraft are divided into 4 different **Wake Turbulence Catergories (WTC)** based on the aircrafts certified Maximum Take Off Weight.
+Aircraft are divided into 4 different **Wake Turbulence Categories (WTC)** based on the aircraft's certified Maximum Take Off Weight.
 
-| **Wake Turbulence Catergory (WTC)** | **Maximum Take Off Weight (MTOW)** |
+| **Wake Turbulence Category (WTC)** | **Maximum Take Off Weight (MTOW)** |
 |:-----------------------------------:|:----------------------------------:|
 |              Light (L)              |              ≤ 7000KG              |
 |              Medium (M)             |         7000KG to 136,000KG        |
 |              Heavy (H)              |             ≥ 136,000KG            |
 |              Super (J)              |              A388 ONLY             |
 
-It is the responsibility of the controller to check the Flight Plan (FPL) if they are unsure of an aircrafts **Wake Turbulence Catergory**.
+It is the responsibility of the controller to check the Flight Plan (FPL) if they are unsure of an aircraft's **Wake Turbulence Category**.
 
 #### 3.3.4.2 Time Based Separation Table 
 
@@ -227,9 +227,9 @@ In order to ensure minimum runway occupancy time pilots are expected to vacate t
 | RWY16         | V7/V5                     |
 
 #### 3.4.3 Vacating Traffic
-Traffic vacating the active runway shall not be immediately transfered to the GMC Controller, it is the responsibility of the TWR Controller to issue an initial taxi clearance onto taxiway W1 or E1 to ensure the runway is not obstructed by aircraft stopping at the holding point and then waiting for an instruction from the GMC controller. 
+Traffic vacating the active runway shall not be immediately transferred to the GMC Controller, it is the responsibility of the TWR Controller to issue an initial taxi clearance onto taxiway W1 or E1 to ensure the runway is not obstructed by aircraft stopping at the holding point and then waiting for an instruction from the GMC controller. 
 
-The aim is to ensure the runway is kept clear to allow smooth and efficent flow of traffic in and out of **Kuwait International Airport (OKKK)**. 
+The aim is to ensure the runway is kept clear to allow smooth and efficiently flow of traffic in and out of **Kuwait International Airport (OKKK)**. 
 
 The GMC Controller (if online) has the responsibility to ensure all aircraft on final approach are allocated with a stand number, this allows the TWR Controller to be able to issue an initial taxi clearance after vacating the runway in the direction of that allocated parking stand. 
 
