@@ -8,19 +8,18 @@ Routes, events, sector indicators and settings all come from the vACC, so you do
 
 ## Installing the Plugin
 
-1. Download the plugin from **myKWIQ → EuroScope Plugin**.
-2. In EuroScope, open **Other Set → Plug-ins**, click **Load** and select `KWIQPlugin.dll`.
-
-`KWIQPlugin.dll` is the only file you need. The plugin keeps its own files in `%APPDATA%\KWIQ`.
+The plugin is included in the OKAC and ORBB sector file packages and loads with them, so there is nothing to install. The plugin keeps its own files in `%APPDATA%\KWIQ`.
 
 !!! warning "Don't load VCH separately"
     VCH is built into the KWIQ plugin. Loading VCH as well will give you two copies of its tag items and commands. Remove it from **Other Set → Plug-ins**.
 
 ### Updates
 
-The plugin checks for a new version each time EuroScope starts. If there is one, a Windows message box asks whether to install it. Click **Yes** and the new version loads straight away, with no restart needed.
+Each time EuroScope starts, the plugin checks for a new version. If there is one, a Windows message box asks whether to install it. Click **Yes** and the new version loads straight away, with no restart needed. Click **No** to keep your current version until the next start.
 
 The plugin never interrupts a session to update. Type `.kwiq update` to see whether a newer version is waiting.
+
+A sector file package that comes with an older copy of the plugin doesn't replace a newer version you have already installed.
 
 !!! info
     If the vACC can't be reached when EuroScope starts, the installed version loads as normal.
@@ -157,7 +156,7 @@ VCH's own `.vch` commands work as before.
     Two copies of the plugin are loaded, so the second one does nothing. Remove one of them in **Other Set → Plug-ins**.
 
 ??? question "The chat says this copy of the plugin cannot update itself"
-    You have loaded the plugin's internal file instead of `KWIQPlugin.dll`. Download the plugin again from myKWIQ and load `KWIQPlugin.dll`.
+    You have loaded the plugin's internal file, `KWIQPluginCore.dll`, instead of `KWIQPlugin.dll`. Remove it in **Other Set → Plug-ins** and reinstall the latest sector file package.
 
 ??? question "Core did not accept your API key"
     Your key is no longer valid, for example because it was removed on myKWIQ. Connect it again from the KWIQ button, or with `.kwiq connect`.
