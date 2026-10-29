@@ -78,6 +78,9 @@ markdown_extensions:
       permalink: true
   - md_in_html
 
+hooks:
+  - hooks/blog_sort.py
+
 plugins:
   - search
   - blog:

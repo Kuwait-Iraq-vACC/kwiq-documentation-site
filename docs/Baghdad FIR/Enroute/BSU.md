@@ -10,7 +10,7 @@ title: "BSU - Baghdad South High"
 |-----------------|----------------|-----------|-------------|:-----:|
 | Baghdad Control | ORBB_SU_CTR    | 127.100   | 345 - 460   |   A   |
 
-**Baghdad Control South High (BSU)** covers the South sector of the Baghdad FIR from FL345 to FL460. If **BS** is not online, BSU also covers South Low (FL235 - FL345) and the top-down services listed on the [BS page](BS.md).
+**Baghdad Control South High (BSU)** covers the South sector of the Baghdad FIR from FL345 to FL460. BSU only ever covers South High. It never covers South Low (FL235 - FL345) or provides top-down services, even if **BS** is not online.
 
 The lateral limits, FIR entry and exit points and level restrictions for the South sector are listed on the [BS page](BS.md).
 

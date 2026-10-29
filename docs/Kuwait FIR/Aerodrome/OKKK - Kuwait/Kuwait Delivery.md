@@ -111,6 +111,9 @@ Please note TOBTs are only issued during certain events, this will be outlined v
 In Kuwait all departures should be cleared via a **Standard Instrument Departure (SID)** which is selected based on the first waypoint in their filed Flight Plan (FPL). 
 All **Standard Instrument Departures (SIDs)** in Kuwait are RNAV (Area Navigation) and provide aircraft with a pre-defined route taking them from the departure airport into the **Control Area (CTA)** where they will be taken into the en-route environment. 
 
+!!! note "AIRAC AIP SUP 04/26"
+    From 01/10/2026, **RALKA1K** and **RALKA5E** are withdrawn and replaced by **TASMI1K** (RWY 16) and **TASMI5E** (RWY 15R). Speed restrictions have been removed from all SIDs.
+
 **16:**
 
 | **SID** | **Designator** | **Departure Runway** |
@@ -118,7 +121,7 @@ All **Standard Instrument Departures (SIDs)** in Kuwait are RNAV (Area Navigatio
 | ALVAX   | 1K             | 16                   |
 | ASVIR   | 1K             | 16                   |
 | BOXIK   | 1K             | 16                   |
-| RALKA   | 1K             | 16                   |
+| TASMI   | 1K             | 16                   |
 | SESRU   | 1K             | 16                   |
 | DEKOB   | 1K             | 16                   |
 | KATOD   | 1K             | 16                   |
@@ -131,7 +134,7 @@ All **Standard Instrument Departures (SIDs)** in Kuwait are RNAV (Area Navigatio
 | ALVAX   | 5E             | 15R                  |
 | ASVIR   | 5E             | 15R                  |
 | BOXIK   | 5E             | 15R                  |
-| RALKA   | 5E             | 15R                  |
+| TASMI   | 5E             | 15R                  |
 | SESRU   | 5E             | 15R                  |
 | DEKOB   | 1L             | 15R                  |
 | KATOD   | 1L             | 15R                  |
@@ -163,70 +166,36 @@ All **Standard Instrument Departures (SIDs)** in Kuwait are RNAV (Area Navigatio
 | KATOD   | 1I             | 34                   |
 | NIDAP   | 1I             | 34                   |
 
-### 2.3 VFR Procedures 
-DEL is responsible for issuing VFR Clearances as well. Prior to issuing a VFR Clearance to any traffic, DEL must coordinate with TWR to ensure the TWR controller can accept local traffic into his CTR. TWR has the authority to delay traffic into his CTR if the traffic load is high. The TWR Controller must provide a estimated delay time to the DEL Controller to pass to the pilot. 
+### 2.3 VFR Procedures
+**Kuwait Delivery (DEL)** does **not** issue VFR clearances. All VFR clearances (circuits, zone exits and zone entries) are issued by **Kuwait Tower (TWR)**. See [Kuwait Tower 3.5](Kuwait%20Tower.md#35-vfr-procedures).
 
-#### 2.3.1 VFR Circuits
-Once **Kuwait Delivery (DEL)** has received confirmation from the TWR controller that they are happy to accept **VFR Circuit Traffic** they can continue with issuing a VFR clearance to the aircraft. Please see below the standard pattern information below.
+When a VFR aircraft calls for start-up, DEL shall assign:
 
-!!!node "Act Promptly"
-    When you see a pilot file a VFR FPL ensure you act promptly and efficiently and coordinate with the relevant controller to ensure they are able to accept the aircraft into their airspace. Do not wait for the pilot to call up on frequency before coordinating with the relevant ATS Unit. 
+- An SSR code
+- The departure runway (VFR circuits are flown on RWY34 or RWY16 only, as advised by TWR)
+- The QNH, and confirm the current ATIS information
 
-| **Runway Configuration** | **Direction** | **Altitude** |
-|--------------------------|---------------|--------------|
-| 33R                      | Right Hand    | 1000ft       |
-| 15R                      | Right Hand    | 1000ft       |
-| 33L                      | Left Hand     | 1000ft       |
-| 15L                      | Left Hand     | 1000ft       |
-| 34                       | Left Hand     | 1000ft       |
-| 16                       | Right         | 1000ft       |
+The aircraft is then transferred to the **GMC Controller**, as for IFR departures.
 
-!!!node "Circuit Selection for Runway"
-    The TWR Controller will advise the DEL Controller which runway the circuits will be conducted on, standard is 15L/33R. 
+!!! note "Act Promptly"
+    When you see a pilot file a VFR flight plan, inform TWR straight away so they can coordinate with APP if the flight will leave the Control Zone (CTR). Do not wait for the pilot to call up on frequency.
 
-***VFR Circuit Clearance Example***
+***VFR Start-up Example***
 
-> **DEL Controller:** _**"9K-VFR, cleared left hand circuits, RWY34, not above altitude 1000ft, VFR, squawk 7001"**_
+> **Pilot:** _"Kuwait Delivery, 9K-VFR, Cessna 172, stand 101, information Alpha, VFR, request start-up"_
 
-The DEL Controller **must** obtain a full and correct read back of the departure clearance. If they do not, then the pilot must be challenged to read back the full and correct departure clearance. 
+> **DEL Controller:** _**"9K-VFR, runway 34, squawk 7001, QNH 1013"**_
 
-***Challenge Example***
+> **Pilot:** _"Runway 34, squawk 7001, QNH 1013, 9K-VFR"_
 
-> **DEL Controller:** _**"9K-VFR, Negative. Cleared left hand visual circuits, RWY34, not above altitude 1000ft, VFR, squawk 7001"**_
+> **DEL Controller:** _**"9K-VFR, readback correct, contact Kuwait Ground 121.700"**_
 
-!!!node "Be Paitent and Assist"
-    If you are required to challenge a pilot for a correct readback, read it back clearly and slowly to ensure the pilot has opportunity to understand the information provided
+If the readback is incorrect, correct only the item that was read back wrongly:
 
-Once the pilot has correctly read back the clearance, if the pilot did not provide the current ATIS Letter, the DEL Controller will provide this to the pilot once read back has been provided. 
+> **DEL Controller:** _**"9K-VFR, negative, squawk 7001"**_
 
-> **DEL Controller:** _**"9-FR, read back correct, Information Alpha is current, report ready for startup."**_
-
-When the pilot requests startup, ensure he has set the correct transponder code. If he is squawking the assigned code, switch them to GND or any facility higher. 
-
-> **DEL Controller:** _**"9-FR, contact Kuwait Ground 121.700."**_
-
-
-!!!node "Callsign Shortening" 
-    After initial contact has been made and established with the aircraft, you can shorten the callsign from 9K-VFR to 9-FR, read as Niner - Foxtrot - Romeo. This is to reduce frequency congestion.
-
-### 2.3.2 VFR Departures Leaving the Control Zone (CTR)
-For pilots filing VFR Flight Plans (FPLs) to leave the **Kuwait Control Zone (CTR)**, again the DEL Controller must coordinate this promptly with the TWR Controller, who will coordinate with the APP Controller as to whether they can both accept the aircraft in their respective airspace. The TWR Controller will be responsible for providing the DEL Controller with a **Visual Reporting Point (VRP)** to be cleared via depending on the aircrafts filed routing or direction of flight. Once approved, the **DEL Controller** will issue a clearance to the aircraft. 
-
-#### 2.3.2.1 VFR Departure Routes Procedures
-
-***VFR Zone Exit Clearance Example***
-
-> **DEL Controller:** _**"9K-VFR, cleared to exit the Control Zone to the East, RWY 16, not above altitude 1000ft VFR, Squawk 7001"**_
-
-The DEL Controller **must** obtain a full and correct read back of the departure clearance. If they do not, then the pilot must be challenged to read back the full and correct departure clearance. 
-
-***Challenge Example***
-
-> **DEL Controller:** _**"9K-VFR, Negative. Cleared to exit the Control Zone to the East, RWY16, not above altitude 1000ft VFR, Squawk 7001"**_
-
-> **DEL Controller:** _**"9-FR, Read Back is correct, Information Alpha is current."**_
-
-When the aircraft reports ready for engine start up they will be transferred to the GMC Controller, and it is to be assumed by the GMC Controller that the pilot has a **correct clearance and has confirmed the latest ATIS Letter and Local QNH.**
+!!! note "Callsign Shortening"
+    After two-way communication has been established, and provided no confusion is likely, the callsign may be abbreviated to the first character and the last two letters of the registration, e.g. 9K-VFR to 9FR (Niner Foxtrot Romeo), as per ICAO Annex 10.
 
 ### 2.4 Departure List Management 
 The **DEL Controller** is responsible for ensuring the departure list is correct and maintained prior to handing aircraft off to the GMC Controller. This includes ensuring filed routings are correct, Standard Instrument Departures (SIDs) have been assigned, initial altitudes has been set correctly and a squawk code has been assigned. 
@@ -240,24 +209,3 @@ If an aircraft who has received his clearance and calls ready for push and start
 When an aircraft has received his clearance and calls for push and start with his assigned squawk code set the **DEL Controller** will then hand the aircraft off to the **GMC Controller** to be sequenced for push and start. 
 
 > **DEL Controller:** _**"KAC107, contact Kuwait Ground on 121.700"**_
-
-### 2.6 Helicopter Visual Reporting Points
-
-| **Runway** | **Identifier** | **Direction of Flight** |                                                                                                       **Procedure**                                                                                                       |
-|:----------:|:--------------:|:-----------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| RWY15L/15R |   VFR Q East   |           East          |                          Pilot should climb to 1000ft on runway heading, when passing the departure end of runway (DER) pilots shall turn left towards Qurain Shopping Area and report overhead.                          |
-| RWY15L/15R |   VFR G West   |           West          | Pilots should climb to 1000ft on runway heading, when passing the departure end of runway (DER) pilots shall turn right towards Petrol Station located on the 7th Ring Road beside the drag circuit and report overhead.  |
-| RWY33L/33R |   VFR F East   |           East          |                          Pilots should climb to 1000ft on runway heading, when passing the departure end of runway (DER) pilots shall turn right towards Mishrif Fairground on report overhead.                           |
-| RWY33L/33R |   VFR U West   |           West          |                        Pilots should climb to 1000ft on runway heading, when passing the departure end of runway (DER) pilots shall turn left towards Alshedadiya University and report overhead.                         |
-
-When issuing a zone exit clearance, you must instruct the traffic to exit the control zone via a Visual Reporting Point.
-
-***VFR Zone Exit Clearance with VRP***
-
-> **DEL Controller:** _**"9K-LPF, cleared to exit the Control Zone to the East, RWY 16, via the Qurain Shopping Area VRP, not above altitude 1000ft VFR, Squawk 7001"**_
-
-
-!!! note "VRPs"
-    A **Visual Reference Point (VRP)** is a clearly identifiable ground feature (like a town, road intersection, or landmark) used by pilots to navigate and report position visually under **VFR**.  
-    **Helicopters** use VRPs to request **zone entry or exit** from controlled airspace, ensuring safe integration with other traffic.
-
