@@ -96,6 +96,8 @@ Speed Control can also be utilised to maintain separation between climbing traff
 
 The standard speed restriction below 10,000ft is 250kts.
 
+Arriving aircraft are also subject to a published final approach speed profile. See [Section 3.2.5](#325-arrival-speed-profile).
+
 #### 3.1.4 Wake Turbulence Separation (WTS)
 The following **Wake Turbulence Separation (WTS)** shall be applied to aircraft being provided with a Surveillance Based Separation (SBS) which is utilised within the **Kuwait Terminal Maneuvering Area (TMA)**
 
@@ -197,3 +199,27 @@ For instance, the 1st aircraft would enter the hold at 8000ft, 2nd aircraft woul
 When the requirement for the hold is no longer required, the aircraft at the bottom of the hold will be given instruction to exit first whether that be by radar vectors or to carry on with the published **Standard Terminal Arrival (STAR)**, this will then allow the 2nd aircraft within the holding pattern to descend to the block altitude within the holding pattern that the previous aircraft held.
 
 The **APP Controller** will continue to descend aircraft in the holding pattern until it is their time to leave the hold. 
+
+#### 3.2.5 Arrival Speed Profile
+!!! info "NOTAM A0357/26: effective 01 OCT 2026, permanent"
+    All arriving aircraft operating within the **Kuwait Terminal Maneuvering Area (TMA)** shall comply with the following speed profile **unless otherwise instructed by ATC**.
+
+| **Phase of Approach** | **Speed** |
+|:----------------------|:---------:|
+| On base leg, or turning to intercept the final approach track, when within 15nm DME of the threshold | **180kts** |
+| Established on final approach, until 8nm from touchdown | **180kts** |
+| From 8nm to 4nm from touchdown | **160kts** |
+
+Pilots are expected to fly this profile without being instructed, so the **APP Controller** does not need to issue these speeds individually. Sequence and space traffic on the basis that every arrival will follow it. Any speed you assign takes priority over the profile.
+
+Aircraft unable to comply shall advise ATC as soon as practicable. Take that into account for the aircraft behind, either by adjusting its speed or by increasing spacing.
+
+##### Cancelling Speed Control
+Speed control may be cancelled using the phraseology **"No speed restriction"**.
+
+> **APP Controller:** _**"KAC164, no speed restriction."**_
+
+Once issued, **all** speed restrictions are cancelled, including those in this profile and any previously assigned ATC speeds. The aircraft may then adjust speed as required to fly a safe and stabilised approach until touchdown, unless further instructed by ATC.
+
+!!! warning
+    Only cancel speed control when the aircraft has no traffic behind it that it could affect. An aircraft that has been told "no speed restriction" may slow down earlier than the profile, which will reduce spacing to the aircraft behind.
