@@ -210,7 +210,11 @@ The **APP Controller** will continue to descend aircraft in the holding pattern 
 | Established on final approach, until 8nm from touchdown | **180kts** |
 | From 8nm to 4nm from touchdown | **160kts** |
 
-Pilots are expected to fly this profile without being instructed, so the **APP Controller** does not need to issue these speeds individually. Sequence and space traffic on the basis that every arrival will follow it. Any speed you assign takes priority over the profile.
+In the real world, pilots fly this profile without being instructed. On VATSIM, pilots are **not expected to know it**, so the **APP Controller** should make every effort to issue these speeds to each arrival as normal speed control instructions. Do not assume an aircraft will slow down on its own.
+
+> **APP Controller:** _**"KAC164, reduce speed 180 knots until 8 miles, then 160 knots until 4 miles."**_
+
+Any speed you assign takes priority over the profile.
 
 Aircraft unable to comply shall advise ATC as soon as practicable. Take that into account for the aircraft behind, either by adjusting its speed or by increasing spacing.
 
