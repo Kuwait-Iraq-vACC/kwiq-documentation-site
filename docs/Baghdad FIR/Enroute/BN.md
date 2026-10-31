@@ -49,8 +49,6 @@ All aircraft entering or exiting the FIR at the same level shall be separated by
 |--------|---------------|-----------------------------|
 | R652   | KASIR - GIBUX | Available FL285 and above   |
 | R652   | DAXAN         | Cross at FL270 or below     |
-| P975   | SIDNA - MUTAG | Available FL280 and above   |
-| L602   | GEPAP - ELEXI | Available FL320 and above   |
 
 ---
 
