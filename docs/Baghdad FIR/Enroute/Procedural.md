@@ -36,20 +36,6 @@ Aircraft at the same level on the procedural segments are separated **longitudin
 
 ---
 
-## Level Restrictions
-
-The following levels are **unavailable** on the procedural segments:
-
-| Airway | Segment       | Unavailable Levels |
-|--------|---------------|--------------------|
-| G202   | MODIK - RAPLU | FL240 - FL260      |
-| G202   | RAPLU - PUSTO | FL245 - FL285      |
-| L200   | PASIP - SEVDI | FL240 - FL260      |
-| L200   | GIBUX - SILBO | FL245 - FL285      |
-| M703   | KASIR - PASIP | FL240 - FL260      |
-
----
-
 ## Position Reports and Estimates
 
 As there is no radar service on these segments, pilots should be asked to report when passing the FIR boundary or the end of the procedural segment.

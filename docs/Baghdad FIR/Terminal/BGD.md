@@ -82,6 +82,16 @@ The track distance from **LOVEK** to **SEBIE** is **44.9 NM**. This should be co
 
 Restricted areas **BALAD 3, 4, 5 and 7** are activated on military request only.
 
+### Training Areas
+
+Training areas **SW1** to **SW10** lie south-east of ORBI. Aircraft must contact Baghdad Approach before entering, and contact ATC after departing ORSW.
+
+| Area       | Vertical Limits |
+|------------|-----------------|
+| SW1, SW2   | SFC - 4000ft    |
+| SW3 - SW7  | SFC - 5000ft    |
+| SW8 - SW10 | SFC - 7000ft    |
+
 ---
 
 ## Coordination
