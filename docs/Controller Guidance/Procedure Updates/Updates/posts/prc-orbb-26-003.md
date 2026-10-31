@@ -13,7 +13,7 @@ tags:
 | Reference                     | PRC-ORBB-26-003                                       |
 | ----------------------------- | ----------------------------------------------------- |
 | **Effective Date**            | 26/11/2026                                            |
-| **Status**                    | <span class="status status--upcoming">Upcoming</span> |
+| **Status**                    | <span class="status status--active">Active</span>   |
 | **Applies To**                | Baghdad Control (BN, BS), Baghdad Approach, ORER      |
 | **Docs Updated**              | Yes                                                   |
 
@@ -38,19 +38,21 @@ Iraq AIP Amendment 11/26 takes effect with AIRAC 2612. It withdraws eight restri
 | OR/R 601 | BRUCE LOW | SFC - FL280 |
 | OR/R 602 | BANNER | SFC - FL270 |
 
-**Level restrictions removed:** the level gaps that came from OR/R 310 and OR/R 312 no longer apply.
+**Level restrictions removed:** the airways reissued in ENR 3.3 now only have their published lower limit. The level gaps that came from OR/R 310 and OR/R 312 no longer apply.
 
-| Airway | Segment | Was unavailable |
+| Airway | Segment | Old restriction |
 | ------ | ------- | --------------- |
-| G202 | MODIK - RAPLU | FL240 - FL260 |
-| G202 | RAPLU - PUSTO | FL245 - FL285 |
-| L200 | PASIP - SEVDI | FL240 - FL260 |
-| L200 | GIBUX - SILBO | FL245 - FL285 |
-| M703 | KASIR - PASIP | FL240 - FL260 |
-| M703 | RUKAM - ANBAR | FL245 - FL285 |
-| T315 | GIBUX - BABIL | FL245 - FL285 |
-| A424 | SOBUK - LORAK | FL245 - FL285 |
-| B411 | MURIB - RUKAM | FL245 - FL285 |
+| G202 | MODIK - RAPLU | FL240 - FL260 unavailable |
+| G202 | RAPLU - PUSTO | FL245 - FL285 unavailable |
+| L200 | PASIP - SEVDI | FL240 - FL260 unavailable |
+| L200 | GIBUX - SILBO | FL245 - FL285 unavailable |
+| M703 | KASIR - PASIP | FL240 - FL260 unavailable |
+| M703 | RUKAM - ANBAR | FL245 - FL285 unavailable |
+| T315 | GIBUX - BABIL | FL245 - FL285 unavailable |
+| A424 | SOBUK - LORAK | FL245 - FL285 unavailable |
+| B411 | MURIB - RUKAM | FL245 - FL285 unavailable |
+| P975 | SIDNA - MUTAG | Only FL280 and above |
+| L602 | GEPAP - ELEXI | Only FL320 and above |
 
 **New training areas SW1 to SW10**, south-east of ORBI:
 
@@ -64,7 +66,7 @@ Iraq AIP Amendment 11/26 takes effect with AIRAC 2612. It withdraws eight restri
 
 ## Controller Actions
 
-- **Allow the full level band** on the airway segments above. Don't hold aircraft out of FL240 - FL285 on them any more.
+- **Allow the full level band** on the airway segments above, down to the airway's published lower limit. Don't hold aircraft out of FL240 - FL285, or above FL280/FL320 on P975 and L602, any more.
 - **Expect traffic in SW1 to SW10.** Aircraft must contact Baghdad Approach before entering, and contact ATC after departing ORSW.
 - **Don't clear aircraft for an RNP approach at ORER.** Use the ILS/DME Y or Z approach instead.
 
