@@ -196,3 +196,15 @@ Departures are permitted under LVP conditions **only** where the RVR is not less
 | Cargo City (Military) | 533-580           | Military use                                        |
 | Terminal 4            | 63 - 79           | Kuwait Airways                                      |
 | Emiri Terminal        | R1 - R8           | Kuwait Emiri Flights                                |
+
+#### 2.4.1 New Cargo City Apron Stands
+!!! info "NOTAM A0546/25: effective 30 OCT 2025, permanent"
+    The following stands on the new **Cargo City Apron** are designated for **civil use only**.
+
+| **Stand Numbers** | **Use** |
+|:------------------|:-------:|
+| 551, 553, 555, 557, 559 | Civil only |
+| 561 - 574 | Civil only |
+| 576, 578, 580 | Civil only |
+
+These stands fall within the range shown above for **Cargo City (Military)**. Do not allocate any of them to military aircraft. Allocate them to civil cargo traffic in the same way as the rest of Cargo City.
