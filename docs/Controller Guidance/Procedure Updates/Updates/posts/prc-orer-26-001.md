@@ -1,0 +1,40 @@
+---
+date: 2026-10-31
+categories:
+  - Procedure Changes
+tags:
+  - ORER
+---
+
+# PRC-ORER-26-001 — Erbil (ORER) RNP Approaches Withdrawn
+
+<div class="brief" markdown>
+
+| Reference                     | PRC-ORER-26-001                                       |
+| ----------------------------- | ----------------------------------------------------- |
+| **Effective Date**            | 26/11/2026                                            |
+| **Status**                    | <span class="status status--upcoming">Upcoming</span> |
+| **Applies To**                | ORER (APP, TWR)                                       |
+| **Docs Updated**              | N/A                                                   |
+
+</div>
+
+<!-- more -->
+
+## Summary
+
+Iraq AIP Amendment 11/26 takes effect with AIRAC 2612. It withdraws the RNP approaches to runways 18 and 36 at Erbil. Only the ILS/DME Y and Z approaches remain.
+
+## Controller Actions
+
+- **Don't clear aircraft for an RNP approach at ORER.** Use the ILS/DME Y or Z approach instead.
+
+## Documentation Status
+
+The [ORER](../../../../Baghdad%20FIR/Aerodrome/ORER%20-%20Erbil/General%20Information.md) pages don't list the RNP approaches, so no page changes are needed.
+
+The RNP approaches are removed from TopSky with the AIRAC 2612 release.
+
+---
+
+Spotted an error, or want to suggest a change? Email [operations@kuwait-iraqvacc.net](mailto:operations@kuwait-iraqvacc.net?subject=Documentation%20Change%20-%20PRC-ORER-26-001)
