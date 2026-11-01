@@ -82,7 +82,7 @@ Overflights of the Baghdad FIR must operate **above FL200**, unless a lower leve
 RVSM applies between **FL290 and FL410 inclusive**. Only RVSM-approved aircraft may operate within RVSM airspace. Non-RVSM aircraft (e.g. State aircraft, or aircraft climbing through to FL430 or above) shall be separated by **2 000 ft** from all other aircraft within RVSM airspace.
 
 ### Unavailable Levels
-Some route segments are only available above a certain level. These are listed on the relevant sector pages and on the [Procedural page](Procedural.md).
+Some route segments are only available above a certain level. These are listed on the relevant sector pages.
 
 ---
 
