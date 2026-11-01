@@ -54,6 +54,10 @@ Iraq AIP Amendment 11/26 takes effect with AIRAC 2612. It withdraws eight restri
 | P975 | SIDNA - MUTAG | Only FL280 and above |
 | L602 | GEPAP - ELEXI | Only FL320 and above |
 
+![ENR 6-3 – Air Traffic Services Airspace (FL235 - FL460)](img/prc-orbb-26-003.png)
+
+*Source: Iraq AIP AMDT 11/26, ENR 6-3.*
+
 ## Controller Actions
 
 - **Allow the full level band** on the airway segments above, down to the airway's published lower limit. Don't hold aircraft out of FL240 - FL285, or above FL280/FL320 on P975 and L602, any more.
