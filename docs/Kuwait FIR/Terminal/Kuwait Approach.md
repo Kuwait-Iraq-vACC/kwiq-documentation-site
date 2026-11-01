@@ -5,14 +5,14 @@ title: "OKKK - Kuwait Approach"
 # Kuwait Approach [OKKK_APP]
 
 ## Chapter 1. Position Overview
-**Kuwait Approach (APP)** is responsible for providing approach radar control services to aircraft departing, arriving or transiting the **Kuwait Terminal Maneuvering Area (TMA)**. It is also the responsibility of the approach controller to ensure aircraft are separated in accordance with the Standard Operating Procedures outlined in this document, ensure a safe and efficient flow of traffic in and out of the airports covered within the TMA.
+**Kuwait Approach (APP)** is responsible for providing approach radar control services to aircraft departing, arriving or transiting the **Kuwait Control Area (CTA)**. It is also the responsibility of the approach controller to ensure aircraft are separated in accordance with the Standard Operating Procedures outlined in this document, ensure a safe and efficient flow of traffic in and out of the airports covered within the CTA.
 
 **Kuwait Approach (APP)** shall provide surveillance based radar services to all aircraft operating within it's vertical and lateral boundaries to ensure safe separation between aircraft is maintained at all times.
 
 ----
 
 ## Chapter 2. Airspace
-The **Kuwait Terminal Maneuvering Area (TMA)** has a vertical extension up to FL150.
+The **Kuwait Control Area (CTA)** has a vertical extension up to FL150.
 
 
 |         Airspace Type         |   Airspace  | Class | Vertical Limits | Controller |
@@ -29,7 +29,7 @@ The transition altitude and level in Kuwait is consistent with the Gulf Region.
 
 The transition layer exists between these two altitudes and is **not to be used** by controllers or aircraft alike for level flight.
 
-### 2.2 Aerodromes within the Terminal Maneuvering Area (TMA)
+### 2.2 Aerodromes within the Control Area (CTA)
 The APP Controller is responsible for **Kuwait International Airport (OKKK)**, **Ali Al Salem Airbase (OKAS)** and **Ahmed Al Jaber Airbase (OKAJ)**
 
 Both Ali Al Salem and Ahmed Al Jaber Airbases are military airfields to which we do not provide ATC services for on the ground.
@@ -37,7 +37,7 @@ Both Ali Al Salem and Ahmed Al Jaber Airbases are military airfields to which we
 ---
 
 ### 2.3 Surrounding Airspace
-The **Kuwait Terminal Maneuvering Area (TMA)** is surrounded by Saudi Arabia to the west, Bahrain to the south, and Iraq to the north. As APP Controller in Kuwait you have to work closely with the adjacent controlling units to ensure safe and efficient operations within the TMA.
+The **Kuwait Control Area (CTA)** is surrounded by Saudi Arabia to the west, Bahrain to the south, and Iraq to the north. As APP Controller in Kuwait you have to work closely with the adjacent controlling units to ensure safe and efficient operations within the CTA.
 
 <p style="text-align: left; font-style: italic;">
 Table 2.3.1. - Surrounding Airspace
@@ -47,7 +47,7 @@ Table 2.3.1. - Surrounding Airspace
 ---
 
 ## 2.4 Restricted Airspace
-The **Kuwait Terminal Maneuvering Area (TMA)** has multiple **Restricted** sections of Airspace which must not be encroached at any time, except for R01 which may be used for extra track miles during the 15/16 config in times of increased activity.
+The **Kuwait Control Area (CTA)** has multiple **Restricted** sections of Airspace which must not be encroached at any time, except for R01 which may be used for extra track miles during the 15/16 config in times of increased activity.
 
 | **Restricted Airspace Identifier** | **Type** | **Vertical Limits** | **Validity** |
 |:----------------------------------:|:--------:|:-------------------:|:------------:|
@@ -66,12 +66,12 @@ The **Kuwait Terminal Maneuvering Area (TMA)** has multiple **Restricted** secti
 
 Kuwait Approach shall provide surveillance based radar control services to aircraft to which are:
 
-- Released from the ACC Controller descending into the vertical and lateral limits of the Kuwait Terminal Maneuvering Area (TMA).
-- Aircraft Transiting the Kuwait Terminal Maneuvering Area (TMA) until clear of vertical and/or lateral limits of the TMA.
-- Departing Aircraft from one of the aerodromes covered within the TMA until outside the vertical or lateral limits of the TMA and handed over to the next relevant controller.
-- Aircraft coming from uncontrolled airspace into the vertical and lateral limits of the Kuwait Terminal Maneuvering Area (TMA).
+- Released from the ACC Controller descending into the vertical and lateral limits of the Kuwait Control Area (CTA).
+- Aircraft Transiting the Kuwait Control Area (CTA) until clear of vertical and/or lateral limits of the CTA.
+- Departing Aircraft from one of the aerodromes covered within the CTA until outside the vertical or lateral limits of the CTA and handed over to the next relevant controller.
+- Aircraft coming from uncontrolled airspace into the vertical and lateral limits of the Kuwait Control Area (CTA).
 
-The Kuwait TMA may be split into 2 sectors in times of increased activity.
+The Kuwait CTA may be split into 2 sectors in times of increased activity.
 
 **Kuwait Director** is responsible for sequencing aircraft for the final approach. Kuwait's final approach sector spans across a 25nm radius from the KUA VOR from GND to 6000ft.
 
@@ -84,20 +84,22 @@ The Kuwait TMA may be split into 2 sectors in times of increased activity.
 ### 3.1 Separation Requirements
 
 #### 3.1.1 Longitudinal Separation Requirements
-All aircraft within the **Kuwait Terminal Maneuvering Area (TMA)** must be separated with a **minimum of 7nm longitudinal separation.**
+All aircraft within the **Kuwait Control Area (CTA)** must be separated with a **minimum of 7nm longitudinal separation.**
 
 #### 3.1.2 Vertical Separation
 In the event that longitudinal separation cannot be achieved aircraft must be separated with a **minimum of 1000ft separation.**
 
 #### 3.1.3 Speed Control
-In order for aircraft to complete any required turns within the **Kuwait Terminal Maneuvering Area (TMA)** and to safely operate within the laterally confined airspace speed control can be issued to aircraft.
+In order for aircraft to complete any required turns within the **Kuwait Control Area (CTA)** and to safely operate within the laterally confined airspace speed control can be issued to aircraft.
 
 Speed Control can also be utilised to maintain separation between climbing traffic.
 
 The standard speed restriction below 10,000ft is 250kts.
 
+Arriving aircraft are also subject to a published final approach speed profile. See [Section 3.2.5](#325-arrival-speed-profile).
+
 #### 3.1.4 Wake Turbulence Separation (WTS)
-The following **Wake Turbulence Separation (WTS)** shall be applied to aircraft being provided with a Surveillance Based Separation (SBS) which is utilised within the **Kuwait Terminal Maneuvering Area (TMA)**
+The following **Wake Turbulence Separation (WTS)** shall be applied to aircraft being provided with a Surveillance Based Separation (SBS) which is utilised within the **Kuwait Control Area (CTA)**
 
 | **Trailing   Aircraft** | **Behind** | **Leading   Aircraft** | **Distance Separation Minima** |
 |:-----------------------:|:----------:|------------------------|-------------------------------|
@@ -108,7 +110,7 @@ The following **Wake Turbulence Separation (WTS)** shall be applied to aircraft 
 |        Medium (M)       |            |          A380          |              7nm              |
 |        Light (L)        |            |          A380          |              8nm              |
 
-The 7nm longitudinal separation requirements within the TMA **overrides any wake turbulence separation minima which is lower than the minimum longitudinal separation requirements.**
+The 7nm longitudinal separation requirements within the CTA **overrides any wake turbulence separation minima which is lower than the minimum longitudinal separation requirements.**
 
 #### 3.2.1 Initial Contact
 Upon initial contact with a departing aircraft after being handed over from the **TWR Controller** aircraft should report the following information.
@@ -141,13 +143,13 @@ The **Approach Controller** should be aware of which controller an aircraft need
 |   Baghdad Approach |     ALI_APP        |    120.200    |
 
 ### 3.2 Arrival Procedures
-**Kuwait Approach (APP)** is responsible for ensuring all aircraft arriving into the **Kuwait Terminal Maneuvering Area (TMA)** are safely separated vertically and laterally before being handed off to the TWR Controller on final approach.
+**Kuwait Approach (APP)** is responsible for ensuring all aircraft arriving into the **Kuwait Control Area (CTA)** are safely separated vertically and laterally before being handed off to the TWR Controller on final approach.
 All aircraft shall be sequenced within the limitations listed within Section 3.1 of this document.
 
 Dependant parallel approaches may be used with a minimum stagger of 3nm radar separation between aircraft.
 
 #### 3.2.1 Initial Contact
-Aircraft arriving into the **Kuwait Terminal Maneuvering Area (TMA)** are to be provided with a set of instructions which will allow the aircraft to fly an assigned routing, descend in a manner which will keep them separated from other traffic and under a controlled speed to ensure traffic is sequenced into the TMA efficiently.
+Aircraft arriving into the **Kuwait Control Area (CTA)** are to be provided with a set of instructions which will allow the aircraft to fly an assigned routing, descend in a manner which will keep them separated from other traffic and under a controlled speed to ensure traffic is sequenced into the CTA efficiently.
 
 Upon initial contact the **Approach Controller** should provide a pilot with the following information in the event the **ACC Controller** above them is not online:
 
@@ -163,14 +165,14 @@ If the **ACC Controller** is online, and they're arriving from the Kuwait En-Rou
 Remember it is the responsibility of the Approach Controller to ensure all aircraft are identified on initial contact, aircraft should be assigned an individual squawk code if not already and squawking mode 'Charlie' which provides altitude information.
 
 #### 3.2.2 Sequencing Aircraft
-All aircraft entering the **Kuwait Terminal Maneuvering Area (TMA)** should be sequenced in order to ensure separation is always maintained, it is wholly the responsibility of the **APP Controller** to have a plan for all aircraft and know their position in sequence. This can be achieved by ensuring aircraft are under speed control and descending in a controlled manner in accordance with the **Standard Terminal Arrival Route (STAR)**.
+All aircraft entering the **Kuwait Control Area (CTA)** should be sequenced in order to ensure separation is always maintained, it is wholly the responsibility of the **APP Controller** to have a plan for all aircraft and know their position in sequence. This can be achieved by ensuring aircraft are under speed control and descending in a controlled manner in accordance with the **Standard Terminal Arrival Route (STAR)**.
 
 The **APP Controller** should always have a clear plan of action when controlling and keep things as uniform as possible, this will ensure a constant steady flow of arriving traffic whilst ensuring all traffic are safely separated.
 
 #### 3.2.3 Holdings
-If at any point the controller is unable to manage the traffic load within the **Kuwait Terminal Maneuvering Area (TMA)** it is their responsibility to place aircraft into the hold until traffic can once again be sequenced for an approach to the runway.
+If at any point the controller is unable to manage the traffic load within the **Kuwait Control Area (CTA)** it is their responsibility to place aircraft into the hold until traffic can once again be sequenced for an approach to the runway.
 
-Within the **Kuwait Terminal Maneuvering Area (TMA)** there are 3 published holding procedures, and they are as follows:
+Within the **Kuwait Control Area (CTA)** there are 3 published holding procedures, and they are as follows:
 
 | **Hold Identifier** | **Vertical Limits** | **Inbound Holding Course** | **Maximum Holding Speed** | **Turn Direction** |
 |:-------------------:|:-------------------:|:--------------------------:|---------------------------|--------------------|
@@ -178,7 +180,7 @@ Within the **Kuwait Terminal Maneuvering Area (TMA)** there are 3 published hold
 |        RALKA        |   3000ft - FL460    |            276°            |           250kts          |        Right       |
 |         KFR         |   3000ft - FL460    |            078°            |           250kts          |        Right       |
 
-It is imperative that the **APP Controller** fully understands the standard procedures of each of the above holding patterns within the **Kuwait Terminal Maneuvering Area (TMA)**.
+It is imperative that the **APP Controller** fully understands the standard procedures of each of the above holding patterns within the **Kuwait Control Area (CTA)**.
 This should include the vertical limits, inbound holding courses, maximum holding speed and the direction of turns they can expect aircraft to carry out if entered into one of the published holds.
 
 If it is required to put an aircraft in one of the above holds the following phraseology should be used.
@@ -197,3 +199,32 @@ For instance, the 1st aircraft would enter the hold at 8000ft, 2nd aircraft woul
 When the requirement for the hold is no longer required, the aircraft at the bottom of the hold will be given instruction to exit first whether that be by radar vectors or to carry on with the published **Standard Terminal Arrival (STAR)**, this will then allow the 2nd aircraft within the holding pattern to descend to the block altitude within the holding pattern that the previous aircraft held.
 
 The **APP Controller** will continue to descend aircraft in the holding pattern until it is their time to leave the hold. 
+
+#### 3.2.5 Arrival Speed Profile
+!!! info "NOTAM A0357/26: effective 01 OCT 2026, permanent"
+    All arriving aircraft operating within the **Kuwait Control Area (CTA)** shall comply with the following speed profile **unless otherwise instructed by ATC**.
+
+| **Phase of Approach** | **Speed** |
+|:----------------------|:---------:|
+| On base leg, or turning to intercept the final approach track, when within 15nm DME of the threshold | **180kts** |
+| Established on final approach, until 8nm from touchdown | **180kts** |
+| From 8nm to 4nm from touchdown | **160kts** |
+
+!!! warning
+    On VATSIM, pilots are **not expected to know it**, so the controller should make every effort to issue these speeds to each arrival as normal speed control instructions. Do not assume an aircraft will slow down on its own.
+
+> **APP Controller:** _**"KAC164, reduce speed 180 knots until 8 miles, then 160 knots until 4 miles."**_
+
+Any speed you assign takes priority over the profile.
+
+Aircraft unable to comply shall advise ATC as soon as practicable. Take that into account for the aircraft behind, either by adjusting its speed or by increasing spacing.
+
+##### Cancelling Speed Control
+Speed control may be cancelled using the phraseology **"No speed restriction"**.
+
+> **APP Controller:** _**"KAC164, no speed restriction."**_
+
+Once issued, **all** speed restrictions are cancelled, including those in this profile and any previously assigned ATC speeds. The aircraft may then adjust speed as required to fly a safe and stabilised approach until touchdown, unless further instructed by ATC.
+
+!!! warning
+    Only cancel speed control when the aircraft has no traffic behind it that it could affect. An aircraft that has been told "no speed restriction" may slow down earlier than the profile, which will reduce spacing to the aircraft behind.
