@@ -54,9 +54,9 @@ Iraq AIP Amendment 11/26 takes effect with AIRAC 2612. It withdraws eight restri
 | P975 | SIDNA - MUTAG | Only FL280 and above |
 | L602 | GEPAP - ELEXI | Only FL320 and above |
 
-![ENR 6-3 – Air Traffic Services Airspace (FL235 - FL460)](img/prc-orbb-26-003.png)
+![ENR 6-1 – Enroute Chart - ICAO](img/prc-orbb-26-003.png)
 
-*Source: Iraq AIP AMDT 11/26, ENR 6-3.*
+*Source: Iraq AIP AMDT 11/26, ENR 6-1.*
 
 ## Controller Actions
 
