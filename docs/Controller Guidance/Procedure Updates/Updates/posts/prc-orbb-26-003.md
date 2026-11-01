@@ -6,7 +6,7 @@ tags:
   - ORBB
 ---
 
-# PRC-ORBB-26-003 — Baghdad FIR Restricted Areas Withdrawn and Training Areas SW1-SW10
+# PRC-ORBB-26-003 — Baghdad FIR Restricted Areas Withdrawn and Airway Level Restrictions Removed
 
 <div class="brief" markdown>
 
@@ -14,7 +14,7 @@ tags:
 | ----------------------------- | ----------------------------------------------------- |
 | **Effective Date**            | 26/11/2026                                            |
 | **Status**                    | <span class="status status--upcoming">Upcoming</span> |
-| **Applies To**                | Baghdad Control (BN, BS), Baghdad Approach, ORER      |
+| **Applies To**                | Baghdad Control (BN, BS)                              |
 | **Docs Updated**              | No                                                    |
 
 </div>
@@ -23,7 +23,7 @@ tags:
 
 ## Summary
 
-Iraq AIP Amendment 11/26 takes effect with AIRAC 2612. It withdraws eight restricted areas, adds ten training areas near Baghdad, and deletes the RNP approaches at Erbil.
+Iraq AIP Amendment 11/26 takes effect with AIRAC 2612. It withdraws eight restricted areas and removes the airway level restrictions that came from them.
 
 **Restricted areas withdrawn:**
 
@@ -54,27 +54,16 @@ Iraq AIP Amendment 11/26 takes effect with AIRAC 2612. It withdraws eight restri
 | P975 | SIDNA - MUTAG | Only FL280 and above |
 | L602 | GEPAP - ELEXI | Only FL320 and above |
 
-**New training areas SW1 to SW10**, south-east of ORBI:
-
-| Area | Vertical Limits |
-| ---- | --------------- |
-| SW1, SW2 | SFC - 4000ft |
-| SW3 - SW7 | SFC - 5000ft |
-| SW8 - SW10 | SFC - 7000ft |
-
-**Erbil (ORER):** the RNP approaches to runways 18 and 36 are withdrawn. Only the ILS/DME Y and Z approaches remain.
-
 ## Controller Actions
 
 - **Allow the full level band** on the airway segments above, down to the airway's published lower limit. Don't hold aircraft out of FL240 - FL285, or above FL280/FL320 on P975 and L602, any more.
-- **Expect traffic in SW1 to SW10.** Aircraft must contact Baghdad Approach before entering, and contact ATC after departing ORSW.
-- **Don't clear aircraft for an RNP approach at ORER.** Use the ILS/DME Y or Z approach instead.
+- **Don't route aircraft around the withdrawn restricted areas.** They are no longer active.
 
 ## Documentation Status
 
-The [Baghdad Control](../../../../Baghdad%20FIR/Enroute/Baghdad%20Control.md), [BN](../../../../Baghdad%20FIR/Enroute/BN.md), [BS](../../../../Baghdad%20FIR/Enroute/BS.md) and [Procedural](../../../../Baghdad%20FIR/Enroute/Procedural.md) pages will be updated to remove these level restrictions, and the training areas will be added to the [BGD](../../../../Baghdad%20FIR/Terminal/BGD.md) page, when this change takes effect.
+The [Baghdad Control](../../../../Baghdad%20FIR/Enroute/Baghdad%20Control.md), [BN](../../../../Baghdad%20FIR/Enroute/BN.md), [BS](../../../../Baghdad%20FIR/Enroute/BS.md) and [Procedural](../../../../Baghdad%20FIR/Enroute/Procedural.md) pages will be updated to remove these level restrictions when this change takes effect.
 
-The sector file changes (restricted areas removed, training areas added, ORER RNP removed from TopSky) arrive with the AIRAC 2612 release.
+The restricted areas are removed from the sector file with the AIRAC 2612 release.
 
 ---
 
