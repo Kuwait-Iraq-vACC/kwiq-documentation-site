@@ -31,9 +31,9 @@ Iraq AIP Amendment 11/26 takes effect with AIRAC 2612. It withdraws the RNP appr
 
 ## Documentation Status
 
-The [ORER](../../../../Baghdad%20FIR/Aerodrome/ORER%20-%20Erbil/General%20Information.md) pages don't list the RNP approaches, so no page changes are needed.
+Documentation changes not required.
 
-The RNP approaches are removed from TopSky with the AIRAC 2612 release.
+The RNP approaches are removed from the TopSky CFL menu with the AIRAC 2612 release.
 
 ---
 
