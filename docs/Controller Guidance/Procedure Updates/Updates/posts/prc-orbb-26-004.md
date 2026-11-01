@@ -31,6 +31,10 @@ Iraq AIP Amendment 11/26 takes effect with AIRAC 2612. It adds ten training area
 | SW3 - SW7 | SFC - 5000ft |
 | SW8 - SW10 | SFC - 7000ft |
 
+![ENR 6-4 – Military Operating Areas (MOA)](img/prc-orbb-26-004.png)
+
+*Source: Iraq AIP AMDT 11/26, ENR 6-4.*
+
 ## Controller Actions
 
 - **Expect traffic in SW1 to SW10.** Aircraft must contact Baghdad Approach before entering, and contact ATC after departing ORSW.
