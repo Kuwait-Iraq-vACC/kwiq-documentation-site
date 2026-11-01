@@ -193,7 +193,7 @@ Departures are permitted under LVP conditions **only** where the RVR is not less
 | Eastern Apron         | 40 - 46           | Jazeera                                             |
 | GA Apron              | G1 - G29B         | Business Jets                                       |
 | Cargo City            | 501 - 554         | DHX / QTR Cargo / Emirates Cargo / Cargolux / Atlas |
-| Cargo City (Military) | 533-580           | Military use                                        |
+| Cargo City (Military) | 533, 535, 554, 560 | Military use                                        |
 | Terminal 4            | 63 - 79           | Kuwait Airways                                      |
 | Emiri Terminal        | R1 - R8           | Kuwait Emiri Flights                                |
 
@@ -207,4 +207,4 @@ Departures are permitted under LVP conditions **only** where the RVR is not less
 | 561 - 574 | Civil only |
 | 576, 578, 580 | Civil only |
 
-These stands fall within the range shown above for **Cargo City (Military)**. Do not allocate any of them to military aircraft. Allocate them to civil cargo traffic in the same way as the rest of Cargo City.
+These stands were previously part of the **Cargo City (Military)** allocation. Do not allocate any of them to military aircraft. Allocate them to civil cargo traffic in the same way as the rest of Cargo City. Only stands 533, 535, 554 and 560 remain for military use.
