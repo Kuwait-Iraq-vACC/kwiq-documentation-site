@@ -13,9 +13,9 @@ tags:
 | Reference                     | PRC-ORBB-26-003                                       |
 | ----------------------------- | ----------------------------------------------------- |
 | **Effective Date**            | 26/11/2026                                            |
-| **Status**                    | <span class="status status--upcoming">Upcoming</span> |
+| **Status**                    | <span class="status status--active">Active</span>     |
 | **Applies To**                | Baghdad Control (BN, BS)                              |
-| **Docs Updated**              | No                                                    |
+| **Docs Updated**              | Yes                                                   |
 
 </div>
 
@@ -61,9 +61,9 @@ Iraq AIP Amendment 11/26 takes effect with AIRAC 2612. It withdraws eight restri
 
 ## Documentation Status
 
-The [Baghdad Control](../../../../Baghdad%20FIR/Enroute/Baghdad%20Control.md), [BN](../../../../Baghdad%20FIR/Enroute/BN.md), [BS](../../../../Baghdad%20FIR/Enroute/BS.md) and [Procedural](../../../../Baghdad%20FIR/Enroute/Procedural.md) pages will be updated to remove these level restrictions when this change takes effect.
+The [Baghdad Control](../../../../Baghdad%20FIR/Enroute/Baghdad%20Control.md), [BN](../../../../Baghdad%20FIR/Enroute/BN.md), [BS](../../../../Baghdad%20FIR/Enroute/BS.md) and [Procedural](../../../../Baghdad%20FIR/Enroute/Procedural.md) pages no longer list these level restrictions.
 
-The restricted areas are removed from the sector file with the AIRAC 2612 release.
+The restricted areas were removed from the sector file in the AIRAC 2612 release.
 
 ---
 
