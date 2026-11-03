@@ -3,7 +3,6 @@ search:
   exclude: true
 hide:
   - navigation
-  - toc
 meta:
   - name: robots
     content: noindex, nofollow
@@ -41,9 +40,9 @@ All VFR light aircraft wishing to remain in the circuit at Beirut shall be issue
 |  35    |   Left    |
 
 !!! phraseology
-**LEK**: Beirut Tower, LEK holding short M runway 17, fully ready.  
-**OLBA ADC**: LEK, Beirut Tower, cleared to operate in the circuit area not above altitude 1000ft, right hand circuits report on the downwind, surface winds 320 degrees 5 knots, cleared for take-off runway 17.  
-**LEK**: Cleared to operate in the circuit area not above altitude 1000ft, will report on the right downwind, cleared for take-off runway 17, LEK.
+    **LEK**: Beirut Tower, LEK holding short M runway 17, fully ready.  
+    **OLBA ADC**: LEK, Beirut Tower, cleared to operate in the circuit area not above altitude 1000ft, right hand circuits report on the downwind, surface winds 320 degrees 5 knots, cleared for take-off runway 17.  
+    **LEK**: Cleared to operate in the circuit area not above altitude 1000ft, will report on the right downwind, cleared for take-off runway 17, LEK.
 
 VFR Circuits shall **not** be permitted at the aerodrome during times of increased IFR departure or arrival activity.
 
@@ -91,27 +90,27 @@ The table below shows all the 7 valid routes for VFR departures from Beirut.
 | Route 7 |OLBA DCT WEST/HDG DCT CHOUIFAT DCT ALEY DCT DAHER/EL/BAIDAR DCT RAYAK DCT IAAT DCT DAIR/EL/AHMAR DCT OYOUN/ORGHOCH DCT MARJAHINE DCT KLEYATE DCT TRIPOLI DCT CAK DCT JOUNIEH DCT DORA DCT BOD DCT OLBA|
 
 !!! note
-VFR operations at Rayak Airport are exclusively authorized to follow routes 6 and 7.
-VFR operations at Kleyate Airport are exclusively allowed to follow routes 5 and 7.
-VFR operations at both airports are permitted to utilize only route 7.
+    VFR operations at Rayak Airport are exclusively authorized to follow routes 6 and 7.
+    VFR operations at Kleyate Airport are exclusively allowed to follow routes 5 and 7.
+    VFR operations at both airports are permitted to utilize only route 7.
 
 ### Leaving the ATZ
 Once VFR aircraft are ready for departure, they shall be cleared for take-off in sequence. As they begin their crosswind turn they shall be instructed to report leaving the ATZ. VFR procedures inside the Beirut ATZ must be conducted at or below `A030`.
 
 !!! phraseology
-**FYI**: Beirut Tower, FYI holding short M runway 17.  
-**OLBA ADC**: FYI, Beirut Tower, surface winds 320 degrees 5 knots, cleared for take-off runway 17.  
-**FYI**: Roger, cleared for take-off runway 17.  
-**AIRCRAFT ON THE CROSSWIND TURN**  
-**OLBA ADC**: FYI, report leaving the Beirut ATZ , maintain at or below altitude 3000ft.  
-**FYI**: at or below 3000ft, wilco, FYI.
+    **FYI**: Beirut Tower, FYI holding short M runway 17.  
+    **OLBA ADC**: FYI, Beirut Tower, surface winds 320 degrees 5 knots, cleared for take-off runway 17.  
+    **FYI**: Roger, cleared for take-off runway 17.  
+    **AIRCRAFT ON THE CROSSWIND TURN**  
+    **OLBA ADC**: FYI, report leaving the Beirut ATZ , maintain at or below altitude 3000ft.  
+    **FYI**: at or below 3000ft, wilco, FYI.
 
 Aircraft requesting to exit the Beirut CTR shall be assigned a clearance limit followed by a valid VFR cruising altitude (+500ft).
 
 !!! phraseology
-**YYC**: Beirut Tower, YYC is requesting to exit the Beirut ATZ via VFR route 7, altitude 3500ft.  
-**BI ADC**: YYC, Beirut Tower, cleared to leave the Beirut ATZ via VFR route 7, maintain altitude 3500ft, squawk 7403, QNH 998 hectopascals.  
-**YYC**: Cleared to leave the Beirut ATZ via VFR route 7, will maintain altitude 3500ft, QNH 998, and squawk 7403, YYC.
+    **YYC**: Beirut Tower, YYC is requesting to exit the Beirut ATZ via VFR route 7, altitude 3500ft.  
+    **BI ADC**: YYC, Beirut Tower, cleared to leave the Beirut ATZ via VFR route 7, maintain altitude 3500ft, squawk 7403, QNH 998 hectopascals.  
+    **YYC**: Cleared to leave the Beirut ATZ via VFR route 7, will maintain altitude 3500ft, QNH 998, and squawk 7403, YYC.
 
 Inbound VFR aircraft shall be sent to **ADC** with enough time such that two-way
 radio communications have been established before aircraft receive clearance to enter the ATZ.
@@ -141,7 +140,7 @@ Listed below are the SIDs:
 |  LEBOR  |   1D   | 1E |   2F   |
 
 !!! warning "BOD1 and BOD2 departures"
-**BOD** departures are out of service, and are **not** to be issued by controllers.
+    **BOD** departures are out of service, and are **not** to be issued by controllers.
 
 Departures should primarily adhere to the Standard Instrument Departure (SID) routes, avoiding
 radar vectors whenever feasible. If radar vectors are to be assigned, a specific reason must be
@@ -157,15 +156,15 @@ In the case of a procedural SID, the flight is given a regular clearance with th
 For aircrafts who are unable to accept SIDs (for example not RNAV capable), clearance may be issued with radar vectors. Beirut **SMC** is required to adjust their phraseology for a radar departure.
 
 !!! phraseology
-**MEA123**: Beirut Ground, MEA123, request clearance to Jeddah, unable SID, information Alpha.  
-**OLBA SMC**: MEA123, Beirut Ground, Cleared to Jeddah, departure runway 21, expect radar vectors to Kukla after departure, flight planned route, initial climb 5,000 ft, squawk 4301.
+    **MEA123**: Beirut Ground, MEA123, request clearance to Jeddah, unable SID, information Alpha.  
+    **OLBA SMC**: MEA123, Beirut Ground, Cleared to Jeddah, departure runway 21, expect radar vectors to Kukla after departure, flight planned route, initial climb 5,000 ft, squawk 4301.
 
 Beirut **ADC** is responsible for issuing the initial heading of the departing aircraft with the
 take-off clearance.
 
 !!! phraseology
-**MEA123**: Beirut Tower, MEA123, at H ready for departure.  
-**OLBA ADC**: MEA123, turn right heading 220 degrees after departure, winds 210 degrees at 6 knots, runway 21 cleared for takeoff.
+    **MEA123**: Beirut Tower, MEA123, at H ready for departure.  
+    **OLBA ADC**: MEA123, turn right heading 220 degrees after departure, winds 210 degrees at 6 knots, runway 21 cleared for takeoff.
 
 ## Standard Taxi Routes
 All departing aircraft from terminal A shall be assigned taxiways L and A for runway 21, all aircraft shall be assigned holding point H, unless an intersection departure is requested by the pilot, or for the purposes of sequencing taxiway G may be used for departure. Taxiway F shall never be used for departing aircraft. Beirut **SMC** is encouraged to make use of procedural taxi instructions, in-case of arriving traffic on taxiway A and to reduce potential conflicts.
@@ -182,7 +181,7 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 | 3 - MODE C | 21 | 21 | VFR 17 |
 
 !!! warning
-To operate in MODE C, **you must receive prior approval from the Levant ATS department**.
+    To operate in MODE C, **you must receive prior approval from the Levant ATS department**.
 
 ## Beirut Flow
 The **FMP** position shall only be activated during major events or when authorized by the ATS department. This position is in charge of sequencing aircraft for push and ensuring that all departures push on time. It is only beneficial when large amounts of traffic and when performed carefully and deliberately.
