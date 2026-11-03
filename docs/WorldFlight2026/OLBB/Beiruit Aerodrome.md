@@ -22,8 +22,7 @@ title: Beirut (OLBA)
 | **Beirut ATIS** | | **120.600** | **OLBA_ATIS** | |
 
 !!! abstract "Non-Standard Positions"
-:material-information-outline: Non-standard positions may only be used with prior authorization from the vACC ATS department.  
-Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless indicated otherwise (eg, for events).
+    :material-information-outline: Non-standard positions may only be used with prior authorization from the vACC ATS department.<br>Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless indicated otherwise (eg, for events).
 
 ## Airspace - Class C
 OLBA_TWR is responsible for the Beirut ATZ airspace from `SFC` to `A030`.
