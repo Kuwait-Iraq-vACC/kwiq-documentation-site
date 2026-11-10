@@ -4,6 +4,12 @@ title: Changelog
 
 Every release of the KWIQ Controller Plugin, newest first. The plugin offers each one as EuroScope starts.
 
+## 0.5.0.115
+
+*2026-11-10*
+
+- Refinements on main: /W4 check, response cap, web links only, no exceptions into EuroScope
+
 ## 0.5.0.97
 
 *2026-11-10*
