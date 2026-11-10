@@ -6,9 +6,6 @@ The KWIQ Controller Plugin is the Kuwait & Iraq vACC's EuroScope plugin. It come
 
 It covers event routes and VATCAN slots, the flight plan check against the SRD, SRD search, sector indicators, VCH (built in), and checks that your sector file and EuroScope version are current.
 
-!!! info "One plugin"
-    Do not load VCH separately: it is built into the KWIQ Controller Plugin.
-
 ## Installing
 The sector file packages load `KWIQPlugin.dll` for you. The first time EuroScope starts with it, you are asked to allow a first time download. Select **OK**: the plugin is installed in `%LOCALAPPDATA%\KWIQ` and starts straight away.
 
