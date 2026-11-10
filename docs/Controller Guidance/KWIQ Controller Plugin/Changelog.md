@@ -4,6 +4,15 @@ title: Changelog
 
 Every release of the KWIQ Controller Plugin, newest first. The plugin offers each one as EuroScope starts.
 
+## 0.5.0.97
+
+*2026-11-10*
+
+- Comment on pull requests when their test build is published
+- Only release when the plugin's source files change
+- Publish the release notes as a changelog on docs.kuwait-iraqvacc.net
+- Core requests never follow redirects, so the API key stays with Core
+
 ## 0.5.0.56
 
 *2026-10-29*
