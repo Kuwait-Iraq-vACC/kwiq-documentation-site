@@ -4,6 +4,12 @@ title: Changelog
 
 Every release of the KWIQ Controller Plugin, newest first. The plugin offers each one as EuroScope starts.
 
+## 0.6.0.131
+
+*2026-11-11*
+
+- Install and update the plugin like the UK Controller Plugin
+
 ## 0.5.0.115
 
 *2026-11-10*
