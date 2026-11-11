@@ -4,6 +4,17 @@ title: Changelog
 
 Every release of the KWIQ Controller Plugin, newest first. The plugin offers each one as EuroScope starts.
 
+## 0.6.0.142
+
+*2026-11-11*
+
+- Build RDF and its TrackAudio bridge in, with settings from Core
+- Build DiscordEuroScope in, configured in Core
+- QNH monitor and procedure notifications
+- Plain Windows message boxes, as UKCP shows them
+- KWIQ button: the vACC's logo, movable, its place saved as an offset from the bottom-right corner
+- Bring RDF, DiscordEuroScope, QNH and notifications, message boxes and the logo button into main
+
 ## 0.6.0.139
 
 *2026-11-11*
