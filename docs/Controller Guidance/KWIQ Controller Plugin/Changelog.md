@@ -4,6 +4,12 @@ title: Changelog
 
 Every release of the KWIQ Controller Plugin, newest first. The plugin offers each one as EuroScope starts.
 
+## 0.6.0.156
+
+*2026-11-11*
+
+- FPC as its own check (VFPC rules), SRD check on its own item
+
 ## 0.6.0.152
 
 *2026-11-11*
