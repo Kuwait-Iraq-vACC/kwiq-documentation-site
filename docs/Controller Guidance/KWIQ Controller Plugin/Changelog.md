@@ -4,6 +4,12 @@ title: Changelog
 
 Every release of the KWIQ Controller Plugin, newest first. The plugin offers each one as EuroScope starts.
 
+## 0.6.0.139
+
+*2026-11-11*
+
+- FPC and SRD search to the FIR exit point
+
 ## 0.6.0.131
 
 *2026-11-11*
