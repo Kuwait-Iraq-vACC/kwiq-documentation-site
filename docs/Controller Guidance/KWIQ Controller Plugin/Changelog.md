@@ -4,6 +4,12 @@ title: Changelog
 
 Every release of the KWIQ Controller Plugin, newest first. The plugin offers each one as EuroScope starts.
 
+## 0.6.0.152
+
+*2026-11-11*
+
+- Event Routes: a standard dialog like SRD Search, instead of a custom window
+
 ## 0.6.0.150
 
 *2026-11-11*
