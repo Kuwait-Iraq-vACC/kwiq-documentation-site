@@ -4,6 +4,12 @@ title: Changelog
 
 Every release of the KWIQ Controller Plugin, newest first. The plugin offers each one as EuroScope starts.
 
+## 0.6.0.165
+
+*2026-11-18*
+
+- Pressure monitor: show TRL only when it changes
+
 ## 0.6.0.159
 
 *2026-11-11*
