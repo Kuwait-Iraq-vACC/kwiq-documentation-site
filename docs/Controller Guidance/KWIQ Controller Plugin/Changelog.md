@@ -48,7 +48,7 @@ Every release of the KWIQ Controller Plugin, newest first. The plugin offers eac
 - Build RDF and its TrackAudio bridge in, with settings from Core
 - Build DiscordEuroScope in, configured in Core
 - QNH monitor and procedure notifications
-- Plain Windows message boxes, as UKCP shows them
+- Plain Windows message boxes
 - KWIQ button: the vACC's logo, movable, its place saved as an offset from the bottom-right corner
 - Bring RDF, DiscordEuroScope, QNH and notifications, message boxes and the logo button into main
 
@@ -62,7 +62,7 @@ Every release of the KWIQ Controller Plugin, newest first. The plugin offers eac
 
 *2026-11-11*
 
-- Install and update the plugin like the UK Controller Plugin
+- Change update/install logic
 
 ## 0.5.0.115
 
