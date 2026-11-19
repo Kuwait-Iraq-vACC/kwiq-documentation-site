@@ -4,6 +4,16 @@ title: Changelog
 
 Every release of the KWIQ Controller Plugin, newest first. The plugin offers each one as EuroScope starts.
 
+## 0.7.3
+
+*2026-11-19*
+
+- Organise the repository into folders
+- Sector file aliases, top-down airfield ownership, review fixes, pressure monitor sender
+- Sector indicators: use the loaded sector file's aliases
+- Top-down airfield ownership, and fixes from the repository review
+- Pressure monitor: no KWIQ sender before the message
+
 ## 0.7.2
 
 *2026-11-19*
