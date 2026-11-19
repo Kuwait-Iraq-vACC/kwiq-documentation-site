@@ -4,6 +4,16 @@ title: Changelog
 
 Every release of the KWIQ Controller Plugin, newest first. The plugin offers each one as EuroScope starts.
 
+## 0.7.1
+
+*2026-11-19*
+
+- UI split, FPC/SRD fixes, squawk logic changes, bigger SRD search menu
+- Squawks: fix assignment bugs, Recycle/Conspicuity, holding code, ask Core on reconnect, sweatbox
+- Move the Win32 windows out of KWIQPlugin.cpp into kwiq_ui.cpp/hpp
+- FPC and SRD: accept valid flight plans
+- SRD Search and Event Routes: open once, and a little larger
+
 ## 0.7.0
 
 *2026-11-19*
