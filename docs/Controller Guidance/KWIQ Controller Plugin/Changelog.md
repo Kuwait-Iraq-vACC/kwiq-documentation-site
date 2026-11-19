@@ -4,6 +4,12 @@ title: Changelog
 
 Every release of the KWIQ Controller Plugin, newest first. The plugin offers each one as EuroScope starts.
 
+## 0.7.2
+
+*2026-11-19*
+
+- Update squawk assign, FPC menu and chat tab, FIR exit, add event route EVT
+
 ## 0.7.1
 
 *2026-11-19*
