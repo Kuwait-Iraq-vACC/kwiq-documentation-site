@@ -4,6 +4,13 @@ title: Changelog
 
 Every release of the KWIQ Controller Plugin, newest first. The plugin offers each one as EuroScope starts.
 
+## 0.7.0
+
+*2026-11-19*
+
+- RDF: stop checking TrackAudio's version
+- Semantic Versioning: version.h, one SemVer comparison, and one release per version
+
 ## 0.6.0.165
 
 *2026-11-18*
