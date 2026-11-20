@@ -4,6 +4,13 @@ title: Changelog
 
 Every release of the KWIQ Controller Plugin, newest first. The plugin offers each one as EuroScope starts.
 
+## 0.7.4
+
+*2026-11-20*
+
+- FPC: RTE for a wrong route; one route check for the SRD and FPC items
+- Let 0.5 copies update to the current version (0.7.4)
+
 ## 0.7.3
 
 *2026-11-19*
