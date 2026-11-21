@@ -4,6 +4,12 @@ title: Changelog
 
 Every release of the KWIQ Controller Plugin, newest first. The plugin offers each one as EuroScope starts.
 
+## 0.7.5
+
+*2026-11-21*
+
+- Squawks: assuming an aircraft on a non-assignable code always gets a new code
+
 ## 0.7.4
 
 *2026-11-20*
