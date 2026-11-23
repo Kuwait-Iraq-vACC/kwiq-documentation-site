@@ -4,6 +4,17 @@ on:
   push:
     branches:
       - main
+    # Only files that go into the built site
+    paths:
+      - "docs/**"
+      - "includes/**"
+      - "overrides/**"
+      - "hooks/**"
+      - "mkdocs.yml"
+      - "requirements.txt"
+      - "wrangler.jsonc"
+      - ".github/workflows/deploy.yml"
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
