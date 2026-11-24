@@ -4,6 +4,12 @@
     --md-primary-fg-color--dark: #7a1923;
 }
 
+/* Raleway's default figures are old-style; use lining figures so ICAO codes, times and frequencies sit evenly */
+body,
+input {
+    font-variant-numeric: lining-nums;
+}
+
 .md-header {
     background-color: #380e14;
 }
@@ -216,7 +222,7 @@
 
 .hero .hero-items h1 {
     color: white;
-    font-family: Mulish;
+    font-family: var(--md-text-font-family);
     font-size: 48px;
     font-weight: 700;
     line-height: 1.1;
@@ -266,7 +272,7 @@
 ========================= */
 
 .feature {
-    font-family: Mulish;
+    font-family: var(--md-text-font-family);
     font-weight: 300;
     box-sizing: border-box;
 }
