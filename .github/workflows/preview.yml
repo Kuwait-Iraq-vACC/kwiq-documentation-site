@@ -3,6 +3,16 @@ name: Preview Docs
 on:
   pull_request:
     types: [opened, synchronize, reopened]
+    # Only files that go into the built site
+    paths:
+      - "docs/**"
+      - "includes/**"
+      - "overrides/**"
+      - "hooks/**"
+      - "mkdocs.yml"
+      - "requirements.txt"
+      - "wrangler.jsonc"
+      - ".github/workflows/preview.yml"
 
 concurrency:
   group: preview-${{ github.event.pull_request.number }}
