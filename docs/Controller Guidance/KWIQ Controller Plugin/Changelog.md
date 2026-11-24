@@ -4,6 +4,20 @@ title: Changelog
 
 Every release of the KWIQ Controller Plugin, newest first. The plugin offers each one as EuroScope starts.
 
+## 0.8.0
+
+*2026-11-24*
+
+- FPC item: orange EVT off the event route, green EVT on it
+- FPC item: cycle through every failure
+- 0.8.0: the plugin keeps its own log, squawk fixes, SRD first FIR exit, sector colours from Symbology, Discord {event}, RDF on EuroScope's thread
+- Squawks: a new code for every tracked aircraft without one, uncorrelated flight plans looked at (0.7.6)
+- Sector indicator: the tag's colour from the profile's Symbology file
+- SRD search: fill in the first FIR exit point as the destination
+- Squawks: a code that doesn't count is always replaced
+- Discord: fill {event} for a Core event without routes
+- 0.8.0 builds on Windows again: the plugin log reads file names the C++20 way
+
 ## 0.7.5
 
 *2026-11-21*
