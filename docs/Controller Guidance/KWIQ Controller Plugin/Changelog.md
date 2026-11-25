@@ -4,6 +4,12 @@ title: Changelog
 
 Every release of the KWIQ Controller Plugin, newest first. The plugin offers each one as EuroScope starts.
 
+## 0.8.1
+
+*2026-11-25*
+
+- Tag items: Vertical Speed Indicator and Vertical Speed
+
 ## 0.8.0
 
 *2026-11-24*
