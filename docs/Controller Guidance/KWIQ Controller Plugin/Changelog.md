@@ -4,6 +4,13 @@ title: Changelog
 
 Every release of the KWIQ Controller Plugin, newest first. The plugin offers each one as EuroScope starts.
 
+## 0.8.2
+
+*2026-11-25*
+
+- 0.8.2: vertical speed items in TopSky's colours, quieter squawk log (#107)
+- 0.8.1: the plugin log leaves out squawk lines about aircraft far away
+
 ## 0.8.1
 
 *2026-11-25*
