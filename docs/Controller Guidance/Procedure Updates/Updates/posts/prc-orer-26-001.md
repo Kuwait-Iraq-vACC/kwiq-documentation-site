@@ -14,7 +14,7 @@ tags:
 | Reference                     | PRC-ORER-26-001                                       |
 | ----------------------------- | ----------------------------------------------------- |
 | **Effective Date**            | 26/11/2026                                            |
-| **Status**                    | <span class="status status--upcoming">Upcoming</span> |
+| **Status**                    | <span class="status status--active">Active</span>     |
 | **Applies To**                | ORER, KRK TMA                                         |
 | **Docs Updated**              | N/A                                                   |
 
