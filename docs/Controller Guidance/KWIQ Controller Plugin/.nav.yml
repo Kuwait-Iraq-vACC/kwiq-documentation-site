@@ -1,4 +1,9 @@
 title: KWIQ Controller Plugin
 nav:
   - User Guide: index.md
+  - Tag Items.md
+  - Route Checks.md
+  - Squawk Assignment.md
+  - RDF and TrackAudio.md
+  - Notifications and Pressure Monitor.md
   - Changelog.md

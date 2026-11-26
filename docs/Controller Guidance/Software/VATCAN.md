@@ -2,30 +2,15 @@
 title: VATCAN Bookings
 ---
 
-VATCAN Bookings is a simple to use event booking system. Use the EuroScope plugin to see which aircraft are **event** & **non-event** aircraft. <br> The VATCAN Bookings plugin tells you if an aircraft is a booked flight or not, and can also provide you with that aircraft's slot time.
+VATCAN Bookings is the event booking system the vACC uses for event slots.
 
-## How do I use VATCAN?
-
-In order for VATCAN to work, you will need to draw the plugin onto your EuroScope screen. Here's how to achieve that:
-
-1. Navigate to Other Set > Plug-ins...
-2. Here, you will find all the plugins within the sector file. Find 'VATCAN Bookings' and click on it.
-3. In the dialogue you will find multiple boxes. Navigate to 'Forbidden to draw on types'.
-4. Click on the type you want to allow it to draw on. Recommendation is to allow to draw on ALL options.
-5. Use the << arrow in the middle to move it to the 'Allow to draw on types' section.
-
-![VATCAN.png](img/VATCAN.png)
-
-## How do I use the code?
-
-Once the plugin is drawn on your screen, you will be able to enter the code provided by the events team by clicking on 'Enter Code'.
-
-After entering the code, it will turn green.
-![VATCAN Code.png](img/VATCAN%20Code.png)
+!!! info "Slots now come through the KWIQ Controller Plugin"
+    The [KWIQ Controller Plugin](../KWIQ%20Controller%20Plugin/index.md) fetches VATCAN slots by itself, using the event's code from the vACC. You no longer need to load the VATCAN Bookings plugin or enter a code.
 
 ## How do I know if an aircraft is event or non-event?
-If an aircraft has a slot, then they will have an orange EVT show under their track.
-![VATCAN EVT Aircraft.png](img/VATCAN%20EVT%20Aircraft.png)
+Add the plugin's **Event Flag** item to your tags. It shows `EV` for pilots with a slot. See [Tag Items](../KWIQ%20Controller%20Plugin/Tag%20Items.md).
 
 ## How do I know an aircraft's slot time?
-Slot times will show up in the startup, departure, and combined taxi out lists. This will be under either EVNT or CTOT.
+Add the **Event Slot** item to your tags or lists. It shows the pilot's slot time.
+
+See [Event Routes and Slots](../KWIQ%20Controller%20Plugin/Route%20Checks.md#event-routes-and-slots) for more.
