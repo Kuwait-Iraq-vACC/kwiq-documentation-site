@@ -8,4 +8,4 @@ Prior to beginning active training, students are expected to have the following 
 
 [🔗 EuroScope](Software/EuroScope%20Setup.md)
 
-[🔗 vacs](Software/vacs.md)
+[🔗 vacs](Software/vacs.md) (vacs or Discord availability is mandatory)
