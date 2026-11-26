@@ -27,7 +27,8 @@ toc_max_heading_level: 6
 
 - GMC-E (**OKKK_E_GND**) is the primary GMC position and is **always** the bandbox position. It assumes the responsibilities of DEL or GMC-W when either **OKKK_DEL or OKKK_W_GND** are offline respectively.
 - When DEL is offline, pilots will call GMC-E for their clearance, and GMC-E shall issue clearances as per the [Kuwait Delivery](Kuwait%20Delivery.md) procedures.
-- GMC-W (**OKKK_W_GND**) may be opened without DEL being online. When DEL is offline, clearances are still issued by GMC-E.
+- GMC-W (**OKKK_W_GND**) requires GMC-E (**OKKK_E_GND**) to be online, but does **not** require DEL. When DEL is offline, clearances are still issued by GMC-E.
+- GMC-W **shall not** be opened unless GMC-E is already online. If GMC-E logs off, GMC-W shall either move to GMC-E or close.
 
 ----
 
@@ -192,7 +193,19 @@ Departures are permitted under LVP conditions **only** where the RVR is not less
 | Western Apron (West)  | 21 - 139          | Jazeera / All Other Airlines                        |
 | Eastern Apron         | 40 - 46           | Jazeera                                             |
 | GA Apron              | G1 - G29B         | Business Jets                                       |
-| Cargo City            | 501 - 554         | DHX / QTR Cargo / Emirates Cargo / Cargolux / Atlas |
-| Cargo City (Military) | 533-580           | Military use                                        |
+| Cargo City            | 501 - 532, 551, 553, 555, 557, 559, 561 - 574, 576, 578, 580 | DHX / QTR Cargo / Emirates Cargo / Cargolux / Atlas |
+| Cargo City (Military) | 533 - 536, 538, 540, 542, 544, 546, 548, 550, 552, 554, 556, 558, 560 | Military use |
 | Terminal 4            | 63 - 79           | Kuwait Airways                                      |
 | Emiri Terminal        | R1 - R8           | Kuwait Emiri Flights                                |
+
+#### 2.4.1 New Cargo City Apron Stands
+!!! info "NOTAM A0546/25: effective 30 OCT 2025, permanent"
+    The following stands on the new **Cargo City Apron** are designated for **civil use only**.
+
+| **Stand Numbers** | **Use** |
+|:------------------|:-------:|
+| 551, 553, 555, 557, 559 | Civil only |
+| 561 - 574 | Civil only |
+| 576, 578, 580 | Civil only |
+
+These stands were previously part of the **Cargo City (Military)** allocation. Do not allocate any of them to military aircraft. Allocate them to civil cargo traffic in the same way as the rest of Cargo City. Stands 533 - 536, 538, 540, 542, 544, 546, 548, 550, 552, 554, 556, 558 and 560 remain for military use.
