@@ -2,7 +2,7 @@
 title: vATIS
 ---
 
-vATIS is used for every ATIS in the Kuwait & Iraq vACC. The vACC profiles set the format, presets and transition level for each station, so controllers only choose a preset and add any extra information.
+vATIS is the only approved ATIS client in the Kuwait & Iraq vACC.
 
 ## Installing the Profiles
 

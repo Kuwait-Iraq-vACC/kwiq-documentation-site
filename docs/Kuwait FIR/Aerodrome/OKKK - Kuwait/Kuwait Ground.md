@@ -193,7 +193,19 @@ Departures are permitted under LVP conditions **only** where the RVR is not less
 | Western Apron (West)  | 21 - 139          | Jazeera / All Other Airlines                        |
 | Eastern Apron         | 40 - 46           | Jazeera                                             |
 | GA Apron              | G1 - G29B         | Business Jets                                       |
-| Cargo City            | 501 - 554         | DHX / QTR Cargo / Emirates Cargo / Cargolux / Atlas |
-| Cargo City (Military) | 533-580           | Military use                                        |
+| Cargo City            | 501 - 532, 551, 553, 555, 557, 559, 561 - 574, 576, 578, 580 | DHX / QTR Cargo / Emirates Cargo / Cargolux / Atlas |
+| Cargo City (Military) | 533 - 536, 538, 540, 542, 544, 546, 548, 550, 552, 554, 556, 558, 560 | Military use |
 | Terminal 4            | 63 - 79           | Kuwait Airways                                      |
 | Emiri Terminal        | R1 - R8           | Kuwait Emiri Flights                                |
+
+#### 2.4.1 New Cargo City Apron Stands
+!!! info "NOTAM A0546/25: effective 30 OCT 2025, permanent"
+    The following stands on the new **Cargo City Apron** are designated for **civil use only**.
+
+| **Stand Numbers** | **Use** |
+|:------------------|:-------:|
+| 551, 553, 555, 557, 559 | Civil only |
+| 561 - 574 | Civil only |
+| 576, 578, 580 | Civil only |
+
+These stands were previously part of the **Cargo City (Military)** allocation. Do not allocate any of them to military aircraft. Allocate them to civil cargo traffic in the same way as the rest of Cargo City. Stands 533 - 536, 538, 540, 542, 544, 546, 548, 550, 552, 554, 556, 558 and 560 remain for military use.

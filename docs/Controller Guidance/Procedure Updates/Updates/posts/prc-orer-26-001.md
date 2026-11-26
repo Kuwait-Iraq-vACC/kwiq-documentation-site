@@ -4,6 +4,7 @@ categories:
   - Procedure Changes
 tags:
   - ORER
+  - KRK
 ---
 
 # PRC-ORER-26-001 — Erbil (ORER) RNP Approaches Withdrawn
@@ -13,8 +14,8 @@ tags:
 | Reference                     | PRC-ORER-26-001                                       |
 | ----------------------------- | ----------------------------------------------------- |
 | **Effective Date**            | 26/11/2026                                            |
-| **Status**                    | <span class="status status--active">Active</span>     |
-| **Applies To**                | ORER (APP, TWR)                                       |
+| **Status**                    | <span class="status status--upcoming">Upcoming</span> |
+| **Applies To**                | ORER, KRK TMA                                         |
 | **Docs Updated**              | N/A                                                   |
 
 </div>
