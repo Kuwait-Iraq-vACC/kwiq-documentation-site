@@ -34,7 +34,7 @@ Iraq AIP Amendment 11/26 takes effect with AIRAC 2612. It withdraws the RNP appr
 
 Documentation changes not required.
 
-The RNP approaches are removed from the TopSky CFL menu with the AIRAC 2612 release.
+The RNP approaches were removed from the TopSky CFL menu in the AIRAC 2612 release.
 
 ---
 

@@ -13,9 +13,9 @@ tags:
 | Reference                     | PRC-ORBB-26-004                                       |
 | ----------------------------- | ----------------------------------------------------- |
 | **Effective Date**            | 26/11/2026                                            |
-| **Status**                    | <span class="status status--upcoming">Upcoming</span> |
+| **Status**                    | <span class="status status--active">Active</span>     |
 | **Applies To**                | Baghdad Approach (BGD)                                |
-| **Docs Updated**              | No                                                    |
+| **Docs Updated**              | Yes                                                   |
 
 </div>
 
@@ -41,9 +41,9 @@ Iraq AIP Amendment 11/26 takes effect with AIRAC 2612. It adds ten training area
 
 ## Documentation Status
 
-The training areas will be added to the [BGD](../../../../Baghdad%20FIR/Terminal/BGD.md) page when this change takes effect.
+The training areas are on the [BGD](../../../../Baghdad%20FIR/Terminal/BGD.md) page.
 
-The training areas are added to the sector file with the AIRAC 2612 release.
+The training areas were added to the sector file in the AIRAC 2612 release.
 
 ---
 

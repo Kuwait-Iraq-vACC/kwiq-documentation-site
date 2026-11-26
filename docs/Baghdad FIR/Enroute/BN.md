@@ -47,16 +47,8 @@ All aircraft entering or exiting the FIR at the same level shall be separated by
 
 | Airway | Segment       | Restriction                 |
 |--------|---------------|-----------------------------|
-| G202   | MODIK - RAPLU | FL240 - FL260 unavailable   |
-| G202   | RAPLU - PUSTO | FL245 - FL285 unavailable   |
-| L200   | PASIP - SEVDI | FL240 - FL260 unavailable   |
-| L200   | GIBUX - SILBO | FL245 - FL285 unavailable   |
-| M703   | KASIR - PASIP | FL240 - FL260 unavailable   |
-| T315   | GIBUX - BABIL | FL245 - FL285 unavailable   |
 | R652   | KASIR - GIBUX | Available FL285 and above   |
 | R652   | DAXAN         | Cross at FL270 or below     |
-| P975   | SIDNA - MUTAG | Available FL280 and above   |
-| L602   | GEPAP - ELEXI | Available FL320 and above   |
 
 ---
 

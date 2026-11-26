@@ -46,9 +46,6 @@ Aircraft landing in Bahrain should expect to cross **SIDAD at FL310 or FL330**.
 
 | Airway | Segment       | Restriction               |
 |--------|---------------|---------------------------|
-| A424   | SOBUK - LORAK | FL245 - FL285 unavailable |
-| B411   | MURIB - RUKAM | FL245 - FL285 unavailable |
-| M703   | RUKAM - ANBAR | FL245 - FL285 unavailable |
 | T231   | SILBO - LOVEK | Available FL270 and above |
 | G669   | NISER - SOLAT | Available FL240 and above |
 
