@@ -37,7 +37,9 @@ SECTION_ORDER = ["highlights", "airac changes", "non airac changes"]
 
 HEADING = re.compile(r"^(#{1,6})\s+(.*?)\s*#*\s*$")
 STRIP_LINES = re.compile(r"^\s*\**full changelog\**\s*:", re.I)
-PR_CREDIT = re.compile(r"\s+by @[\w-]+ in (https://github\.com/\S+/pull/(\d+))")
+PR_CREDIT = re.compile(r"\s+by @[\w-]+(?:\[bot\])? in (https://github\.com/\S+/pull/(\d+))")
+BARE_URL = re.compile(r"(?<![(<\"\w/])(https?://[^\s)<>\]]+)")
+MD_LINK = re.compile(r"(?<!!)\[([^\]]*)\]\((\S+?)(?:\s+\"[^\"]*\")?\)(?!\{)")
 DROP_SECTIONS = {"new contributors"}
 
 
@@ -97,6 +99,12 @@ def nest(lines, from_level, to_level):
     return "\n".join(out).strip()
 
 
+def new_tab_links(text):
+    """Turn bare URLs into links, and make every link open in a new tab (needs attr_list)."""
+    text = BARE_URL.sub(lambda m: f"[{m.group(1)}]({m.group(1)})", text)
+    return MD_LINK.sub(lambda m: f'[{m.group(1)}]({m.group(2)} "Opens in new tab"){{target="_blank"}}', text)
+
+
 def order_key(title):
     t = title.lower()
     return SECTION_ORDER.index(t) if t in SECTION_ORDER else len(SECTION_ORDER)
@@ -139,7 +147,9 @@ def render(cfg, releases):
         previous = releases[i + 1]["tag_name"] if i + 1 < len(releases) else None
         files = f"https://github.com/{repo}/compare/{previous}...{tag}" if previous else rel["html_url"]
         lines += [f"[Files updated]({files}) · [Release]({rel['html_url']})", ""]
-    return "\n".join(lines).rstrip() + "\n"
+        if i + 1 < len(releases):
+            lines += ["---", ""]
+    return new_tab_links("\n".join(lines).rstrip() + "\n")
 
 
 def main():
