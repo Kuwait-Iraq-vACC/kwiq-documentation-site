@@ -80,6 +80,7 @@ markdown_extensions:
 
 hooks:
   - hooks/blog_sort.py
+  - hooks/toc_depth.py
 
 plugins:
   - search

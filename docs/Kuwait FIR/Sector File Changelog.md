@@ -1,5 +1,6 @@
 ---
 title: OKAC Sector File Changelog (2612/01)
+toc_depth: 2
 ---
 
 # OKAC Sector File Changelog (2612/01)
