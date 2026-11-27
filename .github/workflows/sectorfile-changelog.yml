@@ -1,0 +1,54 @@
+name: Sector file changelog
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+  repository_dispatch:
+    types: [sectorfile-release]
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: sectorfile-changelog
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build changelog pages
+        run: python3 .github/scripts/sectorfile_changelog.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit changes
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "docs/Kuwait FIR/Sector File Changelog.md" "docs/Baghdad FIR/Sector File Changelog.md"
+          if git diff --cached --quiet; then
+            echo "No changelog changes."
+            exit 0
+          fi
+          git commit -m "Update sector file changelogs"
+          for i in 1 2 3; do
+            if git pull --rebase && git push; then
+              echo "pushed=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            sleep 5
+          done
+          exit 1
+
+      # Pushes made with GITHUB_TOKEN don't trigger other workflows, so start the deploy directly.
+      - name: Deploy docs
+        if: steps.commit.outputs.pushed == 'true'
+        run: gh workflow run deploy.yml --ref main
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
