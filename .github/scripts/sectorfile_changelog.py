@@ -122,6 +122,7 @@ def render(cfg, releases):
     lines = [
         "---",
         f"title: {title}",
+        "toc_depth: 2",
         "---",
         "",
         f"# {title}",

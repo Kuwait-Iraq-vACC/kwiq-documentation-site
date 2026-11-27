@@ -1,5 +1,6 @@
 ---
 title: ORBB Sector File Changelog (2612/01)
+toc_depth: 2
 ---
 
 # ORBB Sector File Changelog (2612/01)
