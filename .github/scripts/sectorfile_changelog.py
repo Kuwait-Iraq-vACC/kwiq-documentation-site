@@ -37,6 +37,8 @@ SECTION_ORDER = ["highlights", "airac changes", "non airac changes"]
 
 HEADING = re.compile(r"^(#{1,6})\s+(.*?)\s*#*\s*$")
 STRIP_LINES = re.compile(r"^\s*\**full changelog\**\s*:", re.I)
+PR_CREDIT = re.compile(r"\s+by @[\w-]+ in (https://github\.com/\S+/pull/(\d+))")
+DROP_SECTIONS = {"new contributors"}
 
 
 def fetch_releases(repo):
@@ -57,17 +59,30 @@ def fetch_releases(repo):
 
 
 def split_sections(body):
-    """Split release notes into (top-level heading level, [(title, lines)]). Text before the first heading is dropped."""
-    lines = [l for l in (body or "").replace("\r", "").split("\n") if not STRIP_LINES.match(l)]
+    """Split release notes into (top-level heading level, [(title, lines)]).
+
+    Older releases that don't use the template still show up: text before the first
+    heading becomes a "Changes" section, and GitHub's auto-generated credits are tidied.
+    """
+    lines = []
+    for line in (body or "").replace("\r", "").split("\n"):
+        if STRIP_LINES.match(line):
+            continue
+        lines.append(PR_CREDIT.sub(lambda m: f" ([#{m.group(2)}]({m.group(1)}))", line))
     top = min((len(m.group(1)) for m in map(HEADING.match, lines) if m), default=1)
-    sections, current = [], None
+    current = ("Changes", [])
+    sections = [current]
     for line in lines:
         m = HEADING.match(line)
         if m and len(m.group(1)) == top:
             current = (m.group(2).strip(), [])
             sections.append(current)
-        elif current:
+        else:
             current[1].append(line)
+    sections = [
+        (t, b) for t, b in sections
+        if t.lower() not in DROP_SECTIONS and (t != "Changes" or "\n".join(b).strip())
+    ]
     return top, sections
 
 
@@ -87,14 +102,21 @@ def order_key(title):
     return SECTION_ORDER.index(t) if t in SECTION_ORDER else len(SECTION_ORDER)
 
 
+def release_title(rel):
+    return (rel.get("name") or rel["tag_name"]).strip()
+
+
 def render(cfg, releases):
     repo = cfg["repo"]
+    title = f"{cfg['name']} Sector File Changelog"
+    if releases:
+        title += f" ({releases[0]['tag_name']})"
     lines = [
         "---",
-        f"title: {cfg['name']} Sector File Changelog",
+        f"title: {title}",
         "---",
         "",
-        f"# {cfg['name']} Sector File Changelog",
+        f"# {title}",
         "",
         f"Every change to the {cfg['name']} sector file for the {cfg['fir']}, newest first. "
         "Each release starts with its highlights: the changes that matter to controllers. "
@@ -106,7 +128,7 @@ def render(cfg, releases):
         lines += ["No releases yet.", ""]
     for i, rel in enumerate(releases):
         tag = rel["tag_name"]
-        lines += [f"## AIRAC {tag}", ""]
+        lines += [f"## {release_title(rel)}", ""]
         top, sections = split_sections(rel.get("body"))
         names = [t.lower() for t, _ in sections]
         if "highlights" not in names:
