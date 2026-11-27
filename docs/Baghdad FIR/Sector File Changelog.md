@@ -5,13 +5,9 @@ toc_depth: 2
 
 # ORBB Sector File Changelog (2612/01)
 
-Every change to the ORBB sector file for the Baghdad FIR, newest first. Each release starts with its highlights: the changes that matter to controllers. Download the latest package from [AeroNav](https://files.aero-nav.com/ORBB "Opens in new tab"){target="_blank"}, and report bugs or request features on [GitHub](https://github.com/Kuwait-Iraq-vACC/ORBB-Sectorfile/issues "Opens in new tab"){target="_blank"}.
+Every change to the ORBB sector file for the Baghdad FIR, newest first. Where a release has highlights, they come first: the changes that matter to controllers. Download the latest package from [AeroNav](https://files.aero-nav.com/ORBB "Opens in new tab"){target="_blank"}, and report bugs or request features on [GitHub](https://github.com/Kuwait-Iraq-vACC/ORBB-Sectorfile/issues "Opens in new tab"){target="_blank"}.
 
 ## 2612/01
-
-### Highlights
-
-No major changes.
 
 ### What's Changed
 
@@ -31,10 +27,6 @@ No major changes.
 
 ## 2611/01
 
-### Highlights
-
-No major changes.
-
 ### What's Changed
 
 * Create AIRAC_VERSION.txt ([#106](https://github.com/Kuwait-Iraq-vACC/ORBB-Sectorfile/pull/106 "Opens in new tab"){target="_blank"})
@@ -50,10 +42,6 @@ No major changes.
 
 ## 2610/02
 
-### Highlights
-
-No major changes.
-
 ### What's Changed
 
 * Update ORBI ADC lists ([#98](https://github.com/Kuwait-Iraq-vACC/ORBB-Sectorfile/pull/98 "Opens in new tab"){target="_blank"})
@@ -66,19 +54,11 @@ No major changes.
 
 ## 2610/01
 
-### Highlights
-
-No major changes.
-
 [Files updated](https://github.com/Kuwait-Iraq-vACC/ORBB-Sectorfile/compare/2609/01...2610/01 "Opens in new tab"){target="_blank"} · [Release](https://github.com/Kuwait-Iraq-vACC/ORBB-Sectorfile/releases/tag/2610/01 "Opens in new tab"){target="_blank"}
 
 ---
 
 ## 2609/01
-
-### Highlights
-
-No major changes.
 
 ### What's Changed
 
@@ -94,10 +74,6 @@ No major changes.
 
 ## 2608/01
 
-### Highlights
-
-No major changes.
-
 ### What's Changed
 
 * Update GRplugin Settings ([#77](https://github.com/Kuwait-Iraq-vACC/ORBB-Sectorfile/pull/77 "Opens in new tab"){target="_blank"})
@@ -110,10 +86,6 @@ No major changes.
 
 ## 2607/02
 
-### Highlights
-
-No major changes.
-
 ### What's Changed
 
 * [#64] - Update WXR long/lat ([#66](https://github.com/Kuwait-Iraq-vACC/ORBB-Sectorfile/pull/66 "Opens in new tab"){target="_blank"})
@@ -125,10 +97,6 @@ No major changes.
 ---
 
 ## 2607/01
-
-### Highlights
-
-No major changes.
 
 ### What's Changed
 
@@ -145,10 +113,6 @@ No major changes.
 ---
 
 ## 2606/03
-
-### Highlights
-
-No major changes.
 
 ### Changes
 
@@ -167,10 +131,6 @@ No major changes.
 ---
 
 ## 2606/02
-
-### Highlights
-
-No major changes.
 
 ### What's Changed
 

@@ -5,13 +5,14 @@ toc_depth: 2
 
 # OKAC Sector File Changelog (2612/01)
 
-Every change to the OKAC sector file for the Kuwait FIR, newest first. Each release starts with its highlights: the changes that matter to controllers. Download the latest package from [AeroNav](https://files.aero-nav.com/OKAC "Opens in new tab"){target="_blank"}, and report bugs or request features on [GitHub](https://github.com/Kuwait-Iraq-vACC/OKAC-Sectorfile/issues "Opens in new tab"){target="_blank"}.
+Every change to the OKAC sector file for the Kuwait FIR, newest first. Where a release has highlights, they come first: the changes that matter to controllers. Download the latest package from [AeroNav](https://files.aero-nav.com/OKAC "Opens in new tab"){target="_blank"}, and report bugs or request features on [GitHub](https://github.com/Kuwait-Iraq-vACC/OKAC-Sectorfile/issues "Opens in new tab"){target="_blank"}.
 
 ## 2612/01
 
 ### Highlights
 
-No major changes.
+* Updated to AIRAC 2612
+* Many KWIQ Controller Plugin updates
 
 ### What's Changed
 
@@ -32,10 +33,6 @@ No major changes.
 
 ## 2611/01
 
-### Highlights
-
-No major changes.
-
 ### What's Changed
 
 * Create AIRAC_VERSION.txt ([#196](https://github.com/Kuwait-Iraq-vACC/OKAC-Sectorfile/pull/196 "Opens in new tab"){target="_blank"})
@@ -53,10 +50,6 @@ No major changes.
 
 ## 2610/02
 
-### Highlights
-
-No major changes.
-
 ### What's Changed
 
 * Update VATCAN plugin ([#187](https://github.com/Kuwait-Iraq-vACC/OKAC-Sectorfile/pull/187 "Opens in new tab"){target="_blank"})
@@ -71,10 +64,6 @@ No major changes.
 
 ## 2610/01
 
-### Highlights
-
-No major changes.
-
 ### What's Changed
 
 * Sort maps and archive old TopSky TMA data ([#168](https://github.com/Kuwait-Iraq-vACC/OKAC-Sectorfile/pull/168 "Opens in new tab"){target="_blank"})
@@ -87,10 +76,6 @@ No major changes.
 ---
 
 ## 2609/01
-
-### Highlights
-
-No major changes.
 
 ### What's Changed
 
@@ -125,10 +110,6 @@ No major changes.
 
 ## 2608/01
 
-### Highlights
-
-No major changes.
-
 ### What's Changed
 
 * [#78] Update vSID sector id ([#79](https://github.com/Kuwait-Iraq-vACC/OKAC-Sectorfile/pull/79 "Opens in new tab"){target="_blank"})
@@ -156,10 +137,6 @@ No major changes.
 
 ## 2607/02
 
-### Highlights
-
-No major changes.
-
 ### What's Changed
 
 * [#73] Update position IDs on TopSky maps, updates OEJD FIR position IDs on GNG. ([#77](https://github.com/Kuwait-Iraq-vACC/OKAC-Sectorfile/pull/77 "Opens in new tab"){target="_blank"})
@@ -169,10 +146,6 @@ No major changes.
 ---
 
 ## 2607/01
-
-### Highlights
-
-No major changes.
 
 ### What's Changed
 
@@ -184,10 +157,6 @@ No major changes.
 ---
 
 ## 2606/01
-
-### Highlights
-
-No major changes.
 
 ### What's Changed
 
@@ -203,19 +172,11 @@ No major changes.
 
 ## AIRAC2513
 
-### Highlights
-
-No major changes.
-
 [Files updated](https://github.com/Kuwait-Iraq-vACC/OKAC-Sectorfile/compare/AIRAC2512...AIRAC2513 "Opens in new tab"){target="_blank"} · [Release](https://github.com/Kuwait-Iraq-vACC/OKAC-Sectorfile/releases/tag/AIRAC2513 "Opens in new tab"){target="_blank"}
 
 ---
 
 ## AIRAC2512
-
-### Highlights
-
-No major changes.
 
 ### Changes
 
@@ -231,10 +192,6 @@ No major changes.
 ---
 
 ## AIRAC2509
-
-### Highlights
-
-No major changes.
 
 ### Changes
 
@@ -271,10 +228,6 @@ Changes:
 
 ## AIRAC2502
 
-### Highlights
-
-No major changes.
-
 ### Changes
 
 Additions:
@@ -291,10 +244,6 @@ Changes:
 ---
 
 ## AIRAC 2413v2
-
-### Highlights
-
-No major changes.
 
 ### Changes
 
@@ -320,10 +269,6 @@ No major changes.
 ---
 
 ## [AIRAC 2413]
-
-### Highlights
-
-No major changes.
 
 ### Changes
 
@@ -358,10 +303,6 @@ No major changes.
 ---
 
 ## [AIRAC 2412]
-
-### Highlights
-
-No major changes.
 
 ### WIP Release of New Kuwait Sector Files - OKAC
 

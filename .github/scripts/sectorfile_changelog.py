@@ -4,7 +4,7 @@
 One page per FIR (see "out" in REPOS), one entry per release, newest first.
 
 Release notes layout:
-  ## Highlights          controller-facing summary, always shown first
+  ## Highlights          controller-facing summary, shown first when present
   ## AIRAC changes       navigation data changes
   ## Non AIRAC changes   software and content changes, grouped by ### component
 
@@ -128,7 +128,7 @@ def render(cfg, releases):
         f"# {title}",
         "",
         f"Every change to the {cfg['name']} sector file for the {cfg['fir']}, newest first. "
-        "Each release starts with its highlights: the changes that matter to controllers. "
+        "Where a release has highlights, they come first: the changes that matter to controllers. "
         f"Download the latest package from [AeroNav]({cfg['download']}), and report bugs or "
         f"request features on [GitHub](https://github.com/{repo}/issues).",
         "",
@@ -139,9 +139,6 @@ def render(cfg, releases):
         tag = rel["tag_name"]
         lines += [f"## {release_title(rel)}", ""]
         top, sections = split_sections(rel.get("body"))
-        names = [t.lower() for t, _ in sections]
-        if "highlights" not in names:
-            sections.insert(0, ("Highlights", ["No major changes."]))
         sections.sort(key=lambda s: order_key(s[0]))
         for title, body in sections:
             lines += [f"### {title}", "", nest(body, top + 1, 4) or "NIL", ""]
