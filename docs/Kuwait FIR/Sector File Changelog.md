@@ -11,7 +11,8 @@ Every change to the OKAC sector file for the Kuwait FIR, newest first. Each rele
 
 ### Highlights
 
-No major changes.
+* Updated to AIRAC 2612
+* Many KWIQ Controller Plugin updates
 
 ### What's Changed
 
